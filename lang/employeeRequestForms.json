@@ -1,0 +1,742 @@
+{
+  "employeeRequestForms.list.eyebrow": {
+    "en": "Employee Request Forms",
+    "id": "Formulir Permintaan Karyawan"
+  },
+  "employeeRequestForms.list.title": {
+    "en": "Employee Request Form (ERF)",
+    "id": "Formulir Permintaan Karyawan (ERF)"
+  },
+  "employeeRequestForms.list.listTitle": {
+    "en": "Employee Request Form List",
+    "id": "Daftar Formulir Permintaan Karyawan"
+  },
+  "employeeRequestForms.list.listDescription": {
+    "en": "Track active requests, approval progress, and follow-up actions in one table.",
+    "id": "Lacak permintaan aktif, progres persetujuan, dan aksi lanjutan dalam satu tabel."
+  },
+  "employeeRequestForms.list.stats.total": {
+    "en": "Total ERF",
+    "id": "Total ERF"
+  },
+  "employeeRequestForms.list.stats.approved": {
+    "en": "Approved ERF",
+    "id": "ERF Disetujui"
+  },
+  "employeeRequestForms.list.stats.closed": {
+    "en": "Closed ERF",
+    "id": "ERF Ditutup"
+  },
+  "employeeRequestForms.list.stats.open": {
+    "en": "Open ERF",
+    "id": "ERF Terbuka"
+  },
+  "employeeRequestForms.list.stats.inApproval": {
+    "en": "In Approval",
+    "id": "Dalam Persetujuan"
+  },
+  "employeeRequestForms.list.stats.filtered": {
+    "en": "Filtered Result",
+    "id": "Hasil Filter"
+  },
+  "employeeRequestForms.list.stats.approvedHint": {
+    "en": "Requests that have completed final HR approval.",
+    "id": "Permintaan yang sudah menyelesaikan persetujuan HR terakhir."
+  },
+  "employeeRequestForms.list.stats.openHint": {
+    "en": "Requests that are still active and not yet closed.",
+    "id": "Permintaan yang masih aktif dan belum ditutup."
+  },
+  "employeeRequestForms.list.stats.filteredHint": {
+    "en": "Visible ERF rows after the current search and select filters.",
+    "id": "Baris ERF yang terlihat setelah pencarian dan filter saat ini."
+  },
+  "employeeRequestForms.list.actions.createErf": {
+    "en": "Create ERF",
+    "id": "Buat ERF"
+  },
+  "employeeRequestForms.list.actions.closeErf": {
+    "en": "Close ERF",
+    "id": "Tutup ERF"
+  },
+  "employeeRequestForms.list.actions.assignRecruiter": {
+    "en": "Assign Recruiter",
+    "id": "Tetapkan Perekrut"
+  },
+  "employeeRequestForms.list.actions.passCandidate": {
+    "en": "Set Passed Candidate",
+    "id": "Tetapkan Kandidat Lolos"
+  },
+  "employeeRequestForms.list.actions.closing": {
+    "en": "Closing...",
+    "id": "Menutup..."
+  },
+  "employeeRequestForms.list.filters.searchPlaceholder": {
+    "en": "Search position, department, approval...",
+    "id": "Cari posisi, departemen, persetujuan..."
+  },
+  "employeeRequestForms.list.filters.departmentPlaceholder": {
+    "en": "Search BU department...",
+    "id": "Cari BU departemen..."
+  },
+  "employeeRequestForms.list.filters.allDepartments": {
+    "en": "All BU Departments",
+    "id": "Semua BU Departemen"
+  },
+  "employeeRequestForms.list.filters.businessUnitPlaceholder": {
+    "en": "Search BU category...",
+    "id": "Cari BU kategori..."
+  },
+  "employeeRequestForms.list.filters.allBusinessUnits": {
+    "en": "All BU Categories",
+    "id": "Semua BU Kategori"
+  },
+  "employeeRequestForms.list.filters.resultSummary": {
+    "en": "Showing {shown} of {total} ERFs",
+    "id": "Menampilkan {shown} dari {total} ERF"
+  },
+  "employeeRequestForms.list.filters.reset": {
+    "en": "Reset Filters",
+    "id": "Atur Ulang Filter"
+  },
+  "employeeRequestForms.list.filters.positionStatusPlaceholder": {
+    "en": "Search position status...",
+    "id": "Cari status posisi..."
+  },
+  "employeeRequestForms.list.filters.allPositionStatuses": {
+    "en": "All Position Statuses",
+    "id": "Semua Status Posisi"
+  },
+  "employeeRequestForms.list.filters.employmentPlaceholder": {
+    "en": "Search employment...",
+    "id": "Cari status karyawan..."
+  },
+  "employeeRequestForms.list.filters.allEmployment": {
+    "en": "All Employment",
+    "id": "Semua Status Karyawan"
+  },
+  "employeeRequestForms.list.filters.categoryPlaceholder": {
+    "en": "Search category...",
+    "id": "Cari kategori..."
+  },
+  "employeeRequestForms.list.filters.selectCategory": {
+    "en": "Select category",
+    "id": "Pilih kategori"
+  },
+  "employeeRequestForms.list.table.approvalProgress": {
+    "en": "Approval Progress",
+    "id": "Progres Persetujuan"
+  },
+  "employeeRequestForms.list.table.approvalProgressSuffix": {
+    "en": "Approved",
+    "id": "Disetujui"
+  },
+  "employeeRequestForms.list.table.currentApproval": {
+    "en": "Current Approval",
+    "id": "Persetujuan Saat Ini"
+  },
+  "employeeRequestForms.list.table.currentApprovalNotStarted": {
+    "en": "Not Started",
+    "id": "Belum Dimulai"
+  },
+  "employeeRequestForms.list.table.currentApprovalStep1": {
+    "en": "Waiting Approval Step 1",
+    "id": "Menunggu Persetujuan Tahap 1"
+  },
+  "employeeRequestForms.list.table.currentApprovalStep2": {
+    "en": "Waiting Approval Step 2",
+    "id": "Menunggu Persetujuan Tahap 2"
+  },
+  "employeeRequestForms.list.table.currentApprovalStep3": {
+    "en": "Waiting Approval Step 3",
+    "id": "Menunggu Persetujuan Tahap 3"
+  },
+  "employeeRequestForms.list.table.currentApprovalCompleted": {
+    "en": "Completed",
+    "id": "Selesai"
+  },
+  "employeeRequestForms.list.table.currentApprovalRejected": {
+    "en": "Rejected",
+    "id": "Ditolak"
+  },
+  "employeeRequestForms.list.table.currentApprovalClosed": {
+    "en": "Closed",
+    "id": "Ditutup"
+  },
+  "employeeRequestForms.list.table.lastApprovalDate": {
+    "en": "Official Request",
+    "id": "Permintaan Resmi"
+  },
+  "employeeRequestForms.list.table.buCategory": {
+    "en": "BU Category",
+    "id": "BU Kategori"
+  },
+  "employeeRequestForms.list.table.passedCandidateName": {
+    "en": "Nama Candidate",
+    "id": "Nama Kandidat"
+  },
+  "employeeRequestForms.list.table.vacancy": {
+    "en": "Vacancy",
+    "id": "Lowongan"
+  },
+  "employeeRequestForms.list.vacancyStatus.request": {
+    "en": "Request",
+    "id": "Request"
+  },
+  "employeeRequestForms.list.vacancyStatus.sourcing": {
+    "en": "Sourcing",
+    "id": "Sourcing"
+  },
+  "employeeRequestForms.list.vacancyStatus.interview": {
+    "en": "Interview",
+    "id": "Wawancara"
+  },
+  "employeeRequestForms.list.vacancyStatus.accepted": {
+    "en": "Accepted",
+    "id": "Accepted"
+  },
+  "employeeRequestForms.list.modal.title": {
+    "en": "Close ERF",
+    "id": "Tutup ERF"
+  },
+  "employeeRequestForms.list.modal.description": {
+    "en": "Please provide a reason for closing this Employee Request Form.",
+    "id": "Silakan isi alasan penutupan Formulir Permintaan Karyawan ini."
+  },
+  "employeeRequestForms.list.modal.reasonPlaceholder": {
+    "en": "Why is this ERF being closed?",
+    "id": "Mengapa ERF ini ditutup?"
+  },
+  "employeeRequestForms.list.assignRecruiterModal.title": {
+    "en": "Assign Recruiter",
+    "id": "Tetapkan Perekrut"
+  },
+  "employeeRequestForms.list.assignRecruiterModal.description": {
+    "en": "Select the recruiter responsible for ERF {position}.",
+    "id": "Pilih perekrut yang bertanggung jawab untuk ERF {position}."
+  },
+  "employeeRequestForms.list.assignRecruiterModal.placeholder": {
+    "en": "Search recruiter...",
+    "id": "Cari perekrut..."
+  },
+  "employeeRequestForms.list.assignRecruiterModal.empty": {
+    "en": "Select recruiter",
+    "id": "Pilih perekrut"
+  },
+  "employeeRequestForms.list.assignRecruiterModal.helper": {
+    "en": "Approved ERFs must have a recruiter assigned before they can be used to create candidate accounts.",
+    "id": "ERF yang sudah disetujui harus memiliki perekrut sebelum bisa dipakai untuk membuat akun kandidat."
+  },
+  "employeeRequestForms.list.passCandidateModal.title": {
+    "en": "Set Passed Candidate",
+    "id": "Tetapkan Kandidat Lolos"
+  },
+  "employeeRequestForms.list.passCandidateModal.description": {
+    "en": "Choose the candidate who passed for this ERF. Their portal role will be changed to employee.",
+    "id": "Pilih kandidat yang lolos untuk ERF ini. Peran portal kandidat akan berubah menjadi karyawan."
+  },
+  "employeeRequestForms.list.passCandidateModal.candidate": {
+    "en": "Candidate",
+    "id": "Kandidat"
+  },
+  "employeeRequestForms.list.passCandidateModal.searchPlaceholder": {
+    "en": "Search candidate...",
+    "id": "Cari kandidat..."
+  },
+  "employeeRequestForms.list.passCandidateModal.selectCandidate": {
+    "en": "Select candidate",
+    "id": "Pilih kandidat"
+  },
+  "employeeRequestForms.list.passCandidateModal.noCandidates": {
+    "en": "No candidate accounts are available for this ERF.",
+    "id": "Tidak ada akun kandidat yang tersedia untuk ERF ini."
+  },
+  "employeeRequestForms.list.closeCategory.employeeHired": {
+    "en": "Employee Hired",
+    "id": "Karyawan Sudah Direkrut"
+  },
+  "employeeRequestForms.list.closeCategory.canceled": {
+    "en": "Canceled",
+    "id": "Dibatalkan"
+  },
+  "employeeRequestForms.list.closeCategory.done": {
+    "en": "Done",
+    "id": "Selesai"
+  },
+  "employeeRequestForms.list.confirm.delete": {
+    "en": "Delete ERF {position}? This will also delete any linked approval workflow, candidate applications/forms, and employee contract forms for this ERF.",
+    "id": "Hapus ERF {position}? Ini juga akan menghapus workflow approval, form/aplikasi kandidat, dan form kontrak karyawan yang terhubung ke ERF ini."
+  },
+  "employeeRequestForms.list.toasts.deleted": {
+    "en": "ERF deleted successfully.",
+    "id": "ERF berhasil dihapus."
+  },
+  "employeeRequestForms.list.toasts.exported": {
+    "en": "PDF template opened successfully.",
+    "id": "Template PDF berhasil dibuka."
+  },
+  "employeeRequestForms.list.toasts.exportPreparing": {
+    "en": "The system is preparing the export file. Download will start automatically.",
+    "id": "Sistem sedang menyiapkan file ekspor. Unduhan akan dimulai otomatis."
+  },
+  "employeeRequestForms.list.toasts.exportedExcel": {
+    "en": "ERF Excel exported successfully.",
+    "id": "Excel ERF berhasil diekspor."
+  },
+  "employeeRequestForms.list.toasts.closed": {
+    "en": "ERF closed successfully.",
+    "id": "ERF berhasil ditutup."
+  },
+  "employeeRequestForms.list.toasts.recruiterAssigned": {
+    "en": "Recruiter assigned successfully.",
+    "id": "Perekrut berhasil ditetapkan."
+  },
+  "employeeRequestForms.list.toasts.passCandidateSuccess": {
+    "en": "Candidate role changed to employee successfully.",
+    "id": "Peran kandidat berhasil diubah menjadi karyawan."
+  },
+  "employeeRequestForms.list.errors.closePermissionDenied": {
+    "en": "You do not have permission to close ERFs.",
+    "id": "Anda tidak memiliki izin untuk menutup ERF."
+  },
+  "employeeRequestForms.list.errors.passCandidatePermissionDenied": {
+    "en": "You do not have permission to set passed candidates.",
+    "id": "Anda tidak memiliki izin untuk menetapkan kandidat lolos."
+  },
+  "employeeRequestForms.list.errors.deleteFailed": {
+    "en": "Failed to delete ERF.",
+    "id": "Gagal menghapus ERF."
+  },
+  "employeeRequestForms.list.errors.exportFailed": {
+    "en": "Failed to export the PDF template.",
+    "id": "Gagal mengekspor template PDF."
+  },
+  "employeeRequestForms.list.errors.exportExcelFailed": {
+    "en": "Failed to export ERF Excel.",
+    "id": "Gagal mengekspor Excel ERF."
+  },
+  "employeeRequestForms.list.errors.closeFailed": {
+    "en": "Failed to close ERF.",
+    "id": "Gagal menutup ERF."
+  },
+  "employeeRequestForms.list.errors.loadRecruitersFailed": {
+    "en": "Failed to load recruiter options.",
+    "id": "Gagal memuat opsi perekrut."
+  },
+  "employeeRequestForms.list.errors.recruiterRequired": {
+    "en": "Please select a recruiter.",
+    "id": "Silakan pilih perekrut."
+  },
+  "employeeRequestForms.list.errors.assignRecruiterFailed": {
+    "en": "Failed to assign recruiter.",
+    "id": "Gagal tetapkan perekrut."
+  },
+  "employeeRequestForms.list.errors.loadPassedCandidatesFailed": {
+    "en": "Failed to load candidates for this ERF.",
+    "id": "Gagal memuat kandidat untuk ERF ini."
+  },
+  "employeeRequestForms.list.errors.passCandidateFailed": {
+    "en": "Failed to change candidate role to employee.",
+    "id": "Gagal mengubah peran kandidat menjadi karyawan."
+  },
+  "employeeRequestForms.list.loading.deleting": {
+    "en": "Deleting ERF and linked data...",
+    "id": "Menghapus ERF dan data terkait..."
+  },
+  "employeeRequestForms.loadFailed": {
+    "en": "Failed to load ERFs.",
+    "id": "Gagal memuat ERF."
+  },
+  "employeeRequestForms.createFailed": {
+    "en": "Failed to create the ERF.",
+    "id": "Gagal membuat ERF."
+  },
+  "employeeRequestForms.updateFailed": {
+    "en": "Failed to update the ERF.",
+    "id": "Gagal memperbarui ERF."
+  },
+  "employeeRequestForms.deleteFailed": {
+    "en": "Failed to delete the ERF.",
+    "id": "Gagal menghapus ERF."
+  },
+  "employeeRequestForms.closeFailed": {
+    "en": "Failed to close the ERF.",
+    "id": "Gagal menutup ERF."
+  },
+  "employeeRequestForms.form.eyebrow": {
+    "en": "Employee Request Form (ERF)",
+    "id": "Formulir Permintaan Karyawan (ERF)"
+  },
+  "employeeRequestForms.form.title.detail": {
+    "en": "ERF Detail",
+    "id": "Rincian ERF"
+  },
+  "employeeRequestForms.form.description.detail": {
+    "en": "Review the submitted ERF data, required documents, and approval-related fields.",
+    "id": "Tinjau data ERF yang diajukan, dokumen wajib, dan field terkait persetujuan."
+  },
+  "employeeRequestForms.form.title.edit": {
+    "en": "Edit ERF",
+    "id": "Ubah ERF"
+  },
+  "employeeRequestForms.form.description.edit": {
+    "en": "Update ERF fields and attachments before the next recruitment follow-up.",
+    "id": "Perbarui field dan lampiran ERF sebelum tindak lanjut rekrutmen berikutnya."
+  },
+  "employeeRequestForms.form.title.new": {
+    "en": "New ERF",
+    "id": "ERF Baru"
+  },
+  "employeeRequestForms.form.description.new": {
+    "en": "Complete the ERF data and upload supporting documents for approval routing.",
+    "id": "Lengkapi data ERF dan unggah dokumen pendukung untuk alur persetujuan."
+  },
+  "employeeRequestForms.form.actions.editErf": {
+    "en": "Edit ERF",
+    "id": "Ubah ERF"
+  },
+  "employeeRequestForms.form.actions.updateErf": {
+    "en": "Update ERF",
+    "id": "Perbarui ERF"
+  },
+  "employeeRequestForms.form.actions.saveErf": {
+    "en": "Save ERF",
+    "id": "Simpan ERF"
+  },
+  "employeeRequestForms.form.actions.uploadingFiles": {
+    "en": "Uploading files...",
+    "id": "Mengunggah file..."
+  },
+  "employeeRequestForms.form.actions.saving": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "employeeRequestForms.form.actions.remove": {
+    "en": "Remove",
+    "id": "Hapus"
+  },
+  "employeeRequestForms.form.actions.upload": {
+    "en": "Upload Files",
+    "id": "Unggah File"
+  },
+  "employeeRequestForms.form.actions.downloadTemplate": {
+    "en": "Download Template",
+    "id": "Unduh Template"
+  },
+  "employeeRequestForms.form.actions.uploadErf": {
+    "en": "Upload ERF",
+    "id": "Unggah ERF"
+  },
+  "employeeRequestForms.form.actions.parsingDocument": {
+    "en": "Reading document...",
+    "id": "Membaca dokumen..."
+  },
+  "employeeRequestForms.form.fields.costCenterPt": {
+    "en": "Cost Center PT",
+    "id": "Cost Center PT"
+  },
+  "employeeRequestForms.form.fields.requester": {
+    "en": "Requester",
+    "id": "Pemohon"
+  },
+  "employeeRequestForms.form.placeholders.searchRequester": {
+    "en": "Search requester...",
+    "id": "Cari pemohon..."
+  },
+  "employeeRequestForms.form.placeholders.selectRequester": {
+    "en": "Select requester...",
+    "id": "Pilih pemohon..."
+  },
+  "employeeRequestForms.form.sections.organization": {
+    "en": "Organization Details",
+    "id": "Detail Organisasi"
+  },
+  "employeeRequestForms.form.sections.position": {
+    "en": "Position Information",
+    "id": "Informasi Posisi"
+  },
+  "employeeRequestForms.form.sections.location": {
+    "en": "Location & Timing",
+    "id": "Lokasi & Waktu"
+  },
+  "employeeRequestForms.form.sections.documents": {
+    "en": "Supporting Documents",
+    "id": "Dokumen Pendukung"
+  },
+  "employeeRequestForms.form.sections.approval": {
+    "en": "Approval",
+    "id": "Approval"
+  },
+  "employeeRequestForms.form.approvalMode.auto": {
+    "en": "Auto Approval",
+    "id": "Auto Approval"
+  },
+  "employeeRequestForms.form.approvalMode.manual": {
+    "en": "Manual (By Designation)",
+    "id": "Manual (Berdasarkan Jabatan)"
+  },
+  "employeeRequestForms.form.messages.autoApprovalHelper": {
+    "en": "This ERF will be marked as approved immediately without going through the approval chain.",
+    "id": "ERF ini akan langsung ditandai sebagai disetujui tanpa melalui alur approval."
+  },
+  "employeeRequestForms.form.sections.customGroups": {
+    "en": "Additional Grouping",
+    "id": "Pengelompokan Tambahan"
+  },
+  "employeeRequestForms.form.fields.mainPositionRequired": {
+    "en": "Main Position *",
+    "id": "Posisi Utama *"
+  },
+  "employeeRequestForms.form.fields.probationPeriodMonths": {
+    "en": "Probation/Contract Period (Months)",
+    "id": "Masa Percobaan/Kontrak (Bulan)"
+  },
+  "employeeRequestForms.form.fields.directHead": {
+    "en": "Direct Head",
+    "id": "Atasan Langsung"
+  },
+  "employeeRequestForms.form.fields.buDirectorApproval": {
+    "en": "Director BU",
+    "id": "Direktur BU"
+  },
+  "employeeRequestForms.form.fields.site": {
+    "en": "Site",
+    "id": "Lokasi"
+  },
+  "employeeRequestForms.form.fields.workingLocation": {
+    "en": "Working Location",
+    "id": "Lokasi Kerja"
+  },
+  "employeeRequestForms.form.fields.requestedDate": {
+    "en": "Requested Date",
+    "id": "Tanggal Permintaan"
+  },
+  "employeeRequestForms.form.fields.organizationalStructure": {
+    "en": "Organizational Structure",
+    "id": "Struktur Organisasi"
+  },
+  "employeeRequestForms.form.fields.jobDescription": {
+    "en": "Job Description",
+    "id": "Deskripsi Pekerjaan"
+  },
+  "employeeRequestForms.form.fields.erfDocument": {
+    "en": "ERF Document",
+    "id": "Dokumen ERF"
+  },
+  "employeeRequestForms.form.fields.customGroup": {
+    "en": "Custom Group {index}",
+    "id": "Grup Kustom {index}"
+  },
+  "employeeRequestForms.form.placeholders.searchPt": {
+    "en": "Search PT...",
+    "id": "Cari PT..."
+  },
+  "employeeRequestForms.form.placeholders.selectPt": {
+    "en": "Select PT...",
+    "id": "Pilih PT..."
+  },
+  "employeeRequestForms.form.placeholders.searchBusinessUnit": {
+    "en": "Search business unit category...",
+    "id": "Cari kategori unit bisnis..."
+  },
+  "employeeRequestForms.form.placeholders.selectBusinessUnit": {
+    "en": "Select business unit category...",
+    "id": "Pilih kategori unit bisnis..."
+  },
+  "employeeRequestForms.form.placeholders.searchDepartment": {
+    "en": "Search department...",
+    "id": "Cari departemen..."
+  },
+  "employeeRequestForms.form.placeholders.selectDepartment": {
+    "en": "Select department...",
+    "id": "Pilih departemen..."
+  },
+  "employeeRequestForms.form.placeholders.searchDesignation": {
+    "en": "Search designation...",
+    "id": "Cari jabatan..."
+  },
+  "employeeRequestForms.form.placeholders.selectDesignation": {
+    "en": "Select designation...",
+    "id": "Pilih jabatan..."
+  },
+  "employeeRequestForms.form.placeholders.mainPositionExample": {
+    "en": "e.g. Software Engineer",
+    "id": "contoh: Software Engineer"
+  },
+  "employeeRequestForms.form.placeholders.searchEmploymentStatus": {
+    "en": "Search employment status...",
+    "id": "Cari status karyawan..."
+  },
+  "employeeRequestForms.form.placeholders.searchPositionStatus": {
+    "en": "Search position status...",
+    "id": "Cari status posisi..."
+  },
+  "employeeRequestForms.form.placeholders.selectStatus": {
+    "en": "Select status...",
+    "id": "Pilih status..."
+  },
+  "employeeRequestForms.form.placeholders.searchManager": {
+    "en": "Search for manager...",
+    "id": "Cari manajer..."
+  },
+  "employeeRequestForms.form.placeholders.selectManager": {
+    "en": "Select manager...",
+    "id": "Pilih manajer..."
+  },
+  "employeeRequestForms.form.placeholders.searchBuDirector": {
+    "en": "Search for BU director...",
+    "id": "Cari direktur BU..."
+  },
+  "employeeRequestForms.form.placeholders.selectBuDirector": {
+    "en": "Select BU director...",
+    "id": "Pilih direktur BU..."
+  },
+  "employeeRequestForms.form.placeholders.siteLocation": {
+    "en": "Site location",
+    "id": "Lokasi penempatan"
+  },
+  "employeeRequestForms.form.placeholders.workingLocation": {
+    "en": "Working location",
+    "id": "Lokasi kerja"
+  },
+  "employeeRequestForms.form.placeholders.searchCustomGroup": {
+    "en": "Search custom group {index}...",
+    "id": "Cari grup kustom {index}..."
+  },
+  "employeeRequestForms.form.attachments.pendingUpload": {
+    "en": "Pending upload",
+    "id": "Menunggu unggah"
+  },
+  "employeeRequestForms.form.attachments.uploadedFiles": {
+    "en": "Uploaded files",
+    "id": "File terunggah"
+  },
+  "employeeRequestForms.form.attachments.hint": {
+    "en": "PDF, JPG, PNG, WEBP (Max 10MB)",
+    "id": "PDF, JPG, PNG, WEBP (Maks 10MB)"
+  },
+  "employeeRequestForms.form.messages.loadingData": {
+    "en": "Loading data...",
+    "id": "Memuat data..."
+  },
+  "employeeRequestForms.form.messages.loadingApprovalPreview": {
+    "en": "Loading approval preview...",
+    "id": "Memuat preview approval..."
+  },
+  "employeeRequestForms.form.messages.existingErfValue": {
+    "en": "Existing ERF value",
+    "id": "Nilai ERF yang sudah ada"
+  },
+  "employeeRequestForms.form.messages.noMainPosition": {
+    "en": "No main position",
+    "id": "Tanpa posisi utama"
+  },
+  "employeeRequestForms.form.messages.unnamed": {
+    "en": "Unnamed",
+    "id": "Tanpa nama"
+  },
+  "employeeRequestForms.form.messages.approverNotConfigured": {
+    "en": "Approver not configured",
+    "id": "Approver belum dikonfigurasi"
+  },
+  "employeeRequestForms.form.messages.selectedDesignation": {
+    "en": "the selected designation",
+    "id": "jabatan yang dipilih"
+  },
+  "employeeRequestForms.form.messages.selectDesignationToPreviewApproval": {
+    "en": "Select designation first to preview the approval flow.",
+    "id": "Pilih jabatan terlebih dahulu untuk melihat preview alur approval."
+  },
+  "employeeRequestForms.form.messages.approvalPreviewHelper": {
+    "en": "Director BU is selected manually. Other approvers below come from Master Approval for {flowTitle}.",
+    "id": "Director BU dipilih manual. Approver lain di bawah ini berasal dari Master Approval untuk {flowTitle}."
+  },
+  "employeeRequestForms.form.messages.noApprovalConfigured": {
+    "en": "No approver is configured in Master Approval for {designationLabel} ({flowTitle}).",
+    "id": "Belum ada approver yang dikonfigurasi di Master Approval untuk {designationLabel} ({flowTitle})."
+  },
+  "employeeRequestForms.form.messages.monthSingular": {
+    "en": "{count} month",
+    "id": "{count} bulan"
+  },
+  "employeeRequestForms.form.messages.monthPlural": {
+    "en": "{count} months",
+    "id": "{count} bulan"
+  },
+  "employeeRequestForms.form.messages.requiredDateValidation": {
+    "en": "Required Date for {designationLabel} must be on or after {minimumDate} ({monthLabel} from today).",
+    "id": "Tanggal Dibutuhkan untuk {designationLabel} harus pada atau setelah {minimumDate} ({monthLabel} dari hari ini)."
+  },
+  "employeeRequestForms.form.messages.requiredDateHelper": {
+    "en": "Minimum Required Date for {designationLabel} is {minimumDate} ({monthLabel} from today).",
+    "id": "Tanggal Dibutuhkan minimum untuk {designationLabel} adalah {minimumDate} ({monthLabel} dari hari ini)."
+  },
+  "employeeRequestForms.form.messages.requiredDateWarning": {
+    "en": "Warning: Required Date for {designationLabel} is earlier than the suggested minimum {minimumDate} ({monthLabel} from today).",
+    "id": "Peringatan: Tanggal Dibutuhkan untuk {designationLabel} lebih cepat dari minimum yang disarankan {minimumDate} ({monthLabel} dari hari ini)."
+  },
+  "employeeRequestForms.form.messages.fieldMismatchWarning": {
+    "en": "This value from the uploaded document does not match existing master data. Please review it.",
+    "id": "Nilai dari dokumen yang diunggah tidak sesuai dengan master data yang ada. Mohon periksa kembali."
+  },
+  "employeeRequestForms.form.messages.dateParseWarning": {
+    "en": "Could not read this date from the uploaded document. Please fill it manually.",
+    "id": "Tidak dapat membaca tanggal ini dari dokumen yang diunggah. Mohon isi secara manual."
+  },
+  "employeeRequestForms.form.toasts.documentParsed": {
+    "en": "ERF data has been auto-filled from the uploaded document.",
+    "id": "Data ERF telah otomatis terisi dari dokumen yang diunggah."
+  },
+  "employeeRequestForms.form.toasts.documentParsedWithWarnings": {
+    "en": "ERF data has been auto-filled, but {count} field(s) need your review (highlighted below).",
+    "id": "Data ERF telah otomatis terisi, tetapi {count} field perlu diperiksa kembali (ditandai di bawah)."
+  },
+  "employeeRequestForms.form.errors.attachmentTooLarge": {
+    "en": "Each ERF attachment must be 10 MB or smaller.",
+    "id": "Setiap lampiran ERF harus berukuran 10 MB atau kurang."
+  },
+  "employeeRequestForms.form.errors.invalidAttachmentType": {
+    "en": "Only PDF, JPG, PNG, or WEBP files are allowed.",
+    "id": "Hanya file PDF, JPG, PNG, atau WEBP yang diperbolehkan."
+  },
+  "employeeRequestForms.form.errors.approvalPreviewLoadFailed": {
+    "en": "Failed to load approval preview.",
+    "id": "Gagal memuat preview approval."
+  },
+  "employeeRequestForms.form.errors.approvedOnly": {
+    "en": "You can only view approved employee request forms.",
+    "id": "Anda hanya dapat melihat formulir permintaan karyawan yang sudah disetujui."
+  },
+  "employeeRequestForms.form.errors.dataNotFound": {
+    "en": "ERF data not found.",
+    "id": "Data ERF tidak ditemukan."
+  },
+  "employeeRequestForms.form.errors.masterDataLoadFailed": {
+    "en": "Failed to load PT, Department, and Job Level master data.",
+    "id": "Gagal memuat master data PT, Departemen, dan Job Level."
+  },
+  "employeeRequestForms.form.errors.parseFailed": {
+    "en": "Failed to read data from the uploaded document. Please fill the form manually.",
+    "id": "Gagal membaca data dari dokumen yang diunggah. Mohon isi formulir secara manual."
+  },
+  "employeeRequestForms.form.errors.noFieldsRecognized": {
+    "en": "No fields could be recognized in the uploaded document. The file has been kept, but please fill the form manually.",
+    "id": "Tidak ada field yang dapat dikenali dari dokumen yang diunggah. File tetap tersimpan, tetapi mohon isi formulir secara manual."
+  },
+  "employeeRequestForms.form.errors.unsupportedFileType": {
+    "en": "Only PDF or DOCX files are supported for ERF upload.",
+    "id": "Hanya file PDF atau DOCX yang didukung untuk unggah ERF."
+  },
+  "employeeRequestForms.form.errors.invalidBuDirector": {
+    "en": "Selected Director BU is not valid.",
+    "id": "Director BU yang dipilih tidak valid."
+  },
+  "employeeRequestForms.form.errors.requesterRequired": {
+    "en": "Requester is required.",
+    "id": "Pemohon wajib dipilih."
+  },
+  "employeeRequestForms.form.errors.saveFailed": {
+    "en": "Failed to save ERF.",
+    "id": "Gagal menyimpan ERF."
+  }
+}

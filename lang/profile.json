@@ -1,0 +1,114 @@
+{
+  "profile.header.eyebrow": {
+    "en": "Account Details",
+    "id": "Rincian Akun"
+  },
+  "profile.header.title": {
+    "en": "User Profile",
+    "id": "Profil Pengguna"
+  },
+  "profile.role.label": {
+    "en": "Your Role",
+    "id": "Peran Anda"
+  },
+  "profile.description": {
+    "en": "Here are your account details based on your registered profile information.",
+    "id": "Berikut adalah rincian akun Anda berdasarkan informasi profil yang terdaftar."
+  },
+  "profile.password.title": {
+    "en": "Change Password",
+    "id": "Ubah Password"
+  },
+  "profile.password.description": {
+    "en": "Verify your current password before saving a new one.",
+    "id": "Verifikasi password saat ini sebelum menyimpan password baru."
+  },
+  "profile.password.currentLabel": {
+    "en": "Current Password",
+    "id": "Password Saat Ini"
+  },
+  "profile.password.newLabel": {
+    "en": "New Password",
+    "id": "Password Baru"
+  },
+  "profile.password.confirmLabel": {
+    "en": "Confirm New Password",
+    "id": "Konfirmasi Password Baru"
+  },
+  "profile.password.currentPlaceholder": {
+    "en": "Enter your current password",
+    "id": "Masukkan password saat ini"
+  },
+  "profile.password.newPlaceholder": {
+    "en": "Enter a new password",
+    "id": "Masukkan password baru"
+  },
+  "profile.password.confirmPlaceholder": {
+    "en": "Repeat the new password",
+    "id": "Ulangi password baru"
+  },
+  "profile.password.helper": {
+    "en": "Use at least 6 characters and do not reuse your current password.",
+    "id": "Gunakan minimal 6 karakter dan jangan pakai ulang password saat ini."
+  },
+  "profile.password.submit": {
+    "en": "Update Password",
+    "id": "Perbarui Password"
+  },
+  "profile.password.submitting": {
+    "en": "Updating password...",
+    "id": "Memperbarui password..."
+  },
+  "profile.password.success": {
+    "en": "Password updated successfully.",
+    "id": "Password berhasil diperbarui."
+  },
+  "profile.password.errors.currentRequired": {
+    "en": "Current password is required.",
+    "id": "Password saat ini wajib diisi."
+  },
+  "profile.password.errors.newRequired": {
+    "en": "New password is required.",
+    "id": "Password baru wajib diisi."
+  },
+  "profile.password.errors.confirmRequired": {
+    "en": "Password confirmation is required.",
+    "id": "Konfirmasi password wajib diisi."
+  },
+  "profile.password.errors.minLength": {
+    "en": "New password must be at least 6 characters.",
+    "id": "Password baru harus minimal 6 karakter."
+  },
+  "profile.password.errors.sameAsCurrent": {
+    "en": "New password must be different from the current password.",
+    "id": "Password baru harus berbeda dari password saat ini."
+  },
+  "profile.password.errors.mismatch": {
+    "en": "Password confirmation does not match the new password.",
+    "id": "Konfirmasi password tidak sama dengan password baru."
+  },
+  "profile.password.errors.submitFailed": {
+    "en": "Failed to update password.",
+    "id": "Gagal memperbarui password."
+  },
+  "profile.basicInformation": {
+    "en": "Basic Information",
+    "id": "Informasi Dasar"
+  },
+  "profile.fields.userId": {
+    "en": "User ID",
+    "id": "ID Pengguna"
+  },
+  "profile.fields.fullName": {
+    "en": "Full Name",
+    "id": "Nama Lengkap"
+  },
+  "profile.fields.username": {
+    "en": "Username",
+    "id": "Nama Pengguna"
+  },
+  "profile.fields.emailAddress": {
+    "en": "Email Address",
+    "id": "Alamat Email"
+  }
+}

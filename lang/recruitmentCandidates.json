@@ -1,0 +1,142 @@
+{
+  "recruitmentCandidates.page.eyebrow": {
+    "en": "Candidate Database",
+    "id": "Basis Data Kandidat"
+  },
+  "recruitmentCandidates.page.title": {
+    "en": "Recruitment Candidate Data",
+    "id": "Data Kandidat Rekrutmen"
+  },
+  "recruitmentCandidates.page.description": {
+    "en": "Read-only recruitment view for candidate profiles, ERF binding, form status, application dates, education, and work history.",
+    "id": "Tampilan hanya-baca rekrutmen untuk profil kandidat, relasi ERF, status formulir, tanggal aplikasi, pendidikan, dan riwayat kerja."
+  },
+  "recruitmentCandidates.stats.total": {
+    "en": "Total Candidates",
+    "id": "Total Kandidat"
+  },
+  "recruitmentCandidates.stats.completed": {
+    "en": "Completed Forms",
+    "id": "Formulir Selesai"
+  },
+  "recruitmentCandidates.stats.completedHint": {
+    "en": "Completed forms ready for downstream action.",
+    "id": "Formulir selesai yang siap diproses ke tahap berikutnya."
+  },
+  "recruitmentCandidates.stats.inProgress": {
+    "en": "In Progress",
+    "id": "Sedang Diproses"
+  },
+  "recruitmentCandidates.stats.inProgressHint": {
+    "en": "Forms still being completed by candidates or employees.",
+    "id": "Formulir yang masih dilengkapi oleh kandidat atau karyawan."
+  },
+  "recruitmentCandidates.stats.filtered": {
+    "en": "Filtered Result",
+    "id": "Hasil Filter"
+  },
+  "recruitmentCandidates.stats.boundErf": {
+    "en": "ERF Bound",
+    "id": "Terikat ERF"
+  },
+  "recruitmentCandidates.stats.departments": {
+    "en": "Departments",
+    "id": "Departemen"
+  },
+  "recruitmentCandidates.stats.filteredHint": {
+    "en": "Current visible result set based on active filters.",
+    "id": "Jumlah hasil yang sedang tampil berdasarkan filter aktif."
+  },
+  "recruitmentCandidates.filters.searchPlaceholder": {
+    "en": "Search name, ID number, email, phone, position, department, education, or work history...",
+    "id": "Cari nama, nomor identitas, email, telepon, posisi, departemen, pendidikan, atau riwayat kerja..."
+  },
+  "recruitmentCandidates.filters.title": {
+    "en": "Filters",
+    "id": "Filter"
+  },
+  "recruitmentCandidates.filters.subtitle": {
+    "en": "Search candidate records",
+    "id": "Cari data kandidat"
+  },
+  "recruitmentCandidates.filters.resultSummary": {
+    "en": "Showing {shown} of {total} candidates",
+    "id": "Menampilkan {shown} dari {total} kandidat"
+  },
+  "recruitmentCandidates.filters.statusPlaceholder": {
+    "en": "Filter form status",
+    "id": "Saring status formulir"
+  },
+  "recruitmentCandidates.filters.rolePlaceholder": {
+    "en": "Filter role",
+    "id": "Filter peran"
+  },
+  "recruitmentCandidates.filters.erfPlaceholder": {
+    "en": "Filter ERF",
+    "id": "Saring ERF"
+  },
+  "recruitmentCandidates.filters.departmentPlaceholder": {
+    "en": "Filter department",
+    "id": "Saring departemen"
+  },
+  "recruitmentCandidates.filters.applicationFrom": {
+    "en": "Application From",
+    "id": "Aplikasi Dari"
+  },
+  "recruitmentCandidates.filters.applicationTo": {
+    "en": "Application To",
+    "id": "Aplikasi Sampai"
+  },
+  "recruitmentCandidates.filters.reset": {
+    "en": "Reset Filters",
+    "id": "Atur Ulang Filter"
+  },
+  "recruitmentCandidates.columns.role": {
+    "en": "Role",
+    "id": "Peran"
+  },
+  "recruitmentCandidates.columns.source": {
+    "en": "Source",
+    "id": "Sumber"
+  },
+  "recruitmentCandidates.columns.pt": {
+    "en": "PT",
+    "id": "PT"
+  },
+  "recruitmentCandidates.columns.site": {
+    "en": "Site",
+    "id": "Lokasi"
+  },
+  "recruitmentCandidates.columns.applicationDate": {
+    "en": "Application Date",
+    "id": "Tanggal Aplikasi"
+  },
+  "recruitmentCandidates.columns.availableStart": {
+    "en": "Available Start",
+    "id": "Mulai Tersedia"
+  },
+  "recruitmentCandidates.columns.birth": {
+    "en": "Birth",
+    "id": "Kelahiran"
+  },
+  "recruitmentCandidates.columns.gender": {
+    "en": "Gender",
+    "id": "Gender"
+  },
+  "recruitmentCandidates.columns.education": {
+    "en": "Latest Education",
+    "id": "Pendidikan Terakhir"
+  },
+  "recruitmentCandidates.columns.work": {
+    "en": "Latest Work",
+    "id": "Pekerjaan Terakhir"
+  },
+  "recruitmentCandidates.source.local": {
+    "en": "Dashboard",
+    "id": "Dasbor"
+  },
+  "recruitmentCandidates.source.candidateService": {
+    "en": "Candidate Portal",
+    "id": "Portal Kandidat"
+  }
+}

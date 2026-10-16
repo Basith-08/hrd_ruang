@@ -1,0 +1,250 @@
+{
+  "dashboard.header.eyebrow": {
+    "en": "Workspace Overview",
+    "id": "Ringkasan Ruang Kerja"
+  },
+  "dashboard.header.title": {
+    "en": "Dashboard",
+    "id": "Dasbor"
+  },
+  "dashboard.header.welcome": {
+    "en": "Welcome, {email} - {role}",
+    "id": "Selamat datang, {email} - {peran}"
+  },
+  "dashboard.focus.eyebrow": {
+    "en": "Dashboard Focus",
+    "id": "Fokus Dasbor"
+  },
+  "dashboard.intro.candidate.title": {
+    "en": "Summary of your candidate form",
+    "id": "Ringkasan formulir kandidat Anda"
+  },
+  "dashboard.intro.candidate.description": {
+    "en": "This dashboard focuses on monitoring your candidate profile and quick access to forms that need updating.",
+    "id": "Dasbor ini berfokus pada pemantauan profil kandidat Anda dan akses cepat ke formulir yang perlu diperbarui."
+  },
+  "dashboard.intro.manager.title": {
+    "en": "Monitor approvals and approvers you manage",
+    "id": "Pantau persetujuan dan penyetuju yang Anda kelola"
+  },
+  "dashboard.intro.manager.description": {
+    "en": "As a manager, you are focused on submissions requiring approval monitoring and the master approvers you have entered.",
+    "id": "Sebagai manajer, fokus Anda ada pada pengajuan yang membutuhkan pemantauan persetujuan dan master penyetuju yang telah Anda input."
+  },
+  "dashboard.intro.admin.title": {
+    "en": "Manage operations and system access",
+    "id": "Kelola operasional dan akses sistem"
+  },
+  "dashboard.intro.admin.description": {
+    "en": "The administrator dashboard highlights cross-process modules, from Employee Request Form (ERF), approval, and recruitment to user and role management.",
+    "id": "Dasbor administrator menyoroti modul lintas proses, mulai dari Formulir Permintaan Karyawan (ERF), persetujuan, rekrutmen, hingga pengelolaan pengguna dan peran."
+  },
+  "dashboard.intro.recruitment.title": {
+    "en": "Focus on approved recruitment requests",
+    "id": "Fokus pada permintaan rekrutmen yang sudah disetujui"
+  },
+  "dashboard.intro.recruitment.description": {
+    "en": "This dashboard highlights approved ERF records that are ready for recruitment processing and shortcuts to the most frequently used modules.",
+    "id": "Dasbor ini menyoroti data ERF yang sudah disetujui dan siap diproses rekrutmen, serta akses cepat ke modul yang paling sering digunakan."
+  },
+  "dashboard.intro.default.title": {
+    "en": "Work summary according to your access rights",
+    "id": "Ringkasan pekerjaan sesuai hak akses Anda"
+  },
+  "dashboard.intro.default.description": {
+    "en": "Dashboard content is tailored based on the modules you can access, allowing you to jump straight into the most relevant work.",
+    "id": "Konten dasbor disesuaikan berdasarkan modul yang dapat Anda akses, sehingga Anda bisa langsung masuk ke pekerjaan yang paling relevan."
+  },
+  "dashboard.panels.latestErf": {
+    "en": "Active ERF Intake",
+    "id": "Intake ERF Aktif"
+  },
+  "dashboard.panels.approvalStatus": {
+    "en": "Approval Snapshot",
+    "id": "Snapshot Persetujuan"
+  },
+  "dashboard.panels.approvalStatusDescription": {
+    "en": "See the current approval load in your visible scope before moving into the detailed queue.",
+    "id": "Lihat beban persetujuan pada cakupan yang terlihat sebelum masuk ke antrean detail."
+  },
+  "dashboard.panels.actionCenter": {
+    "en": "Action Center",
+    "id": "Pusat Aksi"
+  },
+  "dashboard.panels.actionCenterDescription": {
+    "en": "The highest-value work items from ERF, approval, recruitment, and portal forms are surfaced here first.",
+    "id": "Item kerja bernilai tertinggi dari ERF, persetujuan, rekrutmen, dan formulir portal ditampilkan lebih dulu di sini."
+  },
+  "dashboard.panels.latestErfDescription": {
+    "en": "Recent ERF records from your accessible scope so you can monitor intake without opening the full list first.",
+    "id": "Data ERF terbaru dari cakupan akses Anda agar intake bisa dipantau tanpa membuka daftar penuh lebih dulu."
+  },
+  "dashboard.panels.quickAccess": {
+    "en": "Quick Access",
+    "id": "Akses Cepat"
+  },
+  "dashboard.panels.quickAccessDescription": {
+    "en": "Open the modules most often used to continue approvals, recruitment handling, and profile review.",
+    "id": "Buka modul yang paling sering dipakai untuk melanjutkan persetujuan, proses rekrutmen, dan peninjauan profil."
+  },
+  "dashboard.kpi.totalErf.label": {
+    "en": "Total ERF",
+    "id": "Total ERF"
+  },
+  "dashboard.kpi.totalErf.sub": {
+    "en": "All position requests",
+    "id": "Semua permintaan posisi"
+  },
+  "dashboard.kpi.awaitingApproval.label": {
+    "en": "Awaiting Approval",
+    "id": "Menunggu Persetujuan"
+  },
+  "dashboard.kpi.awaitingApproval.adminSub": {
+    "en": "All approval requests currently waiting in the system",
+    "id": "Semua permintaan persetujuan yang saat ini masih menunggu di sistem"
+  },
+  "dashboard.kpi.awaitingApproval.userSub": {
+    "en": "Approval items assigned to your approver email",
+    "id": "Entri persetujuan yang ditugaskan ke email penyetuju Anda"
+  },
+  "dashboard.kpi.approvedByYou.label": {
+    "en": "Approved by You",
+    "id": "Disetujui Oleh Anda"
+  },
+  "dashboard.kpi.approvedByYou.adminSub": {
+    "en": "All requests that have completed approval",
+    "id": "Semua permintaan yang telah selesai disetujui"
+  },
+  "dashboard.kpi.approvedByYou.userSub": {
+    "en": "Approval history recorded by your approver email",
+    "id": "Riwayat persetujuan yang tercatat pada email penyetuju Anda"
+  },
+  "dashboard.kpi.hiringQueue.label": {
+    "en": "Hiring Queue",
+    "id": "Antrean Rekrutmen"
+  },
+  "dashboard.kpi.hiringQueue.sub": {
+    "en": "Approved ERF ready for recruitment handling",
+    "id": "ERF yang sudah disetujui dan siap diproses rekrutmen"
+  },
+  "dashboard.kpi.yourForm.label": {
+    "en": "Your Form",
+    "id": "Formulir Anda"
+  },
+  "dashboard.kpi.portalForms.label": {
+    "en": "Portal Forms",
+    "id": "Formulir Portal"
+  },
+  "dashboard.kpi.yourForm.sub": {
+    "en": "Form records available in your account",
+    "id": "Data formulir yang tersedia di akun Anda"
+  },
+  "dashboard.kpi.portalForms.sub": {
+    "en": "Candidate and employee form records available in the system",
+    "id": "Data formulir kandidat dan karyawan yang tersedia di sistem"
+  },
+  "dashboard.kpi.userAdministration.label": {
+    "en": "User Administration",
+    "id": "Administrasi Pengguna"
+  },
+  "dashboard.kpi.userAdministration.sub": {
+    "en": "Manage user accounts and access",
+    "id": "Kelola akun pengguna dan hak akses"
+  },
+  "dashboard.approvalStats.pendingAdmin": {
+    "en": "Pending Requests",
+    "id": "Permintaan Tertunda"
+  },
+  "dashboard.approvalStats.pendingUser": {
+    "en": "Pending for You",
+    "id": "Tertunda untuk Anda"
+  },
+  "dashboard.approvalStats.approvedAdmin": {
+    "en": "Approved Requests",
+    "id": "Permintaan Disetujui"
+  },
+  "dashboard.approvalStats.approvedUser": {
+    "en": "Approved by You",
+    "id": "Disetujui Oleh Anda"
+  },
+  "dashboard.approvalStats.rejectedAdmin": {
+    "en": "Rejected Requests",
+    "id": "Permintaan Ditolak"
+  },
+  "dashboard.approvalStats.rejectedUser": {
+    "en": "Rejected by You",
+    "id": "Ditolak Oleh Anda"
+  },
+  "dashboard.approvalStats.visibleToYou": {
+    "en": "Visible to You",
+    "id": "Terlihat untuk Anda"
+  },
+  "dashboard.quickLinks.approvalQueue.label": {
+    "en": "Approval Queue",
+    "id": "Antrean Persetujuan"
+  },
+  "dashboard.quickLinks.approvalQueue.desc": {
+    "en": "Review requests assigned to your approver email",
+    "id": "Tinjau permintaan yang ditugaskan ke email penyetuju Anda"
+  },
+  "dashboard.quickLinks.createErf.label": {
+    "en": "Create ERF",
+    "id": "Buat ERF"
+  },
+  "dashboard.quickLinks.createErf.desc": {
+    "en": "New position request form",
+    "id": "Formulir permintaan posisi baru"
+  },
+  "dashboard.quickLinks.configureApproverMaster.label": {
+    "en": "Configure Approver Master",
+    "id": "Atur Penyetuju Master"
+  },
+  "dashboard.quickLinks.configureApproverMaster.desc": {
+    "en": "Manage the active approval configuration",
+    "id": "Kelola konfigurasi persetujuan yang aktif"
+  },
+  "dashboard.quickLinks.recruitmentDashboard.label": {
+    "en": "Recruitment Dashboard",
+    "id": "Dasbor Rekrutmen"
+  },
+  "dashboard.quickLinks.recruitmentDashboard.desc": {
+    "en": "Monitor positions ready for processing",
+    "id": "Pantau posisi yang siap diproses"
+  },
+  "dashboard.quickLinks.portalForms.label": {
+    "en": "Portal Forms",
+    "id": "Formulir Portal"
+  },
+  "dashboard.quickLinks.portalForms.desc": {
+    "en": "Review candidate and employee profiles and forms",
+    "id": "Tinjau profil serta formulir kandidat dan karyawan"
+  },
+  "dashboard.quickLinks.addUser.label": {
+    "en": "Add User",
+    "id": "Tambah Pengguna"
+  },
+  "dashboard.quickLinks.addUser.desc": {
+    "en": "Register new staff account",
+    "id": "Daftarkan akun staf baru"
+  },
+  "dashboard.quickLinks.configureRbacRole.label": {
+    "en": "Configure RBAC Role",
+    "id": "Atur Peran RBAC"
+  },
+  "dashboard.quickLinks.configureRbacRole.desc": {
+    "en": "Manage system access rights",
+    "id": "Kelola hak akses sistem"
+  },
+  "dashboard.jobStatus.new": {
+    "en": "New",
+    "id": "Baru"
+  },
+  "dashboard.jobStatus.replacement": {
+    "en": "Replacement",
+    "id": "Pengganti"
+  },
+  "dashboard.jobStatus.upgrade": {
+    "en": "Upgrade",
+    "id": "Peningkatan"
+  }
+}

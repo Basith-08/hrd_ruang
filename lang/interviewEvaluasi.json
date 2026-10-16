@@ -1,0 +1,50 @@
+{
+  "interviewEvaluasi.page.eyebrow": {
+    "en": "Recruitment",
+    "id": "Rekrutmen"
+  },
+  "interviewEvaluasi.page.title": {
+    "en": "Interview evaluasi",
+    "id": "Evaluasi Wawancara"
+  },
+  "interviewEvaluasi.page.description": {
+    "en": "Review interviewer-level evaluation results, narrow the period, and scan remarks across recruitment interviews.",
+    "id": "Tinjau hasil evaluasi per pewawancara, persempit periode, dan telaah catatan pada proses wawancara rekrutmen."
+  },
+  "interviewEvaluasi.page.searchPlaceholder": {
+    "en": "Search position, candidate, interviewer, score, or remarks...",
+    "id": "Cari posisi, kandidat, pewawancara, nilai, atau remaks..."
+  },
+  "interviewEvaluasi.page.empty": {
+    "en": "No interview evaluation data found.",
+    "id": "Tidak ada data evaluasi wawancara."
+  },
+  "interviewEvaluasi.page.columns.no": {
+    "en": "No",
+    "id": "Nomor"
+  },
+  "interviewEvaluasi.page.columns.mainPosition": {
+    "en": "Main Position",
+    "id": "Posisi Utama"
+  },
+  "interviewEvaluasi.page.columns.candidateName": {
+    "en": "Candidate Name",
+    "id": "Nama Kandidat"
+  },
+  "interviewEvaluasi.page.columns.interviewer": {
+    "en": "Interviewer",
+    "id": "Pewawancara"
+  },
+  "interviewEvaluasi.page.columns.score": {
+    "en": "Nilai",
+    "id": "Nilai"
+  },
+  "interviewEvaluasi.page.columns.remarks": {
+    "en": "Remarks",
+    "id": "Catatan"
+  },
+  "interviewEvaluasi.page.interviewerScoredTag": {
+    "en": "(scored)",
+    "id": "(sudah menilai)"
+  }
+}

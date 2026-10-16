@@ -1,0 +1,154 @@
+{
+  "portalDocumentExplorer.page.eyebrow": {
+    "en": "Recruitment Team",
+    "id": "Tim Rekrutmen"
+  },
+  "portalDocumentExplorer.page.description": {
+    "en": "Read-only browser for candidate and employee portal documents, grouped by PT, department, designation, main position, and candidate.",
+    "id": "Tampilan hanya-baca untuk dokumen portal kandidat dan karyawan, dikelompokkan berdasarkan PT, departemen, jabatan, posisi utama, dan kandidat."
+  },
+  "portalDocumentExplorer.page.actions.collapseAll": {
+    "en": "Collapse All",
+    "id": "Tutup Semua"
+  },
+  "portalDocumentExplorer.page.finderView": {
+    "en": "Finder View",
+    "id": "Tampilan Finder"
+  },
+  "portalDocumentExplorer.page.finderDescription": {
+    "en": "Click a candidate to open document categories, then choose a file or image to open it in a new tab.",
+    "id": "Klik kandidat untuk membuka kategori dokumen, lalu pilih file atau gambar untuk membukanya di tab baru."
+  },
+  "portalDocumentExplorer.page.stats.candidate.single": {
+    "en": "{count} candidate",
+    "id": "{count} kandidat"
+  },
+  "portalDocumentExplorer.page.stats.candidate.multiple": {
+    "en": "{count} candidates",
+    "id": "{count} kandidat"
+  },
+  "portalDocumentExplorer.page.stats.asset.single": {
+    "en": "{count} asset",
+    "id": "{count} aset"
+  },
+  "portalDocumentExplorer.page.stats.asset.multiple": {
+    "en": "{count} assets",
+    "id": "{count} aset"
+  },
+  "portalDocumentExplorer.page.loadingDocuments": {
+    "en": "Loading portal documents...",
+    "id": "Memuat dokumen portal..."
+  },
+  "portalDocumentExplorer.page.preparingDocument": {
+    "en": "Preparing document...",
+    "id": "Menyiapkan dokumen..."
+  },
+  "portalDocumentExplorer.page.empty": {
+    "en": "No portal documents available yet.",
+    "id": "Belum ada dokumen portal tersedia."
+  },
+  "portalDocumentExplorer.tree.root": {
+    "en": "root",
+    "id": "akar"
+  },
+  "portalDocumentExplorer.tree.empty.pt": {
+    "en": "No PT",
+    "id": "Tanpa PT"
+  },
+  "portalDocumentExplorer.tree.empty.department": {
+    "en": "No Department",
+    "id": "Tanpa Departemen"
+  },
+  "portalDocumentExplorer.tree.empty.designation": {
+    "en": "No Designation",
+    "id": "Tanpa Jabatan"
+  },
+  "portalDocumentExplorer.tree.empty.mainPosition": {
+    "en": "No Main Position",
+    "id": "Tanpa Posisi Utama"
+  },
+  "portalDocumentExplorer.documents.photograph": {
+    "en": "Pas Photo",
+    "id": "Pas Foto"
+  },
+  "portalDocumentExplorer.documents.cv": {
+    "en": "CV",
+    "id": "CV"
+  },
+  "portalDocumentExplorer.documents.integrityPact": {
+    "en": "Integrity Pact",
+    "id": "Pakta Integritas"
+  },
+  "portalDocumentExplorer.documents.emailUsagePolicy": {
+    "en": "Email Usage Policy",
+    "id": "Kebijakan Penggunaan Email"
+  },
+  "portalDocumentExplorer.documents.identityCard": {
+    "en": "Identity Card",
+    "id": "Kartu Identitas"
+  },
+  "portalDocumentExplorer.documents.familyCard": {
+    "en": "Family Card",
+    "id": "Kartu Keluarga"
+  },
+  "portalDocumentExplorer.documents.latestDegreeCertificate": {
+    "en": "Latest Degree Certificate",
+    "id": "Ijazah Terakhir"
+  },
+  "portalDocumentExplorer.documents.academicTranscript": {
+    "en": "Academic Transcript",
+    "id": "Transkrip Nilai"
+  },
+  "portalDocumentExplorer.documents.certificateOfEmployment": {
+    "en": "Certificate of Employment (CoE)",
+    "id": "Surat Paklaring / Certificate of Employment (CoE)"
+  },
+  "portalDocumentExplorer.documents.taxId": {
+    "en": "Tax Identification Number",
+    "id": "NPWP"
+  },
+  "portalDocumentExplorer.documents.bpjsHealthCard": {
+    "en": "BPJS Health Card",
+    "id": "Kartu BPJS Kesehatan"
+  },
+  "portalDocumentExplorer.documents.bpjsHealthStatement": {
+    "en": "BPJS Health Statement",
+    "id": "Surat Pernyataan BPJS Kesehatan"
+  },
+  "portalDocumentExplorer.documents.bpjsEmploymentCard": {
+    "en": "BPJS Employment Card",
+    "id": "Kartu BPJS Ketenagakerjaan"
+  },
+  "portalDocumentExplorer.documents.bankAccountBook": {
+    "en": "Bank Account Book",
+    "id": "Buku Rekening"
+  },
+  "portalDocumentExplorer.documents.formatOffice": {
+    "en": "Draft Employment Contract",
+    "id": "Draft Kontrak Kerja"
+  },
+  "portalDocumentExplorer.documents.skb": {
+    "en": "SKB",
+    "id": "SKB"
+  },
+  "portalDocumentExplorer.documents.erfDocument": {
+    "en": "ERF Document",
+    "id": "Dokumen ERF"
+  },
+  "portalDocumentExplorer.documents.document": {
+    "en": "Document",
+    "id": "Dokumen"
+  },
+  "portalDocumentExplorer.errors.openFile": {
+    "en": "Failed to open selected file.",
+    "id": "Gagal membuka file yang dipilih."
+  },
+  "portalDocumentExplorer.errors.refresh": {
+    "en": "Failed to refresh candidate documents.",
+    "id": "Gagal memuat ulang dokumen kandidat."
+  },
+  "portalDocumentExplorer.errors.createSignedUrl": {
+    "en": "Failed to create signed URL for selected file.",
+    "id": "Gagal membuat signed URL untuk file yang dipilih."
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "common.processing": {
+    "en": "Processing...",
+    "id": "Memproses..."
+  },
+  "common.loading": {
+    "en": "Loading...",
+    "id": "Memuat..."
+  },
+  "common.loadingData": {
+    "en": "Loading data...",
+    "id": "Memuat data..."
+  },
+  "common.preparingPdf": {
+    "en": "Preparing PDF document...",
+    "id": "Menyiapkan dokumen PDF..."
+  },
+  "common.preparingExcel": {
+    "en": "Preparing Excel file...",
+    "id": "Menyiapkan file Excel..."
+  },
+  "common.refreshing": {
+    "en": "Refreshing...",
+    "id": "Menyegarkan..."
+  },
+  "common.actions.refresh": {
+    "en": "Refresh",
+    "id": "Muat Ulang"
+  },
+  "common.actions.back": {
+    "en": "Back",
+    "id": "Kembali"
+  },
+  "common.actions.logout": {
+    "en": "Logout",
+    "id": "Keluar"
+  },
+  "common.actions.close": {
+    "en": "Close",
+    "id": "Tutup"
+  },
+  "common.actions.cancel": {
+    "en": "Cancel",
+    "id": "Batal"
+  },
+  "common.actions.yes": {
+    "en": "Yes",
+    "id": "Ya"
+  },
+  "common.actions.no": {
+    "en": "No",
+    "id": "Tidak"
+  },
+  "common.actions.confirm": {
+    "en": "Confirm",
+    "id": "Konfirmasi"
+  },
+  "common.actions.edit": {
+    "en": "Edit",
+    "id": "Ubah"
+  },
+  "common.actions.delete": {
+    "en": "Delete",
+    "id": "Hapus"
+  },
+  "common.actions.detail": {
+    "en": "Detail",
+    "id": "Rincian"
+  },
+  "common.actions.create": {
+    "en": "Create",
+    "id": "Buat"
+  },
+  "common.actions.exportPdf": {
+    "en": "Export PDF",
+    "id": "Ekspor PDF"
+  },
+  "common.actions.exportExcel": {
+    "en": "Export Excel",
+    "id": "Ekspor Excel"
+  },
+  "common.actions.columns": {
+    "en": "Columns",
+    "id": "Kolom"
+  },
+  "common.actions.hideColumn": {
+    "en": "Hide column",
+    "id": "Sembunyikan kolom"
+  },
+  "common.actions.reorderColumn": {
+    "en": "Drag to reorder",
+    "id": "Geser untuk mengubah urutan"
+  },
+  "common.actions.new": {
+    "en": "New",
+    "id": "Baru"
+  },
+  "common.actions.approve": {
+    "en": "Approve",
+    "id": "Setujui"
+  },
+  "common.actions.reject": {
+    "en": "Reject",
+    "id": "Tolak"
+  },
+  "common.actions.viewAll": {
+    "en": "View all",
+    "id": "Lihat semua"
+  },
+  "common.labels.email": {
+    "en": "Email",
+    "id": "Email"
+  },
+  "common.labels.username": {
+    "en": "Username",
+    "id": "Nama Pengguna"
+  },
+  "common.labels.fullName": {
+    "en": "Full Name",
+    "id": "Nama Lengkap"
+  },
+  "common.labels.emailAddress": {
+    "en": "Email Address",
+    "id": "Alamat Email"
+  },
+  "common.labels.phoneNumber": {
+    "en": "Phone Number",
+    "id": "Nomor Telepon"
+  },
+  "common.labels.no": {
+    "en": "No",
+    "id": "Nomor"
+  },
+  "common.labels.name": {
+    "en": "Name",
+    "id": "Nama"
+  },
+  "common.labels.phone": {
+    "en": "Phone",
+    "id": "Telepon"
+  },
+  "common.labels.department": {
+    "en": "BU Department",
+    "id": "BU Departemen"
+  },
+  "common.labels.businessUnit": {
+    "en": "Business Unit Category",
+    "id": "Kategori Unit Bisnis"
+  },
+  "common.labels.mainPosition": {
+    "en": "Main Position",
+    "id": "Posisi Utama"
+  },
+  "common.labels.recruiter": {
+    "en": "Recruiter",
+    "id": "Perekrut"
+  },
+  "common.labels.positionStatus": {
+    "en": "Position Status",
+    "id": "Status Posisi"
+  },
+  "common.labels.employmentStatus": {
+    "en": "Employment Status",
+    "id": "Status Karyawan"
+  },
+  "common.labels.requiredDate": {
+    "en": "Required Date",
+    "id": "Tanggal Dibutuhkan"
+  },
+  "common.labels.status": {
+    "en": "Status",
+    "id": "Status"
+  },
+  "common.labels.closedDate": {
+    "en": "Closed Date",
+    "id": "Tanggal Ditutup"
+  },
+  "common.labels.actions": {
+    "en": "Actions",
+    "id": "Aksi"
+  },
+  "common.labels.employeeRequestForm": {
+    "en": "ERF",
+    "id": "ERF"
+  },
+  "common.labels.formStatus": {
+    "en": "Form Status",
+    "id": "Status Formulir"
+  },
+  "common.labels.category": {
+    "en": "Category",
+    "id": "Kategori"
+  },
+  "common.labels.reason": {
+    "en": "Reason",
+    "id": "Alasan"
+  },
+  "common.labels.from": {
+    "en": "From",
+    "id": "Dari"
+  },
+  "common.labels.to": {
+    "en": "To",
+    "id": "Sampai"
+  },
+  "common.labels.search": {
+    "en": "Search",
+    "id": "Cari"
+  },
+  "common.labels.designation": {
+    "en": "Designation",
+    "id": "Jabatan"
+  },
+  "common.labels.total": {
+    "en": "Total",
+    "id": "Total"
+  },
+  "common.labels.date": {
+    "en": "Date",
+    "id": "Tanggal"
+  },
+  "common.labels.days": {
+    "en": "Days",
+    "id": "Hari"
+  },
+  "common.search.default": {
+    "en": "Search...",
+    "id": "Cari..."
+  },
+  "common.select.default": {
+    "en": "Select...",
+    "id": "Pilih..."
+  },
+  "common.noMatchingData": {
+    "en": "No matching data found.",
+    "id": "Tidak ada data yang cocok."
+  },
+  "common.openActionMenu": {
+    "en": "Open action menu",
+    "id": "Buka menu aksi"
+  },
+  "common.count.items": {
+    "en": "{count} item(s)",
+    "id": "{count} entri"
+  },
+  "common.noFilesUploaded": {
+    "en": "No files uploaded.",
+    "id": "Belum ada file yang diunggah."
+  },
+  "common.uploadedFile": {
+    "en": "Uploaded file",
+    "id": "File terunggah"
+  },
+  "common.empty.employeeRequestForms": {
+    "en": "No ERF submissions yet.",
+    "id": "Belum ada pengajuan ERF."
+  },
+  "common.empty.noDataAvailable": {
+    "en": "No data available",
+    "id": "Tidak ada data"
+  },
+  "common.empty.noPhoto": {
+    "en": "No Photo",
+    "id": "Tidak Ada Foto"
+  },
+  "common.empty.noPosition": {
+    "en": "No Position",
+    "id": "Tanpa Posisi"
+  },
+  "common.empty.noDepartment": {
+    "en": "No BU Department",
+    "id": "Tanpa BU Departemen"
+  },
+  "common.empty.noEmployeeRequestForm": {
+    "en": "No ERF",
+    "id": "Tanpa ERF"
+  },
+  "common.status.draft": {
+    "en": "Draft",
+    "id": "Draf"
+  },
+  "common.status.saving": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "common.status.all": {
+    "en": "All",
+    "id": "Semua"
+  },
+  "common.status.open": {
+    "en": "Open",
+    "id": "Terbuka"
+  },
+  "common.status.closed": {
+    "en": "Closed",
+    "id": "Ditutup"
+  },
+  "common.status.inProgress": {
+    "en": "In Progress",
+    "id": "Sedang Diproses"
+  },
+  "common.status.completed": {
+    "en": "Completed",
+    "id": "Selesai"
+  },
+  "common.status.noStatus": {
+    "en": "No Status",
+    "id": "Tanpa Status"
+  }
+}

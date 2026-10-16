@@ -1,0 +1,13 @@
+export const SMTP_USER = process.env.SMTP_USER
+export const SMTP_PASS = process.env.SMTP_PASS
+export const APP_BASE_URL = process.env.APP_BASE_URL
+export const HRD_PINTU_SERVICE_BASE_URL = process.env.HRD_PINTU_SERVICE_BASE_URL
+export const HRD_PINTU_SERVICE_INTERNAL_TOKEN = process.env.HRD_PINTU_SERVICE_INTERNAL_TOKEN
+export const HRD_PINTU_SERVICE_SYNC_TOKEN = process.env.HRD_PINTU_SERVICE_SYNC_TOKEN
+export const HRD_PINTU_SUPABASE_URL = process.env.HRD_PINTU_SUPABASE_URL
+export const HRD_PINTU_SUPABASE_SERVICE_ROLE_KEY = process.env.HRD_PINTU_SUPABASE_SERVICE_ROLE_KEY
+export const SUPABASE_URL = process.env.SUPABASE_URL ?? process.env.NUXT_PUBLIC_SUPABASE_URL
+export const SUPABASE_ANON_KEY = process.env.NUXT_PUBLIC_SUPABASE_ANON_KEY
+export const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
+export const SUPABASE_EXPORT_BUCKET = process.env.SUPABASE_EXPORT_BUCKET ?? 'export-templates'
+export const GOOGLE_CHROME_BIN = process.env.GOOGLE_CHROME_BIN ?? process.env.CHROME_BIN

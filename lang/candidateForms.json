@@ -1,0 +1,1014 @@
+{
+  "candidateForms.list.eyebrow": {
+    "en": "Portal Forms",
+    "id": "Formulir Portal"
+  },
+  "candidateForms.list.title": {
+    "en": "Candidate & Employee Forms",
+    "id": "Formulir Kandidat & Karyawan"
+  },
+  "candidateForms.list.description": {
+    "en": "Review portal form progress for candidates and employees from hrd_pintu, and upload contract documents for completed employee forms.",
+    "id": "Tinjau progres formulir portal kandidat dan karyawan dari hrd_pintu, serta unggah dokumen kontrak untuk formulir karyawan yang sudah selesai."
+  },
+  "candidateForms.list.listTitle": {
+    "en": "Portal Form List",
+    "id": "Daftar Formulir Portal"
+  },
+  "candidateForms.list.filters.title": {
+    "en": "Directory",
+    "id": "Direktori"
+  },
+  "candidateForms.list.filters.subtitle": {
+    "en": "Candidate & Employee List",
+    "id": "Daftar Kandidat & Karyawan"
+  },
+  "candidateForms.list.filters.reset": {
+    "en": "Reset Filters",
+    "id": "Reset Filter"
+  },
+  "candidateForms.list.filters.searchPlaceholder": {
+    "en": "Search name, email, or phone...",
+    "id": "Cari nama, email, atau telepon..."
+  },
+  "candidateForms.list.filters.erfPlaceholder": {
+    "en": "Search ERF...",
+    "id": "Cari ERF..."
+  },
+  "candidateForms.list.filters.formStatusPlaceholder": {
+    "en": "Form Status",
+    "id": "Status Formulir"
+  },
+  "candidateForms.list.filters.allErf": {
+    "en": "All ERF",
+    "id": "Semua ERF"
+  },
+  "candidateForms.list.status.inProgress": {
+    "en": "In Progress",
+    "id": "Sedang Diproses"
+  },
+  "candidateForms.list.status.completed": {
+    "en": "Completed",
+    "id": "Selesai"
+  },
+  "candidateForms.list.toasts.exportPermissionDenied": {
+    "en": "You do not have permission to export candidate forms.",
+    "id": "Anda tidak memiliki izin untuk mengekspor formulir kandidat."
+  },
+  "candidateForms.list.toasts.exported": {
+    "en": "Candidate form PDF opened successfully.",
+    "id": "PDF formulir kandidat berhasil dibuka."
+  },
+  "candidateForms.list.toasts.exportedExcel": {
+    "en": "Candidate form Excel exported successfully.",
+    "id": "Excel formulir kandidat berhasil diekspor."
+  },
+  "candidateForms.list.toasts.exportQueued": {
+    "en": "The system is preparing the export file. Download will start automatically.",
+    "id": "Sistem sedang menyiapkan file ekspor. Unduhan akan dimulai otomatis."
+  },
+  "candidateForms.list.errors.exportFailed": {
+    "en": "Failed to export the candidate form PDF.",
+    "id": "Gagal mengekspor PDF formulir kandidat."
+  },
+  "candidateForms.list.errors.exportExcelFailed": {
+    "en": "Failed to export candidate forms to Excel.",
+    "id": "Gagal mengekspor formulir kandidat ke Excel."
+  },
+  "candidateForms.loadFailed": {
+    "en": "Failed to load candidate forms.",
+    "id": "Gagal memuat formulir kandidat."
+  },
+  "candidateForms.createFailed": {
+    "en": "Failed to create the candidate form.",
+    "id": "Gagal membuat formulir kandidat."
+  },
+  "candidateForms.updateFailed": {
+    "en": "Failed to update the candidate form.",
+    "id": "Gagal memperbarui formulir kandidat."
+  },
+  "candidateForms.updateStatusFailed": {
+    "en": "Failed to update the candidate form status.",
+    "id": "Gagal memperbarui status formulir kandidat."
+  },
+  "candidateForms.deleteFailed": {
+    "en": "Failed to delete the candidate form.",
+    "id": "Gagal menghapus formulir kandidat."
+  },
+  "candidateForms.form.eyebrow.employee": {
+    "en": "Employee Forms",
+    "id": "Formulir Karyawan"
+  },
+  "candidateForms.form.eyebrow.candidate": {
+    "en": "Candidate Forms",
+    "id": "Formulir Kandidat"
+  },
+  "candidateForms.form.title.detail.employee": {
+    "en": "Employee Form Details",
+    "id": "Rincian Formulir Karyawan"
+  },
+  "candidateForms.form.title.detail.candidate": {
+    "en": "Candidate Form Details",
+    "id": "Rincian Formulir Kandidat"
+  },
+  "candidateForms.form.title.edit.employee": {
+    "en": "Edit Employee Form",
+    "id": "Ubah Formulir Karyawan"
+  },
+  "candidateForms.form.title.edit.candidate": {
+    "en": "Edit Candidate Form",
+    "id": "Ubah Formulir Kandidat"
+  },
+  "candidateForms.form.title.new.employee": {
+    "en": "New Employee Form",
+    "id": "Formulir Karyawan Baru"
+  },
+  "candidateForms.form.title.new.candidate": {
+    "en": "New Candidate Form",
+    "id": "Formulir Kandidat Baru"
+  },
+  "candidateForms.form.sections.applicationData": {
+    "en": "Application Data",
+    "id": "Data Lamaran"
+  },
+  "candidateForms.form.sections.personalData": {
+    "en": "Personal Data",
+    "id": "Data Pribadi"
+  },
+  "candidateForms.form.sections.contactIdentity": {
+    "en": "Contact & Identity",
+    "id": "Kontak & Identitas"
+  },
+  "candidateForms.form.sections.familyEmergency": {
+    "en": "Family & Emergency",
+    "id": "Keluarga & Darurat"
+  },
+  "candidateForms.form.sections.educationTraining": {
+    "en": "Education & Training",
+    "id": "Pendidikan & Pelatihan"
+  },
+  "candidateForms.form.sections.skillAbilities": {
+    "en": "Skill & Abilities",
+    "id": "Keahlian & Kemampuan"
+  },
+  "candidateForms.form.sections.employmentHistory": {
+    "en": "Employment History",
+    "id": "Riwayat Pekerjaan"
+  },
+  "candidateForms.form.sections.referenceData": {
+    "en": "Reference Data",
+    "id": "Data Referensi"
+  },
+  "candidateForms.form.sections.mobilityResidence": {
+    "en": "Mobility & Residence",
+    "id": "Mobilitas & Tempat Tinggal"
+  },
+  "candidateForms.form.sections.personalStatement": {
+    "en": "Personal Statement",
+    "id": "Pernyataan Pribadi"
+  },
+  "candidateForms.form.sections.payrollStatutoryData": {
+    "en": "Payroll & Statutory Data",
+    "id": "Payroll & Data Regulasi"
+  },
+  "candidateForms.form.sections.employeeDocuments": {
+    "en": "Employee Documents",
+    "id": "Dokumen Karyawan"
+  },
+  "candidateForms.form.sections.contractDocuments": {
+    "en": "Contract Documents",
+    "id": "Dokumen Kontrak"
+  },
+  "candidateForms.form.sections.contractDocumentsDescription": {
+    "en": "Only draft contract files, SKB, and other contract attachments appear in this tab.",
+    "id": "Tab ini hanya menampilkan draft kontrak, SKB, dan lampiran kontrak lainnya."
+  },
+  "candidateForms.form.sections.candidateDocumentsDescription": {
+    "en": "Click a document file to view it.",
+    "id": "Klik file dokumen untuk melihatnya."
+  },
+  "candidateForms.form.sections.preparingDocument": {
+    "en": "Preparing document...",
+    "id": "Menyiapkan dokumen..."
+  },
+  "candidateForms.form.employeeDocuments.labels.integrityPact": {
+    "en": "Integrity Pact",
+    "id": "Pakta Integritas"
+  },
+  "candidateForms.form.employeeDocuments.labels.emailUsagePolicy": {
+    "en": "Email Usage Policy",
+    "id": "Kebijakan Penggunaan Email"
+  },
+  "candidateForms.form.employeeDocuments.labels.formatOffice": {
+    "en": "Draft Employment Contract",
+    "id": "Draft Kontrak Kerja"
+  },
+  "candidateForms.form.employeeDocuments.labels.skb": {
+    "en": "SKB",
+    "id": "SKB"
+  },
+  "candidateForms.form.employeeDocuments.labels.other": {
+    "en": "Lainnya",
+    "id": "Lainnya"
+  },
+  "candidateForms.form.employeeDocuments.labels.identityCard": {
+    "en": "Identity Card (KTP/SIM)",
+    "id": "Kartu Identitas (KTP/SIM)"
+  },
+  "candidateForms.form.fields.fullNameRequired": {
+    "en": "Full Name *",
+    "id": "Nama Lengkap *"
+  },
+  "candidateForms.form.employeeDocuments.labels.familyCard": {
+    "en": "Family Card (KK)",
+    "id": "Kartu Keluarga (KK)"
+  },
+  "candidateForms.form.employeeDocuments.labels.latestDiploma": {
+    "en": "Latest Degree Certificate",
+    "id": "Ijazah Terakhir"
+  },
+  "candidateForms.form.employeeDocuments.labels.academicTranscript": {
+    "en": "Academic Transcript",
+    "id": "Transkrip Akademik"
+  },
+  "candidateForms.form.employeeDocuments.labels.certificateOfEmployment": {
+    "en": "Certificate of Employment (CoE)",
+    "id": "Surat Paklaring"
+  },
+  "candidateForms.form.employeeDocuments.labels.taxIdentificationNumber": {
+    "en": "Tax Identification Number",
+    "id": "Nomor Pokok Wajib Pajak"
+  },
+  "candidateForms.form.employeeDocuments.labels.bpjsHealthCard": {
+    "en": "BPJS Health Card",
+    "id": "Kartu BPJS Kesehatan"
+  },
+  "candidateForms.form.employeeDocuments.labels.bpjsHealthStatement": {
+    "en": "BPJS Health Statement",
+    "id": "Surat Pernyataan BPJS Kesehatan"
+  },
+  "candidateForms.form.employeeDocuments.labels.bpjsEmploymentCard": {
+    "en": "BPJS Employment Card",
+    "id": "Kartu BPJS Ketenagakerjaan"
+  },
+  "candidateForms.form.employeeDocuments.labels.bankAccountBook": {
+    "en": "Bank Account Book",
+    "id": "Buku Tabungan"
+  },
+  "candidateForms.form.employeeDocuments.actions.upload": {
+    "en": "Upload",
+    "id": "Unggah"
+  },
+  "candidateForms.form.employeeDocuments.actions.uploading": {
+    "en": "Uploading...",
+    "id": "Mengunggah..."
+  },
+  "candidateForms.form.employeeDocuments.actions.submitAll": {
+    "en": "Submit Contract Documents",
+    "id": "Submit Dokumen Kontrak"
+  },
+  "candidateForms.form.employeeDocuments.actions.submittingAll": {
+    "en": "Submitting...",
+    "id": "Menyubmit..."
+  },
+  "candidateForms.form.employeeDocuments.actions.remove": {
+    "en": "Remove file",
+    "id": "Hapus file"
+  },
+  "candidateForms.form.employeeDocuments.uploadHelper": {
+    "en": "PDF or Word, max 10MB.",
+    "id": "PDF atau Word, maks 10MB."
+  },
+  "candidateForms.form.employeeDocuments.success.uploaded": {
+    "en": "Employee contract document uploaded successfully.",
+    "id": "Dokumen kontrak karyawan berhasil diunggah."
+  },
+  "candidateForms.form.employeeDocuments.success.submitted": {
+    "en": "Contract documents submitted successfully.",
+    "id": "Dokumen kontrak berhasil disubmit."
+  },
+  "candidateForms.form.employeeDocuments.success.removed": {
+    "en": "Document removed successfully.",
+    "id": "Dokumen berhasil dihapus."
+  },
+  "candidateForms.form.employeeDocuments.errors.permissionDenied": {
+    "en": "You do not have permission to upload employee contract documents.",
+    "id": "Anda tidak memiliki izin untuk mengunggah dokumen kontrak karyawan."
+  },
+  "candidateForms.form.employeeDocuments.errors.contractStageNotReady": {
+    "en": "Contract documents can only be uploaded while the employee request form is in the employee contract form stage.",
+    "id": "Dokumen kontrak hanya bisa diunggah saat formulir permintaan karyawan berada di tahap formulir kontrak karyawan."
+  },
+  "candidateForms.form.employeeDocuments.errors.noFilesSelected": {
+    "en": "Select at least one PDF or Word file first.",
+    "id": "Pilih minimal satu file PDF atau Word terlebih dahulu."
+  },
+  "candidateForms.form.employeeDocuments.errors.bothRequired": {
+    "en": "Draft Employment Contract and SKB must both be available before submission.",
+    "id": "Draf Kontrak Kerja dan SKB harus keduanya tersedia sebelum submit."
+  },
+  "candidateForms.form.employeeDocuments.errors.pdfOnly": {
+    "en": "Only PDF or Word files are allowed.",
+    "id": "Hanya file PDF atau Word yang diizinkan."
+  },
+  "candidateForms.form.employeeDocuments.errors.fileTooLarge": {
+    "en": "Each employee contract document must be 10 MB or smaller.",
+    "id": "Setiap dokumen kontrak karyawan harus berukuran 10 MB atau lebih kecil."
+  },
+  "candidateForms.form.employeeDocuments.errors.uploadFailed": {
+    "en": "Failed to upload the employee contract document.",
+    "id": "Gagal mengunggah dokumen kontrak karyawan."
+  },
+  "candidateForms.form.employeeDocuments.errors.candidateFormUnavailable": {
+    "en": "Employee form data is not available for document upload.",
+    "id": "Data formulir karyawan tidak tersedia untuk unggah dokumen."
+  },
+  "candidateForms.form.employeeDocuments.errors.removeFailed": {
+    "en": "Failed to remove the document.",
+    "id": "Gagal menghapus dokumen."
+  },
+  "candidateForms.form.fields.positionAppliedFor": {
+    "en": "Position Applied For",
+    "id": "Posisi yang Dilamar"
+  },
+  "candidateForms.form.fields.applicationDate": {
+    "en": "Application Date",
+    "id": "Tanggal Lamaran"
+  },
+  "candidateForms.form.fields.noticePeriod": {
+    "en": "Notice Period",
+    "id": "Periode Pemberitahuan"
+  },
+  "candidateForms.form.fields.availableStartDate": {
+    "en": "Available Start Date",
+    "id": "Tanggal Mulai Tersedia"
+  },
+  "candidateForms.form.fields.joinDate": {
+    "en": "Join Date",
+    "id": "Tanggal Bergabung"
+  },
+  "candidateForms.form.fields.hireLocation": {
+    "en": "Hire Location",
+    "id": "Lokasi Penempatan"
+  },
+  "candidateForms.form.placeholders.searchPosition": {
+    "en": "Search position...",
+    "id": "Cari posisi..."
+  },
+  "candidateForms.form.placeholders.noticePeriodExample": {
+    "en": "e.g. 2 weeks / 1 month",
+    "id": "contoh: 2 minggu / 1 bulan"
+  },
+  "candidateForms.form.actions.select": {
+    "en": "Select",
+    "id": "Pilih"
+  },
+  "candidateForms.form.actions.complete": {
+    "en": "Complete",
+    "id": "Selesai"
+  },
+  "candidateForms.form.actions.saving": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "candidateForms.form.actions.updateEmployeeForm": {
+    "en": "Update Employee Form",
+    "id": "Perbarui Formulir Karyawan"
+  },
+  "candidateForms.form.actions.updateCandidateForm": {
+    "en": "Update Candidate Form",
+    "id": "Perbarui Formulir Kandidat"
+  },
+  "candidateForms.form.actions.updateAndComplete": {
+    "en": "Update and Complete",
+    "id": "Perbarui dan Selesaikan"
+  },
+  "candidateForms.form.actions.saveEmployeeForm": {
+    "en": "Save Employee Form",
+    "id": "Simpan Formulir Karyawan"
+  },
+  "candidateForms.form.actions.saveCandidateForm": {
+    "en": "Save Candidate Form",
+    "id": "Simpan Formulir Kandidat"
+  },
+  "candidateForms.form.actions.back": {
+    "en": "Back",
+    "id": "Kembali"
+  },
+  "candidateForms.form.actions.cancel": {
+    "en": "Cancel",
+    "id": "Batal"
+  },
+  "candidateForms.form.messages.readOnly": {
+    "en": "Candidate form details are read-only.",
+    "id": "Rincian formulir kandidat bersifat hanya-baca."
+  },
+  "candidateForms.form.messages.positionManagedByHr": {
+    "en": "Position Applied For is managed by HR and cannot be changed from the candidate form.",
+    "id": "Posisi yang dilamar dikelola HR dan tidak bisa diubah dari formulir kandidat."
+  },
+  "candidateForms.form.messages.loadingData": {
+    "en": "Loading data...",
+    "id": "Memuat data..."
+  },
+  "candidateForms.form.tabs.legalAndFinancial": {
+    "en": "Legal and Financial",
+    "id": "Data Legal dan Finansial"
+  },
+  "candidateForms.form.tabs.contractDocuments": {
+    "en": "Contract Documents",
+    "id": "Dokumen Kontrak"
+  },
+  "candidateForms.form.tabs.candidateData": {
+    "en": "Candidate Data",
+    "id": "Data Kandidat"
+  },
+  "candidateForms.form.notes.editEmployeeWithComplete": {
+    "en": "Update Employee Form saves the latest employee data. Employee portal forms are completed from the portal workflow.",
+    "id": "Perbarui Formulir Karyawan menyimpan data karyawan terbaru. Formulir portal karyawan diselesaikan dari alur portal."
+  },
+  "candidateForms.form.notes.editCandidateWithComplete": {
+    "en": "Update Candidate Form saves the latest changes. Complete is used after the candidate has finished the entire form.",
+    "id": "Perbarui Formulir Kandidat menyimpan perubahan terbaru. Tombol Selesai digunakan setelah kandidat menuntaskan seluruh form."
+  },
+  "candidateForms.form.notes.editEmployee": {
+    "en": "Save your latest employee-data changes here. The employee portal remains the primary place for document submission.",
+    "id": "Simpan perubahan data karyawan terbaru di sini. Portal karyawan tetap menjadi tempat utama pengumpulan dokumen."
+  },
+  "candidateForms.form.notes.editCandidate": {
+    "en": "If you make more changes, save the update first. The form will return to In Progress until you mark it as complete again.",
+    "id": "Jika ada perubahan lagi, simpan pembaruan terlebih dahulu. Formulir akan kembali ke status Sedang Diproses hingga ditandai selesai lagi."
+  },
+  "candidateForms.form.notes.createEmployee": {
+    "en": "Save Employee Form stores the current onboarding data so it can be continued later.",
+    "id": "Simpan Formulir Karyawan menyimpan data onboarding saat ini agar bisa dilanjutkan nanti."
+  },
+  "candidateForms.form.notes.createCandidate": {
+    "en": "Save Candidate Form stores the current draft so it can be continued later.",
+    "id": "Simpan Formulir Kandidat menyimpan draft saat ini agar bisa dilanjutkan nanti."
+  },
+  "candidateForms.form.errors.onlyCandidatesCanComplete": {
+    "en": "Only candidates can complete their candidate forms.",
+    "id": "Hanya kandidat yang dapat menyelesaikan formulir kandidat."
+  },
+  "candidateForms.form.errors.candidatePortalReadOnly": {
+    "en": "Candidate forms from the candidate portal are read-only in this dashboard.",
+    "id": "Formulir kandidat dari portal kandidat bersifat hanya-baca di dasbor ini."
+  },
+  "candidateForms.form.errors.saveBeforeComplete": {
+    "en": "Please save the candidate form first before marking it complete.",
+    "id": "Simpan formulir kandidat terlebih dahulu sebelum menandai selesai."
+  },
+  "candidateForms.form.errors.completeFailed": {
+    "en": "Failed to complete the candidate form.",
+    "id": "Gagal menyelesaikan formulir kandidat."
+  },
+  "candidateForms.form.errors.positionAppliedRequired": {
+    "en": "Position Applied For is required.",
+    "id": "Posisi yang dilamar wajib diisi."
+  },
+  "candidateForms.form.confirm.markComplete": {
+    "en": "Mark this candidate form as completed?",
+    "id": "Tandai formulir kandidat ini sebagai selesai?"
+  },
+  "candidateForms.form.confirm.removeDocumentTitle": {
+    "en": "Remove document",
+    "id": "Hapus dokumen"
+  },
+  "candidateForms.form.confirm.removeDocumentMessage": {
+    "en": "This file will be permanently deleted. This action cannot be undone.",
+    "id": "File ini akan dihapus permanen. Tindakan ini tidak dapat dibatalkan."
+  },
+  "candidateForms.form.success.markedComplete": {
+    "en": "Candidate form marked as completed successfully.",
+    "id": "Formulir kandidat berhasil ditandai selesai."
+  },
+  "candidateForms.form.fields.firstNameRequired": {
+    "en": "First Name *",
+    "id": "Nama Depan *"
+  },
+  "candidateForms.form.fields.middleName": {
+    "en": "Middle Name",
+    "id": "Nama Tengah"
+  },
+  "candidateForms.form.fields.lastName": {
+    "en": "Last Name",
+    "id": "Nama Belakang"
+  },
+  "candidateForms.form.fields.gender": {
+    "en": "Gender",
+    "id": "Jenis Kelamin"
+  },
+  "candidateForms.form.fields.placeOfBirth": {
+    "en": "Place of Birth",
+    "id": "Tempat Lahir"
+  },
+  "candidateForms.form.fields.dateOfBirth": {
+    "en": "Date of Birth",
+    "id": "Tanggal Lahir"
+  },
+  "candidateForms.form.fields.nationality": {
+    "en": "Nationality",
+    "id": "Kewarganegaraan"
+  },
+  "candidateForms.form.fields.religion": {
+    "en": "Religion",
+    "id": "Agama"
+  },
+  "candidateForms.form.fields.maritalStatus": {
+    "en": "Marital Status",
+    "id": "Status Pernikahan"
+  },
+  "candidateForms.form.fields.bloodType": {
+    "en": "Blood Type",
+    "id": "Golongan Darah"
+  },
+  "candidateForms.form.fields.ethnic": {
+    "en": "Ethnic",
+    "id": "Suku"
+  },
+  "candidateForms.form.fields.photograph": {
+    "en": "Photograph",
+    "id": "Foto"
+  },
+  "candidateForms.form.fields.idCardAddress": {
+    "en": "ID Card Address",
+    "id": "Alamat KTP"
+  },
+  "candidateForms.form.fields.residentialAddress": {
+    "en": "Residential Address",
+    "id": "Alamat Domisili"
+  },
+  "candidateForms.form.fields.personalEmail": {
+    "en": "Personal Email",
+    "id": "Email Pribadi"
+  },
+  "candidateForms.form.fields.cellularPhone": {
+    "en": "Phone Number/ Home Number",
+    "id": "No Handphone/Telepon Rumah"
+  },
+  "candidateForms.form.fields.homePhone": {
+    "en": "Phone Number/ Home Number",
+    "id": "No Handphone/Telepon Rumah"
+  },
+  "candidateForms.form.fields.idType": {
+    "en": "ID Type",
+    "id": "Jenis Identitas"
+  },
+  "candidateForms.form.fields.idNumber": {
+    "en": "Identity Card Number (KTP/SIM)",
+    "id": "Nomor KTP/SIM"
+  },
+  "candidateForms.form.placeholders.searchGender": {
+    "en": "Search gender...",
+    "id": "Cari jenis kelamin..."
+  },
+  "candidateForms.form.placeholders.selectGender": {
+    "en": "Select gender",
+    "id": "Pilih jenis kelamin"
+  },
+  "candidateForms.form.placeholders.searchMaritalStatus": {
+    "en": "Search marital status...",
+    "id": "Cari status pernikahan..."
+  },
+  "candidateForms.form.placeholders.selectStatus": {
+    "en": "Select status",
+    "id": "Pilih status"
+  },
+  "candidateForms.form.placeholders.searchBpjsHealthPreference": {
+    "en": "Search BPJS health preference...",
+    "id": "Cari preferensi BPJS Kesehatan..."
+  },
+  "candidateForms.form.placeholders.selectBpjsHealthPreference": {
+    "en": "Select preference",
+    "id": "Pilih preferensi"
+  },
+  "candidateForms.form.placeholders.searchBpjsHealthDeclineReason": {
+    "en": "Search BPJS health decline reason...",
+    "id": "Cari alasan penolakan BPJS Kesehatan..."
+  },
+  "candidateForms.form.placeholders.selectBpjsHealthDeclineReason": {
+    "en": "Select reason",
+    "id": "Pilih alasan"
+  },
+  "candidateForms.form.placeholders.searchBpjsEmploymentStatus": {
+    "en": "Search BPJS employment status...",
+    "id": "Cari status BPJS Ketenagakerjaan..."
+  },
+  "candidateForms.form.placeholders.searchBloodType": {
+    "en": "Search blood type...",
+    "id": "Cari golongan darah..."
+  },
+  "candidateForms.form.placeholders.selectBloodType": {
+    "en": "Select blood type",
+    "id": "Pilih golongan darah"
+  },
+  "candidateForms.form.placeholders.searchOwnership": {
+    "en": "Search ownership...",
+    "id": "Cari kepemilikan..."
+  },
+  "candidateForms.form.placeholders.selectOwnership": {
+    "en": "Select ownership",
+    "id": "Pilih kepemilikan"
+  },
+  "candidateForms.form.placeholders.searchResidence": {
+    "en": "Search residence...",
+    "id": "Cari tempat tinggal..."
+  },
+  "candidateForms.form.placeholders.selectResidence": {
+    "en": "Select residence",
+    "id": "Pilih tempat tinggal"
+  },
+  "candidateForms.form.actions.add": {
+    "en": "Add",
+    "id": "Tambah"
+  },
+  "candidateForms.form.actions.addSkillRow": {
+    "en": "Add Skill Row",
+    "id": "Tambah Baris Keahlian"
+  },
+  "candidateForms.form.actions.removeItem": {
+    "en": "Remove item",
+    "id": "Hapus entri"
+  },
+  "candidateForms.form.messages.selectedFile": {
+    "en": "Selected file",
+    "id": "File terpilih"
+  },
+  "candidateForms.form.messages.noDataYet": {
+    "en": "No {label} data yet",
+    "id": "Belum ada data {label}"
+  },
+  "candidateForms.form.sections.formalEducation": {
+    "en": "Formal Education",
+    "id": "Pendidikan Formal"
+  },
+  "candidateForms.form.sections.otherRelevantSkills": {
+    "en": "Other Relevant Skills",
+    "id": "Keahlian Relevan Lainnya"
+  },
+  "candidateForms.form.labels.file": {
+    "en": "file",
+    "id": "file"
+  },
+  "candidateForms.form.labels.files": {
+    "en": "files",
+    "id": "file"
+  },
+  "candidateForms.form.messages.documentNotAvailable": {
+    "en": "Document not available",
+    "id": "Dokumen tidak tersedia"
+  },
+  "candidateForms.form.sections.trainingNonFormal": {
+    "en": "Training / Non-Formal Education",
+    "id": "Pelatihan / Pendidikan Non-Formal"
+  },
+  "candidateForms.form.sections.foreignLanguage": {
+    "en": "Foreign Language",
+    "id": "Bahasa Asing"
+  },
+  "candidateForms.form.labels.name": {
+    "en": "Name",
+    "id": "Nama"
+  },
+  "candidateForms.form.labels.gender": {
+    "en": "Gender",
+    "id": "Jenis Kelamin"
+  },
+  "candidateForms.form.labels.relationship": {
+    "en": "Relationship",
+    "id": "Hubungan"
+  },
+  "candidateForms.form.labels.occupation": {
+    "en": "Occupation",
+    "id": "Pekerjaan"
+  },
+  "candidateForms.form.labels.placeAndDateOfBirth": {
+    "en": "Place and Date of Birth",
+    "id": "Tempat dan Tanggal Lahir"
+  },
+  "candidateForms.form.labels.education": {
+    "en": "Education",
+    "id": "Pendidikan"
+  },
+  "candidateForms.form.labels.remarks": {
+    "en": "Remarks",
+    "id": "Catatan"
+  },
+  "candidateForms.form.labels.description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "candidateForms.form.labels.category": {
+    "en": "Category",
+    "id": "Kategori"
+  },
+  "candidateForms.form.labels.courseOfStudy": {
+    "en": "Course of Study",
+    "id": "Bidang Studi"
+  },
+  "candidateForms.form.labels.city": {
+    "en": "City",
+    "id": "Kota"
+  },
+  "candidateForms.form.labels.language": {
+    "en": "Language",
+    "id": "Bahasa"
+  },
+  "candidateForms.form.labels.speaking": {
+    "en": "Speaking",
+    "id": "Berbicara"
+  },
+  "candidateForms.form.labels.reading": {
+    "en": "Reading",
+    "id": "Membaca"
+  },
+  "candidateForms.form.labels.listening": {
+    "en": "Listening",
+    "id": "Mendengar"
+  },
+  "candidateForms.form.labels.writing": {
+    "en": "Writing",
+    "id": "Menulis"
+  },
+  "candidateForms.form.labels.skillDescription": {
+    "en": "Skill / Description",
+    "id": "Keahlian / Deskripsi"
+  },
+  "candidateForms.form.labels.shortSkillName": {
+    "en": "Short Skill Name",
+    "id": "Nama Keahlian Singkat"
+  },
+  "candidateForms.form.labels.company": {
+    "en": "Company",
+    "id": "Perusahaan"
+  },
+  "candidateForms.form.labels.position": {
+    "en": "Position",
+    "id": "Posisi"
+  },
+  "candidateForms.form.labels.companyAddress": {
+    "en": "Company Address",
+    "id": "Alamat Perusahaan"
+  },
+  "candidateForms.form.labels.companyPhone": {
+    "en": "Company Phone",
+    "id": "Telepon Perusahaan"
+  },
+  "candidateForms.form.labels.directSuperiorTitle": {
+    "en": "Direct Superior Title",
+    "id": "Jabatan Atasan Langsung"
+  },
+  "candidateForms.form.labels.lastSalary": {
+    "en": "Last Salary",
+    "id": "Gaji Terakhir"
+  },
+  "candidateForms.form.labels.benefitFacilities": {
+    "en": "Benefit / Facilities",
+    "id": "Benefit / Fasilitas"
+  },
+  "candidateForms.form.labels.reasonForLeaving": {
+    "en": "Reason for Leaving",
+    "id": "Alasan Berhenti"
+  },
+  "candidateForms.form.labels.organizationStructure": {
+    "en": "Organization Structure",
+    "id": "Struktur Organisasi"
+  },
+  "candidateForms.form.labels.referenceName": {
+    "en": "Reference Name",
+    "id": "Nama Referensi"
+  },
+  "candidateForms.form.labels.phoneNumber": {
+    "en": "Phone Number",
+    "id": "Nomor Telepon"
+  },
+  "candidateForms.form.labels.transportationType": {
+    "en": "Transportation Type",
+    "id": "Jenis Transportasi"
+  },
+  "candidateForms.form.labels.transportationOwnership": {
+    "en": "Transportation Ownership",
+    "id": "Kepemilikan Transportasi"
+  },
+  "candidateForms.form.labels.residenceOwnership": {
+    "en": "Residence Ownership",
+    "id": "Kepemilikan Tempat Tinggal"
+  },
+  "candidateForms.form.labels.currentlyBoundByContract": {
+    "en": "Currently bound by employment contract",
+    "id": "Sedang terikat kontrak kerja"
+  },
+  "candidateForms.form.labels.willingForBusinessTrips": {
+    "en": "Willing for business trips",
+    "id": "Bersedia perjalanan dinas"
+  },
+  "candidateForms.form.labels.contractPeriod": {
+    "en": "Contract Period",
+    "id": "Periode Kontrak"
+  },
+  "candidateForms.form.labels.expectedSalary": {
+    "en": "Expected Salary",
+    "id": "Ekspektasi Gaji"
+  },
+  "candidateForms.form.labels.allowReferenceCheck": {
+    "en": "Allow reference check with previous company",
+    "id": "Mengizinkan cek referensi ke perusahaan sebelumnya"
+  },
+  "candidateForms.form.labels.reasonIfNotAllowed": {
+    "en": "Reason if not allowed",
+    "id": "Alasan jika tidak diizinkan"
+  },
+  "candidateForms.form.labels.familyFriendDetails": {
+    "en": "Family/Friend Details",
+    "id": "Rincian Keluarga/Teman"
+  },
+  "candidateForms.form.labels.haveFamilyOrFriends": {
+    "en": "Have family or friends in this company",
+    "id": "Memiliki keluarga atau teman di perusahaan ini"
+  },
+  "candidateForms.form.labels.seriousIllness": {
+    "en": "Ever had serious illness / intensive treatment",
+    "id": "Pernah mengalami sakit serius / perawatan intensif"
+  },
+  "candidateForms.form.labels.seriousIllnessDetails": {
+    "en": "Serious Illness Details",
+    "id": "Rincian Sakit Serius"
+  },
+  "candidateForms.form.labels.seriousAccident": {
+    "en": "Ever had serious accident",
+    "id": "Pernah mengalami kecelakaan serius"
+  },
+  "candidateForms.form.labels.seriousAccidentDetails": {
+    "en": "Serious Accident Details",
+    "id": "Rincian Kecelakaan Serius"
+  },
+  "candidateForms.form.labels.psychologicalTest": {
+    "en": "Ever taken psychological test",
+    "id": "Pernah mengikuti tes psikologi"
+  },
+  "candidateForms.form.labels.psychologicalTestLocation": {
+    "en": "Psychological Test Location",
+    "id": "Lokasi Tes Psikologi"
+  },
+  "candidateForms.form.labels.psychologicalTestPurpose": {
+    "en": "Psychological Test Purpose",
+    "id": "Tujuan Tes Psikologi"
+  },
+  "candidateForms.form.labels.companyLegalIssue": {
+    "en": "Ever involved in legal issue with a company",
+    "id": "Pernah terlibat masalah hukum dengan perusahaan"
+  },
+  "candidateForms.form.labels.companyLegalIssueDetails": {
+    "en": "Company Legal Issue Details",
+    "id": "Rincian Masalah Hukum Perusahaan"
+  },
+  "candidateForms.form.labels.civilOrCriminalCase": {
+    "en": "Ever involved in civil or criminal case",
+    "id": "Pernah terlibat kasus perdata atau pidana"
+  },
+  "candidateForms.form.labels.civilOrCriminalCaseDetails": {
+    "en": "Civil/Criminal Case Details",
+    "id": "Rincian Kasus Perdata/Pidana"
+  },
+  "candidateForms.form.labels.previousApplication": {
+    "en": "Have applied to this company before",
+    "id": "Pernah melamar ke perusahaan ini sebelumnya"
+  },
+  "candidateForms.form.labels.previousApplicationDetails": {
+    "en": "Previous Application Details",
+    "id": "Rincian Lamaran Sebelumnya"
+  },
+  "candidateForms.form.labels.registeredBankName": {
+    "en": "Registered Bank Name",
+    "id": "Nama Bank Terdaftar"
+  },
+  "candidateForms.form.labels.bankAccountNumber": {
+    "en": "Bank Account Number",
+    "id": "Nomor Rekening Bank"
+  },
+  "candidateForms.form.labels.accountHolderName": {
+    "en": "Account Holder Name",
+    "id": "Nama Pemilik Rekening"
+  },
+  "candidateForms.form.labels.branchName": {
+    "en": "Branch Name",
+    "id": "Nama Cabang"
+  },
+  "candidateForms.form.labels.taxIdentificationNumber": {
+    "en": "Tax Identification Number",
+    "id": "Nomor Pokok Wajib Pajak"
+  },
+  "candidateForms.form.labels.bpjsHealthPreference": {
+    "en": "BPJS Health Preference",
+    "id": "Preferensi BPJS Kesehatan"
+  },
+  "candidateForms.form.labels.bpjsHealthDeclineReason": {
+    "en": "BPJS Health Decline Reason",
+    "id": "Alasan Menolak BPJS Kesehatan"
+  },
+  "candidateForms.form.labels.otherBpjsHealthReason": {
+    "en": "Other BPJS Health Reason",
+    "id": "Alasan BPJS Kesehatan Lainnya"
+  },
+  "candidateForms.form.labels.bpjsEmploymentStatus": {
+    "en": "BPJS Employment Status",
+    "id": "Status BPJS Ketenagakerjaan"
+  },
+  "candidateForms.form.options.bpjsHealthPreference.willingToEnroll": {
+    "en": "Willing to enroll",
+    "id": "Bersedia mendaftar"
+  },
+  "candidateForms.form.options.bpjsHealthPreference.declineEnrollment": {
+    "en": "Decline enrollment",
+    "id": "Menolak pendaftaran"
+  },
+  "candidateForms.form.options.bpjsHealthDeclineReason.selfRegistered": {
+    "en": "Self registered",
+    "id": "Daftar mandiri"
+  },
+  "candidateForms.form.options.bpjsHealthDeclineReason.localGovernment": {
+    "en": "Local government",
+    "id": "Pemerintah daerah"
+  },
+  "candidateForms.form.options.bpjsEmploymentStatus.cashOutFirst": {
+    "en": "Cash out first",
+    "id": "Cairkan terlebih dahulu"
+  },
+  "candidateForms.form.options.bpjsEmploymentStatus.enrollAsNew": {
+    "en": "Enroll as new",
+    "id": "Daftar sebagai baru"
+  },
+  "candidateForms.form.options.bpjsEmploymentStatus.continueExisting": {
+    "en": "Continue existing",
+    "id": "Lanjutkan yang sudah ada"
+  },
+  "candidateForms.form.labels.level": {
+    "en": "Level",
+    "id": "Jenjang"
+  },
+  "candidateForms.form.labels.institution": {
+    "en": "Institution",
+    "id": "Institusi"
+  },
+  "candidateForms.form.labels.fromYear": {
+    "en": "From Year",
+    "id": "Dari Tahun"
+  },
+  "candidateForms.form.labels.toYear": {
+    "en": "To Year",
+    "id": "Sampai Tahun"
+  },
+  "candidateForms.form.labels.descriptionRemarks": {
+    "en": "Description / Remarks",
+    "id": "Deskripsi / Catatan"
+  },
+  "candidateForms.form.family.spouse.label": {
+    "en": "Spouse's Name",
+    "id": "Nama Pasangan"
+  },
+  "candidateForms.form.family.spouse.shortLabel": {
+    "en": "Spouse",
+    "id": "Pasangan"
+  },
+  "candidateForms.form.family.child.label": {
+    "en": "Children's Full Name",
+    "id": "Nama Lengkap Anak"
+  },
+  "candidateForms.form.family.child.shortLabel": {
+    "en": "Child",
+    "id": "Anak"
+  },
+  "candidateForms.form.family.parent.label": {
+    "en": "Parents Name",
+    "id": "Nama Orang Tua"
+  },
+  "candidateForms.form.family.parent.shortLabel": {
+    "en": "Parent",
+    "id": "Orang Tua"
+  },
+  "candidateForms.form.family.sibling.label": {
+    "en": "Siblings",
+    "id": "Saudara Kandung"
+  },
+  "candidateForms.form.family.sibling.shortLabel": {
+    "en": "Sibling",
+    "id": "Saudara"
+  },
+  "candidateForms.form.family.emergency.label": {
+    "en": "Emergency Contact",
+    "id": "Kontak Darurat"
+  },
+  "candidateForms.form.family.emergency.shortLabel": {
+    "en": "Contact",
+    "id": "Kontak"
+  },
+  "candidateForms.form.family.other.label": {
+    "en": "Other Family",
+    "id": "Keluarga Lainnya"
+  },
+  "candidateForms.form.family.other.shortLabel": {
+    "en": "Family",
+    "id": "Keluarga"
+  }
+}

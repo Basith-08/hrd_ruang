@@ -1,0 +1,670 @@
+{
+  "exportConfiguration.page.eyebrow": {
+    "en": "Document Export",
+    "id": "Ekspor Dokumen"
+  },
+  "exportConfiguration.page.title": {
+    "en": "Create Contract Document",
+    "id": "Buat Dokumen Kontrak"
+  },
+  "exportConfiguration.page.description": {
+    "en": "Upload a DOCX template, choose a candidate, complete any missing values, then download the final document.",
+    "id": "Upload template DOCX, pilih kandidat, lengkapi data yang masih kosong, lalu download dokumen final."
+  },
+  "exportConfiguration.home.title": {
+    "en": "Document Export",
+    "id": "Ekspor Dokumen"
+  },
+  "exportConfiguration.home.description": {
+    "en": "Choose the activity you want to do first.",
+    "id": "Pilih aktivitas yang ingin Anda lakukan terlebih dahulu."
+  },
+  "exportConfiguration.home.emptyTitle": {
+    "en": "No export action is available",
+    "id": "Belum ada aksi ekspor yang tersedia"
+  },
+  "exportConfiguration.home.emptyDescription": {
+    "en": "You can open this menu, but manage template and generate document access still need to be granted in role permissions.",
+    "id": "Anda bisa membuka menu ini, tetapi akses kelola template dan generate dokumen masih perlu diberikan di pengaturan permission role."
+  },
+  "exportConfiguration.home.templates.eyebrow": {
+    "en": "Template",
+    "id": "Template"
+  },
+  "exportConfiguration.home.templates.title": {
+    "en": "Manage Templates",
+    "id": "Kelola Template"
+  },
+  "exportConfiguration.home.templates.description": {
+    "en": "Upload, review, and delete DOCX templates used for contract documents.",
+    "id": "Unggah, cek, dan hapus template DOCX yang dipakai untuk dokumen kontrak."
+  },
+  "exportConfiguration.home.templates.cta": {
+    "en": "Open template management",
+    "id": "Buka kelola template"
+  },
+  "exportConfiguration.home.generate.eyebrow": {
+    "en": "Document",
+    "id": "Dokumen"
+  },
+  "exportConfiguration.home.generate.title": {
+    "en": "Generate Document",
+    "id": "Buat Dokumen"
+  },
+  "exportConfiguration.home.generate.description": {
+    "en": "Choose a template and candidate, complete missing fields, then download the final DOCX.",
+    "id": "Pilih template dan kandidat, lengkapi field yang kosong, lalu download DOCX final."
+  },
+  "exportConfiguration.home.generate.cta": {
+    "en": "Open document generator",
+    "id": "Buka pembuat dokumen"
+  },
+  "exportConfiguration.templatesPage.title": {
+    "en": "Manage Templates",
+    "id": "Kelola Template"
+  },
+  "exportConfiguration.templatesPage.description": {
+    "en": "Upload and maintain DOCX templates for export documents.",
+    "id": "Unggah dan kelola template DOCX untuk dokumen ekspor."
+  },
+  "exportConfiguration.generatePage.title": {
+    "en": "Generate Document",
+    "id": "Buat Dokumen"
+  },
+  "exportConfiguration.generatePage.description": {
+    "en": "Select a template and candidate, review all fields, then download the final DOCX.",
+    "id": "Pilih template dan kandidat, cek semua field, lalu download DOCX final."
+  },
+  "exportConfiguration.section.step1": {
+    "en": "Step 1",
+    "id": "Langkah 1"
+  },
+  "exportConfiguration.section.step2": {
+    "en": "Step 2",
+    "id": "Langkah 2"
+  },
+  "exportConfiguration.section.uploadTitle": {
+    "en": "Upload Template",
+    "id": "Unggah Template"
+  },
+  "exportConfiguration.section.uploadDescription": {
+    "en": "Choose the DOCX contract template file to use.",
+    "id": "Pilih file template kontrak DOCX yang akan digunakan."
+  },
+  "exportConfiguration.section.generateTitle": {
+    "en": "Generate Document",
+    "id": "Buat Dokumen"
+  },
+  "exportConfiguration.section.generateDescription": {
+    "en": "Choose a template and candidate, then complete any document values that are still empty.",
+    "id": "Pilih template dan kandidat, lalu lengkapi data dokumen yang belum terisi."
+  },
+  "exportConfiguration.actions.hideDetails": {
+    "en": "Hide details",
+    "id": "Sembunyikan detail"
+  },
+  "exportConfiguration.actions.showDetails": {
+    "en": "Show details",
+    "id": "Tampilkan detail"
+  },
+  "exportConfiguration.actions.uploadTemplate": {
+    "en": "Upload template",
+    "id": "Unggah template"
+  },
+  "exportConfiguration.actions.uploading": {
+    "en": "Uploading...",
+    "id": "Mengunggah..."
+  },
+  "exportConfiguration.actions.refreshData": {
+    "en": "Refresh data",
+    "id": "Muat ulang data"
+  },
+  "exportConfiguration.actions.prepareFields": {
+    "en": "Prepare fields",
+    "id": "Siapkan data"
+  },
+  "exportConfiguration.actions.preparing": {
+    "en": "Preparing...",
+    "id": "Menyiapkan..."
+  },
+  "exportConfiguration.actions.downloadDocx": {
+    "en": "Download DOCX",
+    "id": "Download DOCX"
+  },
+  "exportConfiguration.actions.previewDocument": {
+    "en": "Preview document",
+    "id": "Preview dokumen"
+  },
+  "exportConfiguration.actions.generating": {
+    "en": "Generating...",
+    "id": "Membuat dokumen..."
+  },
+  "exportConfiguration.actions.backToHome": {
+    "en": "Back to overview",
+    "id": "Kembali ke ringkasan"
+  },
+  "exportConfiguration.actions.deleteTemplate": {
+    "en": "Delete",
+    "id": "Hapus"
+  },
+  "exportConfiguration.actions.deletingTemplate": {
+    "en": "Deleting...",
+    "id": "Menghapus..."
+  },
+  "exportConfiguration.actions.manageMapping": {
+    "en": "Field mapping",
+    "id": "Mapping field"
+  },
+  "exportConfiguration.actions.hideMapping": {
+    "en": "Hide mapping",
+    "id": "Sembunyikan mapping"
+  },
+  "exportConfiguration.actions.saveMapping": {
+    "en": "Save mapping",
+    "id": "Simpan mapping"
+  },
+  "exportConfiguration.actions.savingMapping": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "exportConfiguration.actions.useFieldKey": {
+    "en": "Use field key",
+    "id": "Gunakan field key"
+  },
+  "exportConfiguration.actions.saveAllMapping": {
+    "en": "Save all",
+    "id": "Simpan semua"
+  },
+  "exportConfiguration.actions.savingAllMapping": {
+    "en": "Saving all...",
+    "id": "Menyimpan semua..."
+  },
+  "exportConfiguration.actions.testMapping": {
+    "en": "Test mapping",
+    "id": "Tes mapping"
+  },
+  "exportConfiguration.actions.testingMapping": {
+    "en": "Testing...",
+    "id": "Mengetes..."
+  },
+  "exportConfiguration.actions.preparingPreview": {
+    "en": "Preparing preview...",
+    "id": "Menyiapkan preview..."
+  },
+  "exportConfiguration.form.templateName": {
+    "en": "Template name",
+    "id": "Nama template"
+  },
+  "exportConfiguration.form.templateNamePlaceholder": {
+    "en": "Probation PKWTT Template",
+    "id": "Template Probation PKWTT"
+  },
+  "exportConfiguration.form.description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "exportConfiguration.form.descriptionPlaceholder": {
+    "en": "Example: office probation PKWTT contract template",
+    "id": "Contoh: template kontrak probation PKWTT kantor"
+  },
+  "exportConfiguration.form.docxFile": {
+    "en": "DOCX file",
+    "id": "File DOCX"
+  },
+  "exportConfiguration.form.uploadFileTitle": {
+    "en": "Upload template file",
+    "id": "Unggah file template"
+  },
+  "exportConfiguration.form.uploadFileDescription": {
+    "en": "Make sure placeholders inside the document use a format like {example}.",
+    "id": "Pastikan placeholder di dalam dokumen menggunakan format seperti {example}."
+  },
+  "exportConfiguration.form.noFileSelected": {
+    "en": "No file selected yet",
+    "id": "Belum ada file dipilih"
+  },
+  "exportConfiguration.upload.successTitle": {
+    "en": "Template uploaded successfully",
+    "id": "Template berhasil diunggah"
+  },
+  "exportConfiguration.upload.successDescription": {
+    "en": "{name} is ready to use.",
+    "id": "{name} siap digunakan."
+  },
+  "exportConfiguration.upload.successFields": {
+    "en": "{count} placeholders were detected.",
+    "id": "{count} placeholder berhasil dibaca."
+  },
+  "exportConfiguration.upload.templateListTitle": {
+    "en": "Available templates",
+    "id": "Template tersedia"
+  },
+  "exportConfiguration.upload.templateListDescription": {
+    "en": "Manage uploaded templates here.",
+    "id": "Kelola template yang sudah diunggah di sini."
+  },
+  "exportConfiguration.upload.templateListEmpty": {
+    "en": "No templates uploaded yet.",
+    "id": "Belum ada template yang diunggah."
+  },
+  "exportConfiguration.mapping.title": {
+    "en": "Field Mapping",
+    "id": "Mapping Field"
+  },
+  "exportConfiguration.mapping.description": {
+    "en": "Choose where each document field should take its value from.",
+    "id": "Pilih sumber data untuk setiap field dokumen."
+  },
+  "exportConfiguration.mapping.sourcePath": {
+    "en": "Source path",
+    "id": "Source path"
+  },
+  "exportConfiguration.mapping.sourceSelector": {
+    "en": "Auto-fill from",
+    "id": "Isi otomatis dari"
+  },
+  "exportConfiguration.mapping.manualOption": {
+    "en": "Manual input only",
+    "id": "Isi manual saja"
+  },
+  "exportConfiguration.mapping.fieldKeyOption": {
+    "en": "Use field key: {field}",
+    "id": "Gunakan field key: {field}"
+  },
+  "exportConfiguration.mapping.customPathLabel": {
+    "en": "Custom source path",
+    "id": "Custom source path"
+  },
+  "exportConfiguration.mapping.searchLabel": {
+    "en": "Search field",
+    "id": "Cari field"
+  },
+  "exportConfiguration.mapping.searchPlaceholder": {
+    "en": "Search by placeholder or label",
+    "id": "Cari nama field atau placeholder"
+  },
+  "exportConfiguration.mapping.filterLabel": {
+    "en": "Show",
+    "id": "Tampilkan"
+  },
+  "exportConfiguration.mapping.filter.all": {
+    "en": "All fields",
+    "id": "Semua field"
+  },
+  "exportConfiguration.mapping.filter.needsAttention": {
+    "en": "Need attention",
+    "id": "Perlu dicek"
+  },
+  "exportConfiguration.mapping.filter.ready": {
+    "en": "Ready",
+    "id": "Siap"
+  },
+  "exportConfiguration.mapping.filter.custom": {
+    "en": "Custom path",
+    "id": "Path custom"
+  },
+  "exportConfiguration.mapping.filter.manual": {
+    "en": "Manual only",
+    "id": "Manual saja"
+  },
+  "exportConfiguration.mapping.group.candidate": {
+    "en": "Candidate",
+    "id": "Kandidat"
+  },
+  "exportConfiguration.mapping.group.candidateForm": {
+    "en": "Candidate Form",
+    "id": "Form Kandidat"
+  },
+  "exportConfiguration.mapping.group.employeeRequestForm": {
+    "en": "Employee Request Form",
+    "id": "Employee Request Form"
+  },
+  "exportConfiguration.mapping.group.employeeContractForm": {
+    "en": "Employee Contract Form",
+    "id": "Employee Contract Form"
+  },
+  "exportConfiguration.mapping.sourcePathPlaceholder": {
+    "en": "Example: {field} or employee_request_form.department_name",
+    "id": "Contoh: {field} atau employee_request_form.department_name"
+  },
+  "exportConfiguration.mapping.customPathHelper": {
+    "en": "Use this only if the source is not available in the list above.",
+    "id": "Pakai ini hanya jika sumber datanya belum ada di pilihan."
+  },
+  "exportConfiguration.mapping.sourcePathExamples": {
+    "en": "Examples: candidate_name, employee_request_form.pt_name, employee_contract_form.contract_number",
+    "id": "Contoh: candidate_name, employee_request_form.pt_name, employee_contract_form.contract_number"
+  },
+  "exportConfiguration.mapping.quickPreset": {
+    "en": "Quick preset",
+    "id": "Preset cepat"
+  },
+  "exportConfiguration.mapping.customOption": {
+    "en": "Custom or manual path",
+    "id": "Path custom atau manual"
+  },
+  "exportConfiguration.mapping.changedCount": {
+    "en": "{count} field changed",
+    "id": "{count} field berubah"
+  },
+  "exportConfiguration.mapping.filteredCount": {
+    "en": "{count} field shown",
+    "id": "{count} field tampil"
+  },
+  "exportConfiguration.mapping.previewCandidate": {
+    "en": "Preview candidate",
+    "id": "Kandidat preview"
+  },
+  "exportConfiguration.mapping.previewCandidatePlaceholder": {
+    "en": "Select candidate for testing",
+    "id": "Pilih kandidat untuk tes"
+  },
+  "exportConfiguration.mapping.previewRequiresSaved": {
+    "en": "Save mapping changes first before testing the result.",
+    "id": "Simpan perubahan mapping terlebih dahulu sebelum mengetes hasilnya."
+  },
+  "exportConfiguration.mapping.previewTitle": {
+    "en": "Preview Result",
+    "id": "Hasil Preview"
+  },
+  "exportConfiguration.mapping.previewDescription": {
+    "en": "This shows the value that will be resolved during prepare/generate for the selected candidate.",
+    "id": "Ini menampilkan nilai yang akan di-resolve saat prepare atau generate untuk kandidat yang dipilih."
+  },
+  "exportConfiguration.mapping.previewCandidateSelected": {
+    "en": "Preview candidate: {name}",
+    "id": "Kandidat preview: {name}"
+  },
+  "exportConfiguration.mapping.previewEmptyValue": {
+    "en": "No value resolved.",
+    "id": "Belum ada nilai yang terisi."
+  },
+  "exportConfiguration.mapping.status.ready": {
+    "en": "Ready",
+    "id": "Siap"
+  },
+  "exportConfiguration.mapping.status.custom": {
+    "en": "Custom",
+    "id": "Custom"
+  },
+  "exportConfiguration.mapping.status.empty": {
+    "en": "Manual",
+    "id": "Manual"
+  },
+  "exportConfiguration.mapping.status.invalid": {
+    "en": "Invalid",
+    "id": "Tidak valid"
+  },
+  "exportConfiguration.mapping.summary.ready": {
+    "en": "{count} ready",
+    "id": "{count} siap"
+  },
+  "exportConfiguration.mapping.summary.custom": {
+    "en": "{count} custom",
+    "id": "{count} custom"
+  },
+  "exportConfiguration.mapping.summary.manual": {
+    "en": "{count} manual",
+    "id": "{count} manual"
+  },
+  "exportConfiguration.mapping.empty": {
+    "en": "No fields found for this template.",
+    "id": "Tidak ada field untuk template ini."
+  },
+  "exportConfiguration.mapping.noFilteredFields": {
+    "en": "No fields match the current search or filter.",
+    "id": "Tidak ada field yang cocok dengan pencarian atau filter saat ini."
+  },
+  "exportConfiguration.loading.initialData": {
+    "en": "Loading templates and candidates...",
+    "id": "Memuat template dan kandidat..."
+  },
+  "exportConfiguration.loading.preparing": {
+    "en": "Preparing document fields...",
+    "id": "Menyiapkan field dokumen..."
+  },
+  "exportConfiguration.loading.generating": {
+    "en": "Generating DOCX document...",
+    "id": "Membuat dokumen DOCX..."
+  },
+  "exportConfiguration.loading.templates": {
+    "en": "Loading templates...",
+    "id": "Memuat template..."
+  },
+  "exportConfiguration.loading.candidates": {
+    "en": "Loading candidates...",
+    "id": "Memuat kandidat..."
+  },
+  "exportConfiguration.loading.uploadingTemplate": {
+    "en": "Uploading template...",
+    "id": "Mengunggah template..."
+  },
+  "exportConfiguration.loading.savingMapping": {
+    "en": "Saving field mapping...",
+    "id": "Menyimpan mapping field..."
+  },
+  "exportConfiguration.loading.deletingTemplate": {
+    "en": "Deleting template...",
+    "id": "Menghapus template..."
+  },
+  "exportConfiguration.loading.preparingPreview": {
+    "en": "Preparing preview...",
+    "id": "Menyiapkan preview..."
+  },
+  "exportConfiguration.loading.previewDocument": {
+    "en": "Rendering DOCX preview...",
+    "id": "Merender preview DOCX..."
+  },
+  "exportConfiguration.generate.template": {
+    "en": "Template",
+    "id": "Template"
+  },
+  "exportConfiguration.generate.templatePlaceholder": {
+    "en": "Select template",
+    "id": "Pilih template"
+  },
+  "exportConfiguration.generate.candidate": {
+    "en": "Candidate",
+    "id": "Kandidat"
+  },
+  "exportConfiguration.generate.candidatePlaceholder": {
+    "en": "Select candidate",
+    "id": "Pilih kandidat"
+  },
+  "exportConfiguration.generate.summaryTemplate": {
+    "en": "Template: {name}",
+    "id": "Template: {name}"
+  },
+  "exportConfiguration.generate.summaryCandidate": {
+    "en": "Candidate: {name}",
+    "id": "Kandidat: {name}"
+  },
+  "exportConfiguration.generate.autoFilled": {
+    "en": "Auto filled",
+    "id": "Terisi otomatis"
+  },
+  "exportConfiguration.generate.needReview": {
+    "en": "Needs review",
+    "id": "Perlu ditinjau"
+  },
+  "exportConfiguration.editor.title": {
+    "en": "Complete Document Data",
+    "id": "Lengkapi Data Dokumen"
+  },
+  "exportConfiguration.editor.description": {
+    "en": "Review the data below. If anything is still empty, fill it in manually before downloading.",
+    "id": "Cek kembali data di bawah. Jika ada yang masih kosong, isi manual sebelum download."
+  },
+  "exportConfiguration.editor.fieldsReady": {
+    "en": "{count} fields ready to review",
+    "id": "{count} field siap dicek"
+  },
+  "exportConfiguration.editor.status.autoFilled": {
+    "en": "Auto filled",
+    "id": "Terisi otomatis"
+  },
+  "exportConfiguration.editor.status.manualRequired": {
+    "en": "Needs input",
+    "id": "Perlu diisi"
+  },
+  "exportConfiguration.editor.status.manual": {
+    "en": "Manual entry",
+    "id": "Bisa diisi manual"
+  },
+  "exportConfiguration.editor.required": {
+    "en": "required",
+    "id": "wajib"
+  },
+  "exportConfiguration.editor.locked": {
+    "en": "locked",
+    "id": "terkunci"
+  },
+  "exportConfiguration.editor.manualPlaceholder": {
+    "en": "Input value manually",
+    "id": "Isi manual di sini"
+  },
+  "exportConfiguration.editor.noValuePlaceholder": {
+    "en": "No value",
+    "id": "Belum ada nilai"
+  },
+  "exportConfiguration.preview.eyebrow": {
+    "en": "Document Preview",
+    "id": "Preview Dokumen"
+  },
+  "exportConfiguration.preview.title": {
+    "en": "Document Preview",
+    "id": "Preview Dokumen"
+  },
+  "exportConfiguration.preview.candidate": {
+    "en": "Candidate: {name}",
+    "id": "Kandidat: {name}"
+  },
+  "exportConfiguration.preview.disclaimer": {
+    "en": "This DOCX preview is only an approximate visual reference. Final spacing, pagination, fonts, and layout may still differ slightly when opened in Microsoft Word.",
+    "id": "Preview DOCX ini hanya gambaran visual kasar. Jarak, pembagian halaman, font, dan layout final masih bisa sedikit berbeda saat dibuka di Microsoft Word."
+  },
+  "exportConfiguration.preview.totalFields": {
+    "en": "{count} fields",
+    "id": "{count} field"
+  },
+  "exportConfiguration.preview.autoFilled": {
+    "en": "{count} auto filled",
+    "id": "{count} terisi otomatis"
+  },
+  "exportConfiguration.preview.needsReview": {
+    "en": "{count} need review",
+    "id": "{count} perlu dicek"
+  },
+  "exportConfiguration.preview.emptyValue": {
+    "en": "No value resolved.",
+    "id": "Belum ada nilai."
+  },
+  "exportConfiguration.empty.title": {
+    "en": "No document data yet",
+    "id": "Belum ada data dokumen"
+  },
+  "exportConfiguration.empty.description": {
+    "en": "Choose a template and candidate first, then click {action}.",
+    "id": "Pilih template dan kandidat terlebih dahulu, lalu klik {action}."
+  },
+  "exportConfiguration.collapse.uploadEmpty": {
+    "en": "Upload panel is hidden.",
+    "id": "Panel upload disembunyikan."
+  },
+  "exportConfiguration.collapse.uploadReady": {
+    "en": "{name} is ready to use.",
+    "id": "{name} siap digunakan."
+  },
+  "exportConfiguration.collapse.generateEmpty": {
+    "en": "Generate panel is hidden.",
+    "id": "Panel generate disembunyikan."
+  },
+  "exportConfiguration.collapse.generateReady": {
+    "en": "{template} for {candidate}.",
+    "id": "{template} untuk {candidate}."
+  },
+  "exportConfiguration.collapse.generateSelection": {
+    "en": "{template} / {candidate}.",
+    "id": "{template} / {candidate}."
+  },
+  "exportConfiguration.collapse.templateMissing": {
+    "en": "Template not selected",
+    "id": "Template belum dipilih"
+  },
+  "exportConfiguration.collapse.candidateMissing": {
+    "en": "Candidate not selected",
+    "id": "Kandidat belum dipilih"
+  },
+  "exportConfiguration.toast.templatesLoadFailed": {
+    "en": "Failed to load export templates.",
+    "id": "Gagal memuat template ekspor."
+  },
+  "exportConfiguration.toast.candidatesLoadFailed": {
+    "en": "Failed to load candidates.",
+    "id": "Gagal memuat kandidat."
+  },
+  "exportConfiguration.toast.templateUploaded": {
+    "en": "Template uploaded successfully.",
+    "id": "Template berhasil diunggah."
+  },
+  "exportConfiguration.toast.templateDeleted": {
+    "en": "Template deleted successfully.",
+    "id": "Template berhasil dihapus."
+  },
+  "exportConfiguration.toast.templateUploadFailed": {
+    "en": "Failed to upload template.",
+    "id": "Gagal mengunggah template."
+  },
+  "exportConfiguration.toast.templateDeleteFailed": {
+    "en": "Failed to delete template.",
+    "id": "Gagal menghapus template."
+  },
+  "exportConfiguration.toast.fieldsLoadFailed": {
+    "en": "Failed to load template fields.",
+    "id": "Gagal memuat field template."
+  },
+  "exportConfiguration.toast.mappingSaved": {
+    "en": "Field mapping saved.",
+    "id": "Mapping field berhasil disimpan."
+  },
+  "exportConfiguration.toast.allMappingsSaved": {
+    "en": "All changed mappings saved.",
+    "id": "Semua mapping yang berubah berhasil disimpan."
+  },
+  "exportConfiguration.toast.previewFailed": {
+    "en": "Failed to preview field mapping.",
+    "id": "Gagal menampilkan preview mapping field."
+  },
+  "exportConfiguration.toast.mappingSaveFailed": {
+    "en": "Failed to save field mapping.",
+    "id": "Gagal menyimpan mapping field."
+  },
+  "exportConfiguration.toast.fieldsPrepared": {
+    "en": "Template fields prepared.",
+    "id": "Data template berhasil disiapkan."
+  },
+  "exportConfiguration.toast.prepareFailed": {
+    "en": "Failed to prepare export fields.",
+    "id": "Gagal menyiapkan data ekspor."
+  },
+  "exportConfiguration.toast.docxDownloaded": {
+    "en": "DOCX downloaded successfully.",
+    "id": "DOCX berhasil didownload."
+  },
+  "exportConfiguration.toast.docxGenerateFailed": {
+    "en": "Failed to generate DOCX file.",
+    "id": "Gagal membuat file DOCX."
+  },
+  "exportConfiguration.toast.previewDocumentFailed": {
+    "en": "Failed to render DOCX preview.",
+    "id": "Gagal merender preview DOCX."
+  },
+  "exportConfiguration.confirm.deleteTemplateTitle": {
+    "en": "Delete template",
+    "id": "Hapus template"
+  },
+  "exportConfiguration.confirm.deleteTemplateMessage": {
+    "en": "Delete template {name}? This action cannot be undone.",
+    "id": "Hapus template {name}? Tindakan ini tidak bisa dibatalkan."
+  }
+}

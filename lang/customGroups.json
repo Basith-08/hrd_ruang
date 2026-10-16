@@ -1,0 +1,118 @@
+{
+  "customGroups.page.eyebrow": {
+    "en": "Administrator",
+    "id": "Administrator"
+  },
+  "customGroups.page.title": {
+    "en": "Custom Group Management",
+    "id": "Manajemen Grup Kustom"
+  },
+  "customGroups.page.description": {
+    "en": "Manage master data for all 6 Custom Groups used in employee applications and records.",
+    "id": "Kelola master data untuk 6 Grup Kustom yang digunakan pada lamaran dan data karyawan."
+  },
+  "customGroups.page.tabLabel": {
+    "en": "Group {index}",
+    "id": "Grup {index}"
+  },
+  "customGroups.page.listTitle": {
+    "en": "Custom Group {index} List",
+    "id": "Daftar Grup Kustom {index}"
+  },
+  "customGroups.page.addItem": {
+    "en": "Add Item",
+    "id": "Tambah Entri"
+  },
+  "customGroups.page.loading": {
+    "en": "Loading...",
+    "id": "Memuat..."
+  },
+  "customGroups.page.empty": {
+    "en": "No items found in Group {index}.",
+    "id": "Tidak ada entri di Grup {index}."
+  },
+  "customGroups.page.table.number": {
+    "en": "No",
+    "id": "Nomor"
+  },
+  "customGroups.page.table.name": {
+    "en": "Name",
+    "id": "Nama"
+  },
+  "customGroups.page.table.description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "customGroups.page.table.actions": {
+    "en": "Actions",
+    "id": "Aksi"
+  },
+  "customGroups.page.edit": {
+    "en": "Edit",
+    "id": "Ubah"
+  },
+  "customGroups.page.delete": {
+    "en": "Delete",
+    "id": "Hapus"
+  },
+  "customGroups.modal.editTitle": {
+    "en": "Edit Item",
+    "id": "Ubah Entri"
+  },
+  "customGroups.modal.createTitle": {
+    "en": "Add New Item",
+    "id": "Tambah Entri Baru"
+  },
+  "customGroups.modal.name": {
+    "en": "Name *",
+    "id": "Nama *"
+  },
+  "customGroups.modal.namePlaceholder": {
+    "en": "Entry name",
+    "id": "Nama entri"
+  },
+  "customGroups.modal.description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "customGroups.modal.descriptionPlaceholder": {
+    "en": "Brief description...",
+    "id": "Deskripsi singkat..."
+  },
+  "customGroups.modal.cancel": {
+    "en": "Cancel",
+    "id": "Batal"
+  },
+  "customGroups.modal.save": {
+    "en": "Save",
+    "id": "Simpan"
+  },
+  "customGroups.modal.saving": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "customGroups.toast.entryLabel": {
+    "en": "Custom Group {index} entry",
+    "id": "Entri Grup Kustom {index}"
+  },
+  "customGroups.toast.loadFailed": {
+    "en": "Failed to load items.",
+    "id": "Gagal memuat entri."
+  },
+  "customGroups.toast.saveFailed": {
+    "en": "Failed to save item.",
+    "id": "Gagal menyimpan entri."
+  },
+  "customGroups.toast.deletedLabel": {
+    "en": "Item",
+    "id": "Entri"
+  },
+  "customGroups.toast.deleteFailed": {
+    "en": "Failed to delete item.",
+    "id": "Gagal menghapus entri."
+  },
+  "customGroups.confirmDelete": {
+    "en": "Are you sure you want to delete this item?",
+    "id": "Apakah Anda yakin ingin menghapus entri ini?"
+  }
+}

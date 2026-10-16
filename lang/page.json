@@ -1,0 +1,126 @@
+{
+  "page.login": {
+    "en": "Login",
+    "id": "Masuk"
+  },
+  "page.dashboard": {
+    "en": "Dashboard",
+    "id": "Dasbor"
+  },
+  "page.employeeRequestForms": {
+    "en": "Employee Request Forms",
+    "id": "Formulir Permintaan Karyawan"
+  },
+  "page.approverMaster": {
+    "en": "Approver Master",
+    "id": "Master Penyetuju"
+  },
+  "page.approvalTracking": {
+    "en": "Approval Tracking",
+    "id": "Pelacakan Persetujuan"
+  },
+  "page.portalDocumentExplorer": {
+    "en": "Portal Document Explorer",
+    "id": "Penjelajah Dokumen Portal"
+  },
+  "page.newEmployeeContractForms": {
+    "en": "Create New Employee Contract Form (NECF)",
+    "id": "Formulir Kontrak Karyawan Baru (NECF)"
+  },
+  "page.recruitmentDashboard": {
+    "en": "Recruitment Dashboard",
+    "id": "Dasbor Rekrutmen"
+  },
+  "page.picRecruitment": {
+    "en": "PIC Recruitment",
+    "id": "PIC Rekrutmen"
+  },
+  "page.vacancyPipeline": {
+    "en": "Vacancy Pipeline",
+    "id": "Alur Lowongan"
+  },
+  "page.closedVacancy": {
+    "en": "Closed Vacancy",
+    "id": "Lowongan Ditutup"
+  },
+  "page.recruitmentCandidates": {
+    "en": "Candidate Database",
+    "id": "Basis Data Kandidat"
+  },
+  "page.interviewEvaluasi": {
+    "en": "Interview evaluasi",
+    "id": "Evaluasi Wawancara"
+  },
+  "page.candidateEmployeeForms": {
+    "en": "Candidate & Employee Forms",
+    "id": "Formulir Kandidat & Karyawan"
+  },
+  "page.assessmentList": {
+    "en": "Interview List",
+    "id": "Daftar Wawancara"
+  },
+  "page.interviewEvaluation": {
+    "en": "Interview Evaluation",
+    "id": "Evaluasi Wawancara"
+  },
+  "page.interviewerForm": {
+    "en": "Interviewer Form",
+    "id": "Formulir Pewawancara"
+  },
+  "page.profile": {
+    "en": "Profile",
+    "id": "Profil"
+  },
+  "page.candidateForms.editForm": {
+    "en": "Edit Form",
+    "id": "Ubah Formulir"
+  },
+  "page.candidateForms.newForm": {
+    "en": "New Form",
+    "id": "Formulir Baru"
+  },
+  "page.candidateForms.formDetails": {
+    "en": "Form Details",
+    "id": "Rincian Formulir"
+  },
+  "page.userManagement": {
+    "en": "User Management",
+    "id": "Manajemen Pengguna"
+  },
+  "page.candidateEmployees": {
+    "en": "Candidate List",
+    "id": "Daftar Kandidat"
+  },
+  "page.userHistory": {
+    "en": "User History",
+    "id": "Riwayat Pengguna"
+  },
+  "page.roleManagement": {
+    "en": "Role Management",
+    "id": "Manajemen Peran"
+  },
+  "page.customGroupManagement": {
+    "en": "Custom Group Management",
+    "id": "Manajemen Grup Kustom"
+  },
+  "page.masterDataErf": {
+    "en": "Master Data ERF",
+    "id": "Data Master ERF"
+  },
+  "page.exportConfiguration": {
+    "en": "Document Export",
+    "id": "Ekspor Dokumen"
+  },
+  "page.exportConfigurationTemplates": {
+    "en": "Export Templates",
+    "id": "Template Ekspor"
+  },
+  "page.exportConfigurationGenerate": {
+    "en": "Generate Export Document",
+    "id": "Buat Dokumen Ekspor"
+  },
+  "page.appTitle": {
+    "en": "HRD Ruang",
+    "id": "HRD Ruang"
+  }
+}

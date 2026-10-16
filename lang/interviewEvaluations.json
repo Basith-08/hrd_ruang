@@ -1,0 +1,502 @@
+{
+  "interviewEvaluations.list.eyebrow": {
+    "en": "Assessment",
+    "id": "Asesmen"
+  },
+  "interviewEvaluations.loadFailed": {
+    "en": "Failed to load interview evaluations.",
+    "id": "Gagal memuat evaluasi wawancara."
+  },
+  "interviewEvaluations.createFailed": {
+    "en": "Failed to create the interview evaluation.",
+    "id": "Gagal membuat evaluasi wawancara."
+  },
+  "interviewEvaluations.updateFailed": {
+    "en": "Failed to update the interview evaluation.",
+    "id": "Gagal memperbarui evaluasi wawancara."
+  },
+  "interviewEvaluations.deleteFailed": {
+    "en": "Failed to delete the interview evaluation.",
+    "id": "Gagal menghapus evaluasi wawancara."
+  },
+  "interviewEvaluations.list.title": {
+    "en": "Interview List",
+    "id": "Daftar Wawancara"
+  },
+  "interviewEvaluations.list.description": {
+    "en": "Review saved interview evaluations, search quickly, and reopen an item for editing.",
+    "id": "Tinjau evaluasi wawancara yang tersimpan, cari dengan cepat, dan buka kembali entri untuk diedit."
+  },
+  "interviewEvaluations.list.searchPlaceholder": {
+    "en": "Search candidate, interviewer, or position...",
+    "id": "Cari kandidat, pewawancara, atau posisi..."
+  },
+  "interviewEvaluations.list.itemCount": {
+    "en": "{count} item(s)",
+    "id": "{count} entri"
+  },
+  "interviewEvaluations.list.headers.candidate": {
+    "en": "Candidate",
+    "id": "Kandidat"
+  },
+  "interviewEvaluations.list.headers.position": {
+    "en": "Position",
+    "id": "Posisi"
+  },
+  "interviewEvaluations.list.headers.interviewer": {
+    "en": "Interviewer",
+    "id": "Pewawancara"
+  },
+  "interviewEvaluations.list.headers.interviewDate": {
+    "en": "Interview Date",
+    "id": "Tanggal Wawancara"
+  },
+  "interviewEvaluations.list.headers.recommendation": {
+    "en": "Recommendation",
+    "id": "Rekomendasi"
+  },
+  "interviewEvaluations.list.headers.average": {
+    "en": "Average",
+    "id": "Rata-rata"
+  },
+  "interviewEvaluations.list.headers.actions": {
+    "en": "Actions",
+    "id": "Aksi"
+  },
+  "interviewEvaluations.list.noSaved": {
+    "en": "No interview evaluations have been saved yet.",
+    "id": "Belum ada evaluasi wawancara yang disimpan."
+  },
+  "interviewEvaluations.list.recommendationPending": {
+    "en": "Waiting for interviewer assessment",
+    "id": "Menunggu penilaian pewawancara"
+  },
+  "interviewEvaluations.list.deleteDenied": {
+    "en": "You do not have permission to delete interview evaluations.",
+    "id": "Anda tidak memiliki izin untuk menghapus evaluasi wawancara."
+  },
+  "interviewEvaluations.list.confirmDelete": {
+    "en": "Delete the interview evaluation for {name}?",
+    "id": "Hapus evaluasi wawancara untuk {name}?"
+  },
+  "interviewEvaluations.list.actions.newAssessment": {
+    "en": "New Assessment",
+    "id": "Asesmen Baru"
+  },
+  "interviewEvaluations.list.actions.edit": {
+    "en": "Edit",
+    "id": "Ubah"
+  },
+  "interviewEvaluations.list.actions.delete": {
+    "en": "Delete",
+    "id": "Hapus"
+  },
+  "interviewEvaluations.list.toasts.deleted": {
+    "en": "Interview evaluation",
+    "id": "Evaluasi wawancara"
+  },
+  "interviewEvaluations.page.eyebrow": {
+    "en": "Assessment",
+    "id": "Asesmen"
+  },
+  "interviewEvaluations.page.title": {
+    "en": "Interview Evaluation",
+    "id": "Evaluasi Wawancara"
+  },
+  "interviewEvaluations.page.description": {
+    "en": "Select a candidate, assign interviewers, and set the interview date.",
+    "id": "Pilih kandidat, tentukan pewawancara, dan atur tanggal wawancara."
+  },
+  "interviewEvaluations.page.actions.assessmentList": {
+    "en": "Interview List",
+    "id": "Daftar Wawancara"
+  },
+  "interviewEvaluations.page.actions.editAssessment": {
+    "en": "Edit Interview Schedule",
+    "id": "Ubah Jadwal Wawancara"
+  },
+  "interviewEvaluations.page.actions.newAssessment": {
+    "en": "Schedule Interview",
+    "id": "Jadwalkan Wawancara"
+  },
+  "interviewEvaluations.page.actions.cancelEdit": {
+    "en": "Cancel Edit",
+    "id": "Batal Ubah"
+  },
+  "interviewEvaluations.page.help.canEdit": {
+    "en": "Choose a candidate, assign the interviewer, and set the interview date.",
+    "id": "Pilih kandidat, tentukan pewawancara, dan atur tanggal wawancara."
+  },
+  "interviewEvaluations.page.help.readOnly": {
+    "en": "You can review assessment data, but your current role cannot modify it.",
+    "id": "Anda dapat meninjau data asesmen, tetapi peran Anda saat ini tidak dapat mengubahnya."
+  },
+  "interviewEvaluations.page.help.editingExisting": {
+    "en": "Editing existing interview schedule",
+    "id": "Sedang mengubah jadwal wawancara yang sudah ada"
+  },
+  "interviewEvaluations.page.fields.candidate": {
+    "en": "Candidate",
+    "id": "Kandidat"
+  },
+  "interviewEvaluations.page.fields.candidateSearchPlaceholder": {
+    "en": "Search candidate name or position...",
+    "id": "Cari nama kandidat atau posisi..."
+  },
+  "interviewEvaluations.page.fields.selectCandidate": {
+    "en": "Select candidate",
+    "id": "Pilih kandidat"
+  },
+  "interviewEvaluations.page.fields.noCandidateData": {
+    "en": "No candidate data is available yet. Add or sync candidate forms first.",
+    "id": "Belum ada data kandidat. Tambahkan atau sinkronkan formulir kandidat terlebih dahulu."
+  },
+  "interviewEvaluations.page.fields.candidateName": {
+    "en": "Candidate Name",
+    "id": "Nama Kandidat"
+  },
+  "interviewEvaluations.page.fields.appliedPosition": {
+    "en": "Applied Position",
+    "id": "Posisi Dilamar"
+  },
+  "interviewEvaluations.page.fields.interviewerName": {
+    "en": "Interviewer Name",
+    "id": "Nama Pewawancara"
+  },
+  "interviewEvaluations.page.fields.interviewerSearchPlaceholder": {
+    "en": "Search interviewer name...",
+    "id": "Cari nama pewawancara..."
+  },
+  "interviewEvaluations.page.fields.selectInterviewer": {
+    "en": "Select interviewer",
+    "id": "Pilih pewawancara"
+  },
+  "interviewEvaluations.page.fields.noSelectedInterviewers": {
+    "en": "No interviewer selected yet.",
+    "id": "Belum ada pewawancara yang dipilih."
+  },
+  "interviewEvaluations.page.fields.removeInterviewer": {
+    "en": "Remove interviewer",
+    "id": "Hapus pewawancara"
+  },
+  "interviewEvaluations.page.fields.selectMultipleInterviewers": {
+    "en": "Select interviewers one by one. Use the remove icon to delete a selected name.",
+    "id": "Pilih pewawancara satu per satu. Gunakan ikon hapus untuk menghapus nama yang dipilih."
+  },
+  "interviewEvaluations.page.fields.noInterviewerData": {
+    "en": "No eligible interviewer data is available yet.",
+    "id": "Belum ada data pewawancara yang memenuhi syarat."
+  },
+  "interviewEvaluations.page.fields.loadInterviewersFailed": {
+    "en": "Failed to load interviewer list.",
+    "id": "Gagal memuat daftar pewawancara."
+  },
+  "interviewEvaluations.page.fields.interviewDate": {
+    "en": "Interview Date",
+    "id": "Tanggal Wawancara"
+  },
+  "interviewEvaluations.page.fields.recommendation": {
+    "en": "Recommendation",
+    "id": "Rekomendasi"
+  },
+  "interviewEvaluations.page.fields.recommendationSearchPlaceholder": {
+    "en": "Search recommendation...",
+    "id": "Cari rekomendasi..."
+  },
+  "interviewEvaluations.page.fields.selectRecommendation": {
+    "en": "Select recommendation",
+    "id": "Pilih rekomendasi"
+  },
+  "interviewEvaluations.page.fields.comments": {
+    "en": "Comments",
+    "id": "Komentar"
+  },
+  "interviewEvaluations.page.fields.commentsPlaceholder": {
+    "en": "Add general interview comments...",
+    "id": "Tambahkan komentar umum wawancara..."
+  },
+  "interviewEvaluations.page.fields.notes": {
+    "en": "Notes",
+    "id": "Catatan"
+  },
+  "interviewEvaluations.page.fields.notesPlaceholder": {
+    "en": "Add notes for this interview...",
+    "id": "Tambahkan catatan untuk wawancara ini..."
+  },
+  "interviewEvaluations.page.grid.title": {
+    "en": "Evaluation Grid",
+    "id": "Matriks Evaluasi"
+  },
+  "interviewEvaluations.page.grid.legend": {
+    "en": "Score every item from 1 to 5. 1 is the lowest score and 5 is the highest score.",
+    "id": "Beri skor setiap aspek dari 1 sampai 5. Nilai 1 adalah skor terendah dan 5 adalah skor tertinggi."
+  },
+  "interviewEvaluations.page.grid.headers.category": {
+    "en": "Category",
+    "id": "Kategori"
+  },
+  "interviewEvaluations.page.grid.headers.description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "interviewEvaluations.page.grid.headers.score": {
+    "en": "Score",
+    "id": "Skor"
+  },
+  "interviewEvaluations.page.grid.headers.info": {
+    "en": "Info",
+    "id": "Info"
+  },
+  "interviewEvaluations.page.grid.selectScore": {
+    "en": "Select score",
+    "id": "Pilih skor"
+  },
+  "interviewEvaluations.page.grid.optionalNote": {
+    "en": "Optional note",
+    "id": "Catatan opsional"
+  },
+  "interviewEvaluations.page.averageScore": {
+    "en": "Average score:",
+    "id": "Rata-rata skor:"
+  },
+  "interviewEvaluations.page.actions.updateAssessment": {
+    "en": "Update Schedule",
+    "id": "Perbarui Jadwal"
+  },
+  "interviewEvaluations.page.actions.saveAssessment": {
+    "en": "Save Schedule",
+    "id": "Simpan Jadwal"
+  },
+  "interviewEvaluations.page.toasts.created": {
+    "en": "Interview evaluation",
+    "id": "Evaluasi wawancara"
+  },
+  "interviewEvaluations.interviewer.eyebrow": {
+    "en": "Interviewer",
+    "id": "Pewawancara"
+  },
+  "interviewEvaluations.interviewer.title": {
+    "en": "Interviewer Form",
+    "id": "Formulir Pewawancara"
+  },
+  "interviewEvaluations.interviewer.description": {
+    "en": "Review your assigned candidate interviews and complete the evaluation from one workspace.",
+    "id": "Tinjau daftar kandidat wawancara Anda dan lengkapi evaluasinya dari satu ruang kerja."
+  },
+  "interviewEvaluations.interviewer.loadFailed": {
+    "en": "Failed to load assigned interviews.",
+    "id": "Gagal memuat daftar wawancara yang ditugaskan."
+  },
+  "interviewEvaluations.interviewer.assignmentTableTitle": {
+    "en": "Assigned Interviews",
+    "id": "Daftar Wawancara"
+  },
+  "interviewEvaluations.interviewer.assignmentTableDescription": {
+    "en": "Select a candidate from the list, then continue with the evaluation.",
+    "id": "Pilih kandidat dari daftar, lalu lanjutkan ke evaluasi."
+  },
+  "interviewEvaluations.interviewer.searchPlaceholder": {
+    "en": "Search candidate, position, or date...",
+    "id": "Cari kandidat, posisi, atau tanggal..."
+  },
+  "interviewEvaluations.interviewer.noAssignments": {
+    "en": "No interview assignments are available yet.",
+    "id": "Belum ada penugasan wawancara yang tersedia."
+  },
+  "interviewEvaluations.interviewer.headers.status": {
+    "en": "Status",
+    "id": "Status"
+  },
+  "interviewEvaluations.interviewer.status.pending": {
+    "en": "Pending",
+    "id": "Menunggu Evaluasi"
+  },
+  "interviewEvaluations.interviewer.status.completed": {
+    "en": "Completed",
+    "id": "Selesai"
+  },
+  "interviewEvaluations.interviewer.actions.evaluate": {
+    "en": "Evaluate",
+    "id": "Evaluate"
+  },
+  "interviewEvaluations.interviewer.actions.saveEvaluation": {
+    "en": "Save Evaluation",
+    "id": "Simpan Evaluasi"
+  },
+  "interviewEvaluations.interviewer.actions.openAssessmentList": {
+    "en": "Interview List",
+    "id": "Daftar Wawancara"
+  },
+  "interviewEvaluations.interviewer.tabs.candidate": {
+    "en": "Data Candidate",
+    "id": "Data Kandidat"
+  },
+  "interviewEvaluations.interviewer.tabs.assessment": {
+    "en": "Assessment",
+    "id": "Asesmen"
+  },
+  "interviewEvaluations.interviewer.candidateFields.email": {
+    "en": "Email",
+    "id": "Email"
+  },
+  "interviewEvaluations.interviewer.candidateFields.phone": {
+    "en": "Phone",
+    "id": "Telepon"
+  },
+  "interviewEvaluations.interviewer.candidateFields.status": {
+    "en": "Completion Status",
+    "id": "Status Kelengkapan"
+  },
+  "interviewEvaluations.interviewer.candidateFields.updatedAt": {
+    "en": "Last Updated",
+    "id": "Terakhir Diperbarui"
+  },
+  "interviewEvaluations.interviewer.candidateFields.noData": {
+    "en": "No candidate data is available for this section.",
+    "id": "Tidak ada data kandidat untuk bagian ini."
+  },
+  "interviewEvaluations.interviewer.candidateFields.noCandidateForm": {
+    "en": "Candidate form data is not available.",
+    "id": "Data formulir kandidat tidak tersedia."
+  },
+  "interviewEvaluations.interviewer.candidateFields.loadFailed": {
+    "en": "Failed to load candidate form data.",
+    "id": "Gagal memuat data formulir kandidat."
+  },
+  "interviewEvaluations.interviewer.notFound": {
+    "en": "Interview assignment was not found.",
+    "id": "Penugasan wawancara tidak ditemukan."
+  },
+  "interviewEvaluations.interviewer.evaluateEyebrow": {
+    "en": "Evaluation",
+    "id": "Evaluasi"
+  },
+  "interviewEvaluations.interviewer.evaluateTitle": {
+    "en": "Evaluate {name}",
+    "id": "Evaluasi {name}"
+  },
+  "interviewEvaluations.interviewer.evaluateDescription": {
+    "en": "Complete the evaluation grid, add a recommendation, and leave comments before saving.",
+    "id": "Lengkapi matriks evaluasi, tambahkan rekomendasi, dan isi komentar sebelum menyimpan."
+  },
+  "interviewEvaluations.criteria.workExperience.title": {
+    "en": "Work Experience",
+    "id": "Pengalaman Kerja"
+  },
+  "interviewEvaluations.criteria.workExperience.description": {
+    "en": "Alignment of years of service, job type, and industry background with workforce requirements.",
+    "id": "Kesesuaian masa kerja, jenis pekerjaan, dan latar belakang industri dengan kebutuhan tenaga kerja."
+  },
+  "interviewEvaluations.criteria.education.title": {
+    "en": "Education",
+    "id": "Pendidikan"
+  },
+  "interviewEvaluations.criteria.education.description": {
+    "en": "Alignment of educational background with workforce requirements.",
+    "id": "Kesesuaian latar belakang pendidikan dengan kebutuhan tenaga kerja."
+  },
+  "interviewEvaluations.criteria.jobKnowledge.title": {
+    "en": "Job Knowledge",
+    "id": "Pengetahuan Pekerjaan"
+  },
+  "interviewEvaluations.criteria.jobKnowledge.description": {
+    "en": "Alignment of technical and non-technical knowledge with workforce requirements.",
+    "id": "Kesesuaian pengetahuan teknis dan nonteknis dengan kebutuhan tenaga kerja."
+  },
+  "interviewEvaluations.criteria.communication.title": {
+    "en": "Communication",
+    "id": "Komunikasi"
+  },
+  "interviewEvaluations.criteria.communication.description": {
+    "en": "Ability to communicate required information clearly, accurately, and appropriately for the situation.",
+    "id": "Kemampuan menyampaikan informasi yang diperlukan secara jelas, akurat, dan sesuai situasi."
+  },
+  "interviewEvaluations.criteria.motivation.title": {
+    "en": "Motivation",
+    "id": "Motivasi"
+  },
+  "interviewEvaluations.criteria.motivation.description": {
+    "en": "Candidate's ability and willingness to adapt, receive feedback, and grow within the work environment.",
+    "id": "Kemampuan dan kemauan kandidat untuk beradaptasi, menerima masukan, dan berkembang di lingkungan kerja."
+  },
+  "interviewEvaluations.criteria.creativity.title": {
+    "en": "Creativity",
+    "id": "Kreativitas"
+  },
+  "interviewEvaluations.criteria.creativity.description": {
+    "en": "Candidate's ability to develop solutions and provide alternatives in decision-making.",
+    "id": "Kemampuan kandidat mengembangkan solusi dan memberikan alternatif dalam pengambilan keputusan."
+  },
+  "interviewEvaluations.criteria.initiative.title": {
+    "en": "Initiative",
+    "id": "Inisiatif"
+  },
+  "interviewEvaluations.criteria.initiative.description": {
+    "en": "Candidate's ability and willingness to start work without close supervision and actively support problem solving.",
+    "id": "Kemampuan dan kemauan kandidat untuk mulai bekerja tanpa pengawasan ketat dan aktif mendukung pemecahan masalah."
+  },
+  "interviewEvaluations.criteria.emotionalControl.title": {
+    "en": "Emotional Control",
+    "id": "Kontrol Emosi"
+  },
+  "interviewEvaluations.criteria.emotionalControl.description": {
+    "en": "Candidate's ability to manage and express emotions professionally.",
+    "id": "Kemampuan kandidat mengelola dan mengekspresikan emosi secara profesional."
+  },
+  "interviewEvaluations.criteria.leadership.title": {
+    "en": "Leadership",
+    "id": "Kepemimpinan"
+  },
+  "interviewEvaluations.criteria.leadership.description": {
+    "en": "Candidate's ability to lead subordinates and delegate work effectively.",
+    "id": "Kemampuan kandidat memimpin bawahan dan mendelegasikan pekerjaan secara efektif."
+  },
+  "interviewEvaluations.criteria.leadership.note": {
+    "en": "For non-managerial roles, this item reflects the candidate's administrative and documentation capability.",
+    "id": "Untuk peran nonmanajerial, aspek ini mencerminkan kemampuan administratif dan dokumentasi kandidat."
+  },
+  "interviewEvaluations.criteria.decisionMaking.title": {
+    "en": "Decision Making",
+    "id": "Pengambilan Keputusan"
+  },
+  "interviewEvaluations.criteria.decisionMaking.description": {
+    "en": "Candidate's ability and courage to analyze situations and build and implement problem-solving concepts.",
+    "id": "Kemampuan dan keberanian kandidat untuk menganalisis situasi serta menyusun dan menerapkan konsep pemecahan masalah."
+  },
+  "interviewEvaluations.recommendations.continueRecruitment": {
+    "en": "Continue Recruitment Process",
+    "id": "Lanjutkan Proses Rekrutmen"
+  },
+  "interviewEvaluations.recommendations.findComparisonCandidate": {
+    "en": "Find Comparison Candidate",
+    "id": "Cari Kandidat Pembanding"
+  },
+  "interviewEvaluations.recommendations.stopRecruitment": {
+    "en": "Stop Recruitment Process",
+    "id": "Hentikan Proses Rekrutmen"
+  },
+  "interviewEvaluations.recommendations.saveAsCandidateDatabase": {
+    "en": "Save as Candidate Database",
+    "id": "Simpan sebagai Basis Data Kandidat"
+  },
+  "interviewEvaluations.scoreLegend.poor": {
+    "en": "1 Poor",
+    "id": "1 Kurang"
+  },
+  "interviewEvaluations.scoreLegend.fair": {
+    "en": "2 Fair",
+    "id": "2 Cukup"
+  },
+  "interviewEvaluations.scoreLegend.adequate": {
+    "en": "3 Adequate",
+    "id": "3 Memadai"
+  },
+  "interviewEvaluations.scoreLegend.good": {
+    "en": "4 Good",
+    "id": "4 Baik"
+  },
+  "interviewEvaluations.scoreLegend.excellent": {
+    "en": "5 Excellent",
+    "id": "5 Sangat Baik"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "login.hero.title": {
+    "en": "Recruit better. Work clearer.",
+    "id": "Rekrutmen lebih rapi. Kerja lebih terarah."
+  },
+  "login.section.authentication": {
+    "en": "Authentication",
+    "id": "Autentikasi"
+  },
+  "login.title": {
+    "en": "Login",
+    "id": "Masuk"
+  },
+  "login.fields.identifier": {
+    "en": "Email or Username",
+    "id": "Email atau Nama Pengguna"
+  },
+  "login.fields.identifierPlaceholder": {
+    "en": "name@email.com or username",
+    "id": "nama@email.com atau nama pengguna"
+  },
+  "login.fields.password": {
+    "en": "Password",
+    "id": "Kata Sandi"
+  },
+  "login.fields.passwordPlaceholder": {
+    "en": "Enter your password",
+    "id": "Masukkan kata sandi Anda"
+  },
+  "login.validation.identifierRequired": {
+    "en": "Email or username is required.",
+    "id": "Email atau nama pengguna wajib diisi."
+  },
+  "login.validation.passwordMin": {
+    "en": "Password must be at least 8 characters.",
+    "id": "Kata sandi minimal 8 karakter."
+  },
+  "login.actions.hidePassword": {
+    "en": "Hide password",
+    "id": "Sembunyikan kata sandi"
+  },
+  "login.actions.showPassword": {
+    "en": "Show password",
+    "id": "Tampilkan kata sandi"
+  },
+  "login.actions.signIn": {
+    "en": "Sign In",
+    "id": "Masuk"
+  },
+  "login.actions.forgotPassword": {
+    "en": "Forgot Password?",
+    "id": "Lupa Kata Sandi?"
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "recruitment.dashboard.eyebrow": {
+    "en": "Recruitment Team",
+    "id": "Tim Rekrutmen"
+  },
+  "recruitment.dashboard.title": {
+    "en": "Recruitment Dashboard",
+    "id": "Dasbor Rekrutmen"
+  },
+  "recruitment.dashboard.description": {
+    "en": "Monitor open and closed recruitment requests through one dashboard with summary and detailed views.",
+    "id": "Pantau permintaan rekrutmen terbuka dan tertutup dalam satu dasbor dengan tampilan ringkasan dan rincian."
+  },
+  "recruitment.dashboard.lastUpdated": {
+    "en": "Last updated",
+    "id": "Terakhir diperbarui"
+  },
+  "recruitment.dashboard.statusPosition": {
+    "en": "Status Position",
+    "id": "Status Posisi"
+  },
+  "recruitment.dashboard.filters.title": {
+    "en": "Filters",
+    "id": "Filter"
+  },
+  "recruitment.dashboard.filters.show": {
+    "en": "Show",
+    "id": "Buka"
+  },
+  "recruitment.dashboard.filters.hide": {
+    "en": "Hide",
+    "id": "Tutup"
+  },
+  "recruitment.dashboard.summaryCard.title": {
+    "en": "{status} Position",
+    "id": "Posisi {status}"
+  },
+  "recruitment.dashboard.summaryCard.description": {
+    "en": "All time recruitment requests in {status} status.",
+    "id": "Seluruh permintaan rekrutmen sepanjang waktu dengan status {status}."
+  },
+  "recruitment.dashboard.summaryCard.currentMonth": {
+    "en": "Current Month",
+    "id": "Bulan Ini"
+  },
+  "recruitment.dashboard.summaryCard.thisMonth": {
+    "en": "This Month",
+    "id": "Bulan Ini"
+  },
+  "recruitment.dashboard.summaryCard.averageAge": {
+    "en": "Average {status} Days",
+    "id": "Rata-rata Hari {status}"
+  },
+  "recruitment.dashboard.summaryCard.recruiterOwnership": {
+    "en": "Recruiter Ownership",
+    "id": "Kepemilikan Recruiter"
+  },
+  "recruitment.dashboard.summaryCard.unrecruiter": {
+    "en": "Unrecruiter",
+    "id": "Belum Direcruiter"
+  },
+  "recruitment.dashboard.positionStatusCard.title": {
+    "en": "Position Status",
+    "id": "Status Posisi"
+  },
+  "recruitment.dashboard.positionStatusCard.description": {
+    "en": "Share of all-time recruitment requests by request type.",
+    "id": "Proporsi seluruh permintaan rekrutmen sepanjang waktu berdasarkan jenis permintaan."
+  },
+  "recruitment.dashboard.departmentCard.title": {
+    "en": "Top BU Departments",
+    "id": "BU Departemen Teratas"
+  },
+  "recruitment.dashboard.departmentCard.description": {
+    "en": "BU Departments with the largest {status} recruitment load.",
+    "id": "BU Departemen dengan beban rekrutmen {status} terbesar."
+  },
+  "recruitment.dashboard.analytics.breakdownEyebrow": {
+    "en": "Breakdown",
+    "id": "Distribusi"
+  },
+  "recruitment.dashboard.analytics.departmentEyebrow": {
+    "en": "By BU Department",
+    "id": "Per BU Departemen"
+  },
+  "recruitment.dashboard.analytics.trendEyebrow": {
+    "en": "Trend",
+    "id": "Tren"
+  },
+  "recruitment.dashboard.analytics.trendTitle": {
+    "en": "Monthly ERF Overview",
+    "id": "Ringkasan ERF Bulanan"
+  },
+  "recruitment.dashboard.analytics.trendDescription": {
+    "en": "Monthly ERF volume shown in grouped bars for total, filled, and in-progress positions.",
+    "id": "Volume ERF bulanan ditampilkan dalam grouped bar untuk total, posisi terisi, dan posisi in progress."
+  },
+  "recruitment.dashboard.analytics.pipelineEyebrow": {
+    "en": "Pipeline",
+    "id": "Pipeline"
+  },
+  "recruitment.dashboard.analytics.pipelineTitle": {
+    "en": "Recruitment Funnel",
+    "id": "Funnel Rekrutmen"
+  },
+  "recruitment.dashboard.analytics.pipelineDescription": {
+    "en": "Stage conversion rate.",
+    "id": "Tingkat konversi per tahap."
+  },
+  "recruitment.dashboard.analytics.count": {
+    "en": "Count",
+    "id": "Jumlah"
+  },
+  "recruitment.dashboard.analytics.percent": {
+    "en": "%",
+    "id": "%"
+  },
+  "recruitment.dashboard.analytics.totalStatus": {
+    "en": "Total {status}",
+    "id": "Total {status}"
+  },
+  "recruitment.dashboard.analytics.share": {
+    "en": "Share",
+    "id": "Proporsi"
+  },
+  "recruitment.dashboard.analytics.stacked": {
+    "en": "Stacked",
+    "id": "Bertumpuk"
+  },
+  "recruitment.dashboard.analytics.grouped": {
+    "en": "Grouped",
+    "id": "Kelompok"
+  },
+  "recruitment.dashboard.summary.eyebrow": {
+    "en": "Summary View",
+    "id": "Tampilan Ringkasan"
+  },
+  "recruitment.dashboard.summary.title": {
+    "en": "{status} Position Summary Table",
+    "id": "Tabel Ringkasan Posisi {status}"
+  },
+  "recruitment.dashboard.summary.description": {
+    "en": "Summary of all-time recruitment requests grouped by department and level.",
+    "id": "Ringkasan seluruh permintaan rekrutmen sepanjang waktu yang dikelompokkan berdasarkan departemen dan level."
+  },
+  "recruitment.dashboard.summary.searchPlaceholder": {
+    "en": "Search department or level...",
+    "id": "Cari departemen atau level..."
+  },
+  "recruitment.dashboard.summary.noData": {
+    "en": "No {status} position data found.",
+    "id": "Tidak ada data posisi {status}."
+  },
+  "recruitment.dashboard.detail.eyebrow": {
+    "en": "Detail View",
+    "id": "Tampilan Rincian"
+  },
+  "recruitment.dashboard.detail.title": {
+    "en": "{status} Position Detail Table",
+    "id": "Tabel Rincian Posisi {status}"
+  },
+  "recruitment.dashboard.detail.description": {
+    "en": "Detailed {status} ERF list with period and search filters.",
+    "id": "Daftar rincian ERF {status} dengan filter periode dan pencarian."
+  },
+  "recruitment.dashboard.detail.searchPlaceholder": {
+    "en": "Search department, designation, level, or position...",
+    "id": "Cari departemen, jabatan, level, atau posisi..."
+  },
+  "recruitment.dashboard.detail.searchAria": {
+    "en": "Search positions",
+    "id": "Cari posisi"
+  },
+  "recruitment.dashboard.detail.currentMonth": {
+    "en": "Current Month",
+    "id": "Bulan Ini"
+  },
+  "recruitment.dashboard.detail.noData": {
+    "en": "No {status} ERF detail data found.",
+    "id": "Tidak ada data rincian ERF {status}."
+  },
+  "recruitment.dashboard.columns.requestedDate": {
+    "en": "Requested Date",
+    "id": "Tanggal Permintaan"
+  },
+  "recruitment.dashboard.columns.lastApprovalDate": {
+    "en": "Official Request",
+    "id": "Permintaan Resmi"
+  },
+  "recruitment.dashboard.columns.officialComplete": {
+    "en": "Official Request",
+    "id": "Permintaan Resmi"
+  },
+  "recruitment.dashboard.columns.buCategory": {
+    "en": "BU Category / Department",
+    "id": "Kategori BU / Departemen"
+  },
+  "recruitment.dashboard.columns.statusDate": {
+    "en": "Status Date",
+    "id": "Tanggal Status"
+  },
+  "recruitment.dashboard.columns.candidateName": {
+    "en": "Final Employee",
+    "id": "Karyawan Final"
+  },
+  "recruitment.dashboard.columns.closedCategory": {
+    "en": "Close Category",
+    "id": "Kategori Penutupan"
+  },
+  "recruitment.dashboard.columns.notes": {
+    "en": "Notes",
+    "id": "Catatan"
+  },
+  "recruitment.dashboard.columns.notesPlaceholder": {
+    "en": "Type notes...",
+    "id": "Tulis catatan..."
+  },
+  "recruitment.dashboard.columns.daysOpenUntilToday": {
+    "en": "Days Open Until Today",
+    "id": "Hari Terbuka Sampai Hari Ini"
+  },
+  "recruitment.dashboard.columns.daysClosedUntilToday": {
+    "en": "Days Closed Until Today",
+    "id": "Hari Ditutup Sampai Hari Ini"
+  },
+  "recruitment.dashboard.columns.daysOpenToClose": {
+    "en": "Days Open to Close",
+    "id": "Hari dari Dibuka hingga Ditutup"
+  },
+  "recruitment.dashboard.columns.statusAgeDays": {
+    "en": "Status Age Days",
+    "id": "Hari Usia Status"
+  },
+  "recruitment.dashboard.columns.daysFromApprovalToClose": {
+    "en": "Days Open to Close",
+    "id": "Hari dari Persetujuan hingga Ditutup"
+  },
+  "recruitment.dashboard.filters.level": {
+    "en": "Designation",
+    "id": "Jabatan"
+  },
+  "recruitment.dashboard.filters.stage": {
+    "en": "Funnel Stage",
+    "id": "Tahap Funnel"
+  },
+  "recruitment.dashboard.filters.resetAll": {
+    "en": "Reset All",
+    "id": "Reset Semua"
+  },
+  "recruitment.dashboard.labels.others": {
+    "en": "Others",
+    "id": "Lainnya"
+  },
+  "recruitment.dashboard.dayCount": {
+    "en": "{count} day{suffix}",
+    "id": "{count} hari"
+  },
+  "recruitment.dashboard.toasts.exportPreparing": {
+    "en": "The system is preparing the export file. Download will start automatically.",
+    "id": "Sistem sedang menyiapkan file ekspor. Unduhan akan dimulai otomatis."
+  },
+  "recruitment.dashboard.toasts.exported": {
+    "en": "Recruitment export is ready. Download started automatically.",
+    "id": "Ekspor rekrutmen sudah siap. Unduhan dimulai otomatis."
+  },
+  "recruitment.dashboard.errors.exportFailed": {
+    "en": "Failed to export recruitment data.",
+    "id": "Gagal mengekspor data rekrutmen."
+  },
+  "recruitment.loadTrackingFailed": {
+    "en": "Failed to load tracking data.",
+    "id": "Gagal memuat data pelacakan."
+  },
+  "picRecruitment.page.eyebrow": {
+    "en": "Recruitment Assignment",
+    "id": "Penetapan PIC Rekrutmen"
+  },
+  "picRecruitment.page.title": {
+    "en": "PIC Recruitment",
+    "id": "PIC Rekrutmen"
+  },
+  "picRecruitment.page.description": {
+    "en": "Manage approved ERFs that are waiting for recruiter ownership before sourcing starts.",
+    "id": "Kelola ERF disetujui yang menunggu penetapan perekrut sebelum sourcing dimulai."
+  },
+  "picRecruitment.page.listTitle": {
+    "en": "Approved ERF Queue",
+    "id": "Daftar ERF Disetujui"
+  },
+  "picRecruitment.filters.title": {
+    "en": "Assignment Queue",
+    "id": "Antrian Penugasan"
+  },
+  "picRecruitment.filters.subtitle": {
+    "en": "Recruiter Ownership List",
+    "id": "Daftar Kepemilikan Perekrut"
+  },
+  "picRecruitment.filters.resultSummary": {
+    "en": "{shown} of {total} approved ERFs match the current filter.",
+    "id": "{shown} dari {total} ERF disetujui sesuai dengan filter saat ini."
+  },
+  "picRecruitment.filters.reset": {
+    "en": "Reset Filters",
+    "id": "Reset Filter"
+  },
+  "picRecruitment.page.empty": {
+    "en": "No approved ERFs are waiting for recruiter assignment.",
+    "id": "Belum ada ERF disetujui yang menunggu penugasan perekrut."
+  },
+  "picRecruitment.actions.assignRecruiter": {
+    "en": "Assign Recruiter",
+    "id": "Tetapkan Perekrut"
+  },
+  "picRecruitment.filters.searchPlaceholder": {
+    "en": "Search department, business unit category, position, recruiter, or status...",
+    "id": "Cari departemen, kategori unit bisnis, posisi, perekrut, atau status..."
+  },
+  "picRecruitment.filters.statusPlaceholder": {
+    "en": "Filter by recruitment status",
+    "id": "Filter status rekrutmen"
+  },
+  "picRecruitment.filters.recruiterAssignmentPlaceholder": {
+    "en": "Filter recruiter assignment",
+    "id": "Filter penugasan perekrut"
+  },
+  "picRecruitment.filters.allRecruiterAssignments": {
+    "en": "All recruiter assignments",
+    "id": "Semua penugasan perekrut"
+  },
+  "picRecruitment.filters.withoutRecruiter": {
+    "en": "Without recruiter",
+    "id": "Belum ada perekrut"
+  },
+  "picRecruitment.modal.title": {
+    "en": "Assign Recruiter",
+    "id": "Tetapkan Perekrut"
+  },
+  "picRecruitment.modal.description": {
+    "en": "Select an approved ERF and the recruiter who will own the vacancy.",
+    "id": "Pilih ERF disetujui dan perekrut yang akan menangani lowongan tersebut."
+  },
+  "picRecruitment.modal.employeeRequestFormPlaceholder": {
+    "en": "Select approved ERF",
+    "id": "Pilih ERF disetujui"
+  },
+  "picRecruitment.modal.employeeRequestFormEmpty": {
+    "en": "No ERF selected",
+    "id": "Belum ada ERF dipilih"
+  },
+  "picRecruitment.modal.recruiterPlaceholder": {
+    "en": "Select recruiter",
+    "id": "Pilih perekrut"
+  },
+  "picRecruitment.modal.recruiterEmpty": {
+    "en": "No recruiter selected",
+    "id": "Belum ada perekrut dipilih"
+  },
+  "picRecruitment.errors.employeeRequestFormRequired": {
+    "en": "Employee request form is required.",
+    "id": "ERF wajib dipilih."
+  },
+  "picRecruitment.errors.recruiterRequired": {
+    "en": "Recruiter is required.",
+    "id": "Perekrut wajib dipilih."
+  },
+  "picRecruitment.errors.loadRecruitersFailed": {
+    "en": "Failed to load recruiter options.",
+    "id": "Gagal memuat opsi perekrut."
+  },
+  "picRecruitment.errors.assignRecruiterFailed": {
+    "en": "Failed to assign recruiter.",
+    "id": "Gagal tetapkan perekrut."
+  },
+  "picRecruitment.toasts.recruiterAssigned": {
+    "en": "Recruiter assigned successfully.",
+    "id": "Perekrut berhasil ditetapkan."
+  },
+  "recruitment.contractForms.list.eyebrow": {
+    "en": "Recruitment Contract",
+    "id": "Kontrak Rekrutmen"
+  },
+  "recruitment.contractForms.list.title": {
+    "en": "New Employee Contract Form (NECF)",
+    "id": "Formulir Kontrak Karyawan Baru (NECF)"
+  },
+  "recruitment.contractForms.list.tableTitle": {
+    "en": "Employee Contract Form List",
+    "id": "Daftar Formulir Kontrak Karyawan"
+  },
+  "recruitment.contractForms.list.searchPlaceholder": {
+    "en": "Search candidate, contract, department, or position...",
+    "id": "Cari kandidat, kontrak, departemen, atau posisi..."
+  },
+  "recruitment.contractForms.list.actions.add": {
+    "en": "Add",
+    "id": "Tambah"
+  },
+  "recruitment.contractForms.list.confirm.delete": {
+    "en": "Delete NECF data for {target}?",
+    "id": "Hapus data NECF untuk {target}?"
+  },
+  "recruitment.contractForms.list.toasts.deleted": {
+    "en": "NECF data deleted successfully.",
+    "id": "Data NECF berhasil dihapus."
+  },
+  "recruitment.contractForms.list.errors.loadFailed": {
+    "en": "Failed to load NECF data.",
+    "id": "Gagal memuat data NECF."
+  },
+  "recruitment.contractForms.list.errors.deleteFailed": {
+    "en": "Failed to delete NECF data.",
+    "id": "Gagal menghapus data NECF."
+  },
+  "recruitment.contractForms.form.eyebrow": {
+    "en": "Recruitment Contract Setup",
+    "id": "Setup Kontrak Rekrutmen"
+  },
+  "recruitment.contractForms.form.title.create": {
+    "en": "Create New Employee Contract Form (NECF)",
+    "id": "Buat Formulir Kontrak Karyawan Baru (NECF)"
+  },
+  "recruitment.contractForms.form.title.edit": {
+    "en": "Edit New Employee Contract Form (NECF)",
+    "id": "Ubah Formulir Kontrak Karyawan Baru (NECF)"
+  },
+  "recruitment.contractForms.form.actions.save": {
+    "en": "Save NECF",
+    "id": "Simpan NECF"
+  },
+  "recruitment.contractForms.form.actions.update": {
+    "en": "Update NECF",
+    "id": "Perbarui NECF"
+  },
+  "recruitment.contractForms.form.actions.saving": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "recruitment.contractForms.form.loading.initial": {
+    "en": "Loading NECF form data...",
+    "id": "Memuat data formulir NECF..."
+  },
+  "recruitment.contractForms.form.loading.candidates": {
+    "en": "Loading employee candidate options...",
+    "id": "Memuat opsi kandidat karyawan..."
+  },
+  "recruitment.contractForms.form.loading.approvalUsers": {
+    "en": "Loading approval users...",
+    "id": "Memuat pengguna persetujuan..."
+  },
+  "recruitment.contractForms.form.loading.saving": {
+    "en": "Saving NECF data...",
+    "id": "Menyimpan data NECF..."
+  },
+  "recruitment.contractForms.form.placeholders.erf": {
+    "en": "Select ERF",
+    "id": "Pilih ERF"
+  },
+  "recruitment.contractForms.form.placeholders.candidate": {
+    "en": "Select employee candidate",
+    "id": "Pilih kandidat karyawan"
+  },
+  "recruitment.contractForms.form.placeholders.approvalUser": {
+    "en": "Select approval user",
+    "id": "Pilih pengguna persetujuan"
+  },
+  "recruitment.contractForms.form.placeholders.contractNumber": {
+    "en": "Contract number",
+    "id": "Nomor kontrak"
+  },
+  "recruitment.contractForms.form.placeholders.employeeCode": {
+    "en": "Employee code",
+    "id": "Kode karyawan"
+  },
+  "recruitment.contractForms.form.helpers.erf": {
+    "en": "Pick the approved ERF that this contract belongs to.",
+    "id": "Pilih ERF yang disetujui untuk kontrak ini."
+  },
+  "recruitment.contractForms.form.helpers.candidate": {
+    "en": "Assign candidate to employee and bind the selected employee to this contract form.",
+    "id": "Tetapkan kandidat menjadi karyawan dan kaitkan karyawan terpilih ke formulir kontrak ini."
+  },
+  "recruitment.contractForms.form.helpers.contractStartDate": {
+    "en": "Track contract timeline start date.",
+    "id": "Lacak tanggal mulai timeline kontrak."
+  },
+  "recruitment.contractForms.form.helpers.contractEndDate": {
+    "en": "Track contract timeline end date.",
+    "id": "Lacak tanggal akhir timeline kontrak."
+  },
+  "recruitment.contractForms.form.helpers.approvalUser": {
+    "en": "Select users for contract approval handling.",
+    "id": "Pilih pengguna untuk persetujuan kontrak."
+  },
+  "recruitment.contractForms.form.errors.loadFailed": {
+    "en": "Failed to load NECF form data.",
+    "id": "Gagal memuat data formulir NECF."
+  },
+  "recruitment.contractForms.form.errors.loadCandidatesFailed": {
+    "en": "Failed to load employee candidate options.",
+    "id": "Gagal memuat opsi kandidat karyawan."
+  },
+  "recruitment.contractForms.form.errors.notFound": {
+    "en": "NECF data was not found.",
+    "id": "Data NECF tidak ditemukan."
+  },
+  "recruitment.contractForms.form.errors.saveFailed": {
+    "en": "Failed to save NECF data.",
+    "id": "Gagal menyimpan data NECF."
+  },
+  "recruitment.contractForms.form.toasts.created": {
+    "en": "NECF created successfully.",
+    "id": "NECF berhasil dibuat."
+  },
+  "recruitment.contractForms.form.toasts.updated": {
+    "en": "NECF updated successfully.",
+    "id": "NECF berhasil diperbarui."
+  },
+  "recruitment.contractForms.fields.position": {
+    "en": "Designation",
+    "id": "Jabatan"
+  },
+  "recruitment.contractForms.fields.candidateName": {
+    "en": "Candidate Name",
+    "id": "Nama Kandidat"
+  },
+  "recruitment.contractForms.fields.contractStartDate": {
+    "en": "Contract Start Date",
+    "id": "Tanggal Mulai Kontrak"
+  },
+  "recruitment.contractForms.fields.contractEndDate": {
+    "en": "Contract End Date",
+    "id": "Tanggal Akhir Kontrak"
+  },
+  "recruitment.contractForms.fields.approvalUser": {
+    "en": "Approval User",
+    "id": "Pengguna Persetujuan"
+  },
+  "recruitment.contractForms.fields.contractNumber": {
+    "en": "Contract Number",
+    "id": "Nomor Kontrak"
+  },
+  "recruitment.contractForms.fields.employeeCode": {
+    "en": "Employee Code",
+    "id": "Kode Karyawan"
+  }
+}

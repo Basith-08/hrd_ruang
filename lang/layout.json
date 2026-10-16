@@ -1,0 +1,154 @@
+{
+  "layout.navigation": {
+    "en": "Navigation",
+    "id": "Navigasi"
+  },
+  "layout.actions.closeMenu": {
+    "en": "Close menu",
+    "id": "Tutup menu"
+  },
+  "layout.actions.openMenu": {
+    "en": "Open menu",
+    "id": "Buka menu"
+  },
+  "layout.actions.hideSidebar": {
+    "en": "Hide sidebar",
+    "id": "Sembunyikan sidebar"
+  },
+  "layout.actions.showSidebar": {
+    "en": "Show sidebar",
+    "id": "Tampilkan sidebar"
+  },
+  "layout.labels.signedIn": {
+    "en": "Signed In",
+    "id": "Masuk Sebagai"
+  },
+  "layout.labels.workspace": {
+    "en": "Workspace",
+    "id": "Ruang Kerja"
+  },
+  "layout.nav.sections.recruitmentProcess": {
+    "en": "Recruitment Process",
+    "id": "Proses Rekrutmen"
+  },
+  "layout.nav.sections.overview": {
+    "en": "Dashboard",
+    "id": "Dasbor"
+  },
+  "layout.nav.sections.employeeRequestForms": {
+    "en": "Employee Request Forms",
+    "id": "Formulir Permintaan Karyawan"
+  },
+  "layout.nav.sections.recruitment": {
+    "en": "Recruitment",
+    "id": "Rekrutmen"
+  },
+  "layout.nav.sections.interviewEvaluation": {
+    "en": "Interview Evaluation",
+    "id": "Evaluasi Wawancara"
+  },
+  "layout.nav.sections.masterData": {
+    "en": "Master Data",
+    "id": "Data Master"
+  },
+  "layout.nav.sections.personal": {
+    "en": "Personal",
+    "id": "Pribadi"
+  },
+  "layout.nav.sections.systemAdmin": {
+    "en": "Admin",
+    "id": "Admin"
+  },
+  "layout.nav.items.dashboard": {
+    "en": "Dashboard",
+    "id": "Dasbor"
+  },
+  "layout.nav.items.employeeRequestForms": {
+    "en": "Employee Request Forms",
+    "id": "Formulir Permintaan Karyawan"
+  },
+  "layout.nav.items.approvalTracking": {
+    "en": "Approval Tracking",
+    "id": "Pelacakan Persetujuan"
+  },
+  "layout.nav.items.recruitmentDashboard": {
+    "en": "Recruitment Dashboard",
+    "id": "Dasbor Rekrutmen"
+  },
+  "layout.nav.items.picRecruitment": {
+    "en": "PIC Recruitment",
+    "id": "PIC Rekrutmen"
+  },
+  "layout.nav.items.vacancyPipeline": {
+    "en": "Vacancy Pipeline",
+    "id": "Alur Lowongan"
+  },
+  "layout.nav.items.closedVacancy": {
+    "en": "Closed Vacancy",
+    "id": "Lowongan Ditutup"
+  },
+  "layout.nav.items.recruitmentCandidates": {
+    "en": "Candidate Database",
+    "id": "Basis Data Kandidat"
+  },
+  "layout.nav.items.interviewEvaluasi": {
+    "en": "Interview evaluasi",
+    "id": "Evaluasi Wawancara"
+  },
+  "layout.nav.items.documentExplorer": {
+    "en": "Document Explorer",
+    "id": "Penjelajah Dokumen"
+  },
+  "layout.nav.items.newEmployeeContractForms": {
+    "en": "Employee Contract Form",
+    "id": "Formulir Kontrak Karyawan"
+  },
+  "layout.nav.items.candidateEmployeeForms": {
+    "en": "Candidate & Employee Forms",
+    "id": "Formulir Kandidat & Karyawan"
+  },
+  "layout.nav.items.assessmentList": {
+    "en": "Interview List",
+    "id": "Daftar Wawancara"
+  },
+  "layout.nav.items.interviewerForm": {
+    "en": "Interviewer Form",
+    "id": "Formulir Pewawancara"
+  },
+  "layout.nav.items.approverMaster": {
+    "en": "Approver Master",
+    "id": "Master Penyetuju"
+  },
+  "layout.nav.items.customGroups": {
+    "en": "Custom Groups",
+    "id": "Grup Kustom"
+  },
+  "layout.nav.items.masterDataErf": {
+    "en": "PT, Dept, Level",
+    "id": "PT, Departemen, Level"
+  },
+  "layout.nav.items.configurationExport": {
+    "en": "Document Export",
+    "id": "Ekspor Dokumen"
+  },
+  "layout.nav.items.profile": {
+    "en": "Profile",
+    "id": "Profil"
+  },
+  "layout.nav.items.userManagement": {
+    "en": "User Management",
+    "id": "Manajemen Pengguna"
+  },
+  "layout.nav.items.candidateEmployees": {
+    "en": "Candidate List",
+    "id": "Daftar Kandidat"
+  },
+  "layout.nav.items.userHistory": {
+    "en": "User History",
+    "id": "Riwayat Pengguna"
+  },
+  "layout.nav.items.roleManagement": {
+    "en": "Role Management",
+    "id": "Manajemen Peran"
+  }
+}

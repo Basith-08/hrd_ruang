@@ -1,0 +1,22 @@
+{
+  "roleManagement.loadRolesFailed": {
+    "en": "Failed to load role list.",
+    "id": "Gagal memuat daftar peran."
+  },
+  "roleManagement.loadPermissionsFailed": {
+    "en": "Failed to load master permissions.",
+    "id": "Gagal memuat master permissions."
+  },
+  "roleManagement.createFailed": {
+    "en": "Failed to create role.",
+    "id": "Gagal membuat peran."
+  },
+  "roleManagement.updatePermissionsFailed": {
+    "en": "Failed to update role permissions.",
+    "id": "Gagal memperbarui izin peran."
+  },
+  "roleManagement.deleteFailed": {
+    "en": "Failed to delete role.",
+    "id": "Gagal menghapus peran."
+  }
+}

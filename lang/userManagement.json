@@ -1,0 +1,766 @@
+{
+  "userManagement.shared.loading": {
+    "en": "Loading...",
+    "id": "Memuat..."
+  },
+  "userManagement.shared.refresh": {
+    "en": "Refresh",
+    "id": "Muat Ulang"
+  },
+  "userManagement.shared.close": {
+    "en": "Close",
+    "id": "Tutup"
+  },
+  "userManagement.shared.cancel": {
+    "en": "Cancel",
+    "id": "Batal"
+  },
+  "userManagement.shared.ok": {
+    "en": "OK",
+    "id": "Oke"
+  },
+  "userManagement.shared.active": {
+    "en": "Active",
+    "id": "Aktif"
+  },
+  "userManagement.shared.inactive": {
+    "en": "Inactive",
+    "id": "Nonaktif"
+  },
+  "userManagement.shared.noRole": {
+    "en": "No Role",
+    "id": "Tanpa Peran"
+  },
+  "userManagement.shared.candidate": {
+    "en": "Candidate",
+    "id": "Kandidat"
+  },
+  "userManagement.shared.noDescription": {
+    "en": "No description",
+    "id": "Tanpa deskripsi"
+  },
+  "userManagement.page.eyebrow.staff": {
+    "en": "Recruitment Staff",
+    "id": "Staf Rekrutmen"
+  },
+  "userManagement.page.eyebrow.admin": {
+    "en": "Administrator",
+    "id": "Administrator"
+  },
+  "userManagement.page.title": {
+    "en": "User Management",
+    "id": "Manajemen Pengguna"
+  },
+  "userManagement.page.title.candidateEmployee": {
+    "en": "Candidate List",
+    "id": "Daftar Kandidat"
+  },
+  "userManagement.page.title.candidate": {
+    "en": "User Candidate",
+    "id": "Pengguna Kandidat"
+  },
+  "userManagement.page.title.employee": {
+    "en": "Employee",
+    "id": "Karyawan"
+  },
+  "userManagement.page.description.staff": {
+    "en": "View and manage only the candidate accounts that you created.",
+    "id": "Lihat dan kelola hanya akun kandidat yang Anda buat."
+  },
+  "userManagement.page.description.admin": {
+    "en": "Register internal accounts and manage user identity details, credentials, and role.",
+    "id": "Daftarkan akun internal dan kelola identitas pengguna, kredensial, serta peran."
+  },
+  "userManagement.page.description.candidateEmployee": {
+    "en": "Review candidate records, linked employee accounts, and portal form progress in one workspace.",
+    "id": "Tinjau data kandidat, akun karyawan yang terhubung, dan progres formulir portal dalam satu workspace."
+  },
+  "userManagement.page.description.candidate": {
+    "en": "View and manage candidate user accounts separately from internal user management.",
+    "id": "Lihat dan kelola akun pengguna kandidat secara terpisah dari manajemen pengguna internal."
+  },
+  "userManagement.page.description.employee": {
+    "en": "View and manage employee user accounts separately from internal user management.",
+    "id": "Lihat dan kelola akun pengguna karyawan secara terpisah dari manajemen pengguna internal."
+  },
+  "userManagement.page.addCandidate": {
+    "en": "Add Candidate",
+    "id": "Tambah Kandidat"
+  },
+  "userManagement.page.addUser": {
+    "en": "Add User",
+    "id": "Tambah Pengguna"
+  },
+  "userManagement.page.addEmployee": {
+    "en": "Add Employee",
+    "id": "Tambah Karyawan"
+  },
+  "userManagement.page.listTitle": {
+    "en": "User List",
+    "id": "Daftar Pengguna"
+  },
+  "userManagement.page.listTitle.candidateEmployee": {
+    "en": "Candidate List",
+    "id": "Daftar Kandidat"
+  },
+  "userManagement.page.listDescription.candidateEmployee": {
+    "en": "Track candidate accounts, linked employee records, form progress, and access status in one table.",
+    "id": "Pantau akun kandidat, data karyawan yang terhubung, progres formulir, dan status akses dalam satu tabel."
+  },
+  "userManagement.page.listTitle.candidate": {
+    "en": "Candidate User List",
+    "id": "Daftar Pengguna Kandidat"
+  },
+  "userManagement.page.listTitle.employee": {
+    "en": "Employee List",
+    "id": "Daftar Karyawan"
+  },
+  "userManagement.page.searchPlaceholder": {
+    "en": "Search name, email, username, phone, department, designation, position, or role...",
+    "id": "Cari nama, email, nama pengguna, telepon, departemen, jabatan, posisi, atau peran..."
+  },
+  "userManagement.page.searchPlaceholder.candidateEmployee": {
+    "en": "Search name, email, phone, department, designation, or position...",
+    "id": "Cari nama, email, telepon, departemen, jabatan, atau posisi..."
+  },
+  "userManagement.page.searchPlaceholder.candidate": {
+    "en": "Search candidate name, email, phone, department, designation, or position...",
+    "id": "Cari nama kandidat, email, telepon, departemen, jabatan, atau posisi..."
+  },
+  "userManagement.page.searchPlaceholder.employee": {
+    "en": "Search employee name, email, username, phone, department, designation, or position...",
+    "id": "Cari nama karyawan, email, nama pengguna, telepon, departemen, jabatan, atau posisi..."
+  },
+  "userManagement.page.roleSearchPlaceholder": {
+    "en": "Search role...",
+    "id": "Cari peran..."
+  },
+  "userManagement.page.allRoles": {
+    "en": "All Roles",
+    "id": "Semua Peran"
+  },
+  "userManagement.page.filters.reset": {
+    "en": "Reset Filters",
+    "id": "Reset Filter"
+  },
+  "userManagement.page.statusSearchPlaceholder": {
+    "en": "Filter status...",
+    "id": "Filter status..."
+  },
+  "userManagement.page.sourceSearchPlaceholder": {
+    "en": "Filter source...",
+    "id": "Filter sumber..."
+  },
+  "userManagement.page.filters.source": {
+    "en": "Source",
+    "id": "Sumber"
+  },
+  "userManagement.page.filters.source.internal": {
+    "en": "Internal",
+    "id": "Internal"
+  },
+  "userManagement.page.filters.source.candidateService": {
+    "en": "Candidate Portal",
+    "id": "Portal Kandidat"
+  },
+  "userManagement.page.changeRolePlaceholder": {
+    "en": "Change role...",
+    "id": "Ubah peran..."
+  },
+  "userManagement.page.table.number": {
+    "en": "No",
+    "id": "Nomor"
+  },
+  "userManagement.page.table.name": {
+    "en": "Name",
+    "id": "Nama"
+  },
+  "userManagement.page.table.email": {
+    "en": "Email",
+    "id": "Email"
+  },
+  "userManagement.page.table.username": {
+    "en": "Username",
+    "id": "Nama Pengguna"
+  },
+  "userManagement.page.table.phone": {
+    "en": "Phone",
+    "id": "Telepon"
+  },
+  "userManagement.page.table.department": {
+    "en": "BU Department",
+    "id": "BU Departemen"
+  },
+  "userManagement.page.table.designation": {
+    "en": "Designation",
+    "id": "Jabatan"
+  },
+  "userManagement.page.table.mainPosition": {
+    "en": "Main Position",
+    "id": "Posisi Utama"
+  },
+  "userManagement.page.table.status": {
+    "en": "Status",
+    "id": "Status"
+  },
+  "userManagement.page.table.role": {
+    "en": "Role",
+    "id": "Peran"
+  },
+  "userManagement.page.table.registeredDate": {
+    "en": "Registered Date",
+    "id": "Tanggal Registrasi"
+  },
+  "userManagement.page.table.actions": {
+    "en": "Actions",
+    "id": "Aksi"
+  },
+  "userManagement.page.empty": {
+    "en": "No matching data found.",
+    "id": "Tidak ada data yang sesuai."
+  },
+  "userManagement.page.actions.edit": {
+    "en": "Edit",
+    "id": "Ubah"
+  },
+  "userManagement.page.actions.switchToEmployee": {
+    "en": "Switch to Employee",
+    "id": "Ubah ke Karyawan"
+  },
+  "userManagement.page.actions.infoDeactivated": {
+    "en": "Info Deactivated",
+    "id": "Info Nonaktif"
+  },
+  "userManagement.page.actions.activate": {
+    "en": "Activate",
+    "id": "Aktifkan"
+  },
+  "userManagement.page.actions.deactivate": {
+    "en": "Deactivate",
+    "id": "Nonaktifkan"
+  },
+  "userManagement.page.actions.revoke": {
+    "en": "Revoke",
+    "id": "Cabut Akses"
+  },
+  "userManagement.page.actions.delete": {
+    "en": "Delete",
+    "id": "Hapus"
+  },
+  "userManagement.page.access.title": {
+    "en": "Info Deactivated",
+    "id": "Info Nonaktif"
+  },
+  "userManagement.page.access.description": {
+    "en": "Candidate access follows the 3-day activation window from the latest activation date.",
+    "id": "Akses kandidat mengikuti jendela aktivasi 3 hari sejak tanggal aktivasi terakhir."
+  },
+  "userManagement.page.access.registeredDate": {
+    "en": "Registered Date",
+    "id": "Tanggal Registrasi"
+  },
+  "userManagement.page.access.lastActivatedDate": {
+    "en": "Last Activated Date",
+    "id": "Tanggal Aktivasi Terakhir"
+  },
+  "userManagement.page.access.autoDeactivateDate": {
+    "en": "Auto Deactivate Date",
+    "id": "Tanggal Nonaktif Otomatis"
+  },
+  "userManagement.page.access.daysRemaining": {
+    "en": "Days Remaining",
+    "id": "Sisa Hari"
+  },
+  "userManagement.page.access.day.single": {
+    "en": "{count} day",
+    "id": "{count} hari"
+  },
+  "userManagement.page.access.day.multiple": {
+    "en": "{count} days",
+    "id": "{count} hari"
+  },
+  "userManagement.page.access.summary.expired": {
+    "en": "Candidate access should already be inactive.",
+    "id": "Akses kandidat seharusnya sudah nonaktif."
+  },
+  "userManagement.page.access.detail.expired": {
+    "en": "The 3-day access window ended on {date}.",
+    "id": "Jendela akses 3 hari berakhir pada {date}."
+  },
+  "userManagement.page.access.summary.scheduled.single": {
+    "en": "Candidate access will be auto inactive in {count} day.",
+    "id": "Akses kandidat akan nonaktif otomatis dalam {count} hari."
+  },
+  "userManagement.page.access.summary.scheduled.multiple": {
+    "en": "Candidate access will be auto inactive in {count} days.",
+    "id": "Akses kandidat akan nonaktif otomatis dalam {count} hari."
+  },
+  "userManagement.page.access.detail.scheduled": {
+    "en": "The account is scheduled to be automatically deactivated on {date}.",
+    "id": "Akun dijadwalkan nonaktif otomatis pada {date}."
+  },
+  "userManagement.page.confirm.revoke": {
+    "en": "Revoke candidate account {email}? The candidate will lose portal access.",
+    "id": "Cabut akun kandidat {email}? Kandidat akan kehilangan akses portal."
+  },
+  "userManagement.page.confirm.delete": {
+    "en": "Delete account {email}? This action cannot be undone.",
+    "id": "Hapus akun {email}? Tindakan ini tidak dapat dibatalkan."
+  },
+  "userManagement.page.confirm.switchToEmployee": {
+    "en": "Switch {email} to employee mode?",
+    "id": "Ubah {email} ke mode karyawan?"
+  },
+  "userManagement.page.confirm.activate": {
+    "en": "Activate account {email}?",
+    "id": "Aktifkan akun {email}?"
+  },
+  "userManagement.page.confirm.deactivate": {
+    "en": "Deactivate account {email}?",
+    "id": "Nonaktifkan akun {email}?"
+  },
+  "userManagement.page.toast.revokeSuccess": {
+    "en": "Candidate access updated successfully.",
+    "id": "Akses kandidat berhasil diperbarui."
+  },
+  "userManagement.page.toast.deleteSuccess": {
+    "en": "User deleted successfully.",
+    "id": "Pengguna berhasil dihapus."
+  },
+  "userManagement.page.toast.roleUpdated": {
+    "en": "User role updated successfully.",
+    "id": "Peran pengguna berhasil diperbarui."
+  },
+  "userManagement.page.toast.switchSuccess": {
+    "en": "Employee mode updated successfully.",
+    "id": "Mode karyawan berhasil diperbarui."
+  },
+  "userManagement.page.toast.activated": {
+    "en": "User activated successfully.",
+    "id": "Pengguna berhasil diaktifkan."
+  },
+  "userManagement.page.toast.deactivated": {
+    "en": "User deactivated successfully.",
+    "id": "Pengguna berhasil dinonaktifkan."
+  },
+  "userManagement.page.errors.deleteUser": {
+    "en": "Failed to delete user.",
+    "id": "Gagal menghapus pengguna."
+  },
+  "userManagement.page.errors.updateRole": {
+    "en": "Failed to update role.",
+    "id": "Gagal memperbarui peran."
+  },
+  "userManagement.page.errors.switchToEmployee": {
+    "en": "Failed to switch user to employee.",
+    "id": "Gagal mengubah pengguna ke karyawan."
+  },
+  "userManagement.page.errors.updateStatus": {
+    "en": "Failed to update user status.",
+    "id": "Gagal memperbarui status pengguna."
+  },
+  "userManagement.form.eyebrow.staff": {
+    "en": "Recruitment Staff",
+    "id": "Staf Rekrutmen"
+  },
+  "userManagement.form.eyebrow.admin": {
+    "en": "Administrator",
+    "id": "Administrator"
+  },
+  "userManagement.form.eyebrow.registration": {
+    "en": "Registration",
+    "id": "Registrasi"
+  },
+  "userManagement.form.title.editCandidate": {
+    "en": "Edit Candidate Account",
+    "id": "Ubah Akun Kandidat"
+  },
+  "userManagement.form.title.editUser": {
+    "en": "Edit User Account",
+    "id": "Ubah Akun Pengguna"
+  },
+  "userManagement.form.title.createCandidate": {
+    "en": "Create Candidate Account",
+    "id": "Buat Akun Kandidat"
+  },
+  "userManagement.form.title.createUser": {
+    "en": "Create User Account",
+    "id": "Buat Akun Pengguna"
+  },
+  "userManagement.form.userNotFound": {
+    "en": "User not found.",
+    "id": "Pengguna tidak ditemukan."
+  },
+  "userManagement.form.accountType.user": {
+    "en": "User Account",
+    "id": "Akun Pengguna"
+  },
+  "userManagement.form.accountType.candidate": {
+    "en": "Candidate Account",
+    "id": "Akun Kandidat"
+  },
+  "userManagement.form.fields.email": {
+    "en": "Email *",
+    "id": "Email *"
+  },
+  "userManagement.form.fields.username": {
+    "en": "Username *",
+    "id": "Nama Pengguna *"
+  },
+  "userManagement.form.fields.newPassword": {
+    "en": "New Password",
+    "id": "Password Baru"
+  },
+  "userManagement.form.fields.password": {
+    "en": "Password *",
+    "id": "Password *"
+  },
+  "userManagement.form.fields.passwordOptional": {
+    "en": "Password (Optional)",
+    "id": "Password (Opsional)"
+  },
+  "userManagement.form.fields.passwordHelp": {
+    "en": "Fill this only if the user's password needs to be changed.",
+    "id": "Isi ini hanya jika password pengguna perlu diubah."
+  },
+  "userManagement.form.fields.passwordOptionalHelp": {
+    "en": "Leave this blank to let the system generate a password automatically for the candidate account.",
+    "id": "Kosongkan kolom ini agar sistem membuatkan password otomatis untuk akun kandidat."
+  },
+  "userManagement.form.fields.fullName": {
+    "en": "Full Name *",
+    "id": "Nama Lengkap *"
+  },
+  "userManagement.form.fields.role": {
+    "en": "Role *",
+    "id": "Peran *"
+  },
+  "userManagement.form.fields.phone": {
+    "en": "Phone",
+    "id": "Telepon"
+  },
+  "userManagement.form.fields.employeeCode": {
+    "en": "Employee Code",
+    "id": "No Karyawan"
+  },
+  "userManagement.form.fields.contractNumber": {
+    "en": "Contract Number",
+    "id": "Nomor Kontrak"
+  },
+  "userManagement.form.fields.costCenterPt": {
+    "en": "Cost Center PT",
+    "id": "Cost Center PT"
+  },
+  "userManagement.form.fields.bindErf": {
+    "en": "Bind ERF *",
+    "id": "Tautkan ERF *"
+  },
+  "userManagement.form.fields.bindErfHelp": {
+    "en": "The candidate account will be linked to this ERF so the candidate can focus on completing their profile data.",
+    "id": "Akun kandidat akan ditautkan ke ERF ini agar kandidat dapat fokus melengkapi data profilnya."
+  },
+  "userManagement.form.fields.department": {
+    "en": "BU Department",
+    "id": "BU Departemen"
+  },
+  "userManagement.form.fields.designation": {
+    "en": "Designation",
+    "id": "Jabatan"
+  },
+  "userManagement.form.fields.mainPosition": {
+    "en": "Main Position",
+    "id": "Posisi Utama"
+  },
+  "userManagement.form.placeholders.email": {
+    "en": "user@example.com",
+    "id": "pengguna@example.com"
+  },
+  "userManagement.form.placeholders.username": {
+    "en": "username",
+    "id": "nama pengguna"
+  },
+  "userManagement.form.placeholders.newPassword": {
+    "en": "Leave blank to keep current password",
+    "id": "Kosongkan jika ingin mempertahankan password saat ini"
+  },
+  "userManagement.form.placeholders.password": {
+    "en": "Minimum 6 characters",
+    "id": "Minimal 6 karakter"
+  },
+  "userManagement.form.placeholders.passwordOptional": {
+    "en": "Leave blank to generate automatically",
+    "id": "Kosongkan untuk dibuat otomatis"
+  },
+  "userManagement.form.placeholders.fullName": {
+    "en": "Full name",
+    "id": "Nama lengkap"
+  },
+  "userManagement.form.placeholders.roleSearch": {
+    "en": "Search role...",
+    "id": "Cari peran..."
+  },
+  "userManagement.form.placeholders.roleEmpty": {
+    "en": "Select a role",
+    "id": "Pilih peran"
+  },
+  "userManagement.form.placeholders.phone": {
+    "en": "+62...",
+    "id": "+62..."
+  },
+  "userManagement.form.placeholders.employeeCode": {
+    "en": "Enter employee code",
+    "id": "Masukkan no karyawan"
+  },
+  "userManagement.form.placeholders.contractNumber": {
+    "en": "Enter contract number",
+    "id": "Masukkan nomor kontrak"
+  },
+  "userManagement.form.placeholders.costCenterPt": {
+    "en": "Enter cost center PT",
+    "id": "Masukkan cost center PT"
+  },
+  "userManagement.form.placeholders.costCenterPtSearch": {
+    "en": "Search cost center PT...",
+    "id": "Cari cost center PT..."
+  },
+  "userManagement.form.placeholders.costCenterPtEmpty": {
+    "en": "Select cost center PT",
+    "id": "Pilih cost center PT"
+  },
+  "userManagement.form.placeholders.erfSearch": {
+    "en": "Search ERF...",
+    "id": "Cari ERF..."
+  },
+  "userManagement.form.placeholders.erfEmpty": {
+    "en": "Select ERF",
+    "id": "Pilih ERF"
+  },
+  "userManagement.form.placeholders.departmentSearch": {
+    "en": "Search department...",
+    "id": "Cari departemen..."
+  },
+  "userManagement.form.placeholders.departmentEmpty": {
+    "en": "Select department",
+    "id": "Pilih departemen"
+  },
+  "userManagement.form.placeholders.designationSearch": {
+    "en": "Search designation...",
+    "id": "Cari jabatan..."
+  },
+  "userManagement.form.placeholders.designationEmpty": {
+    "en": "Select designation",
+    "id": "Pilih jabatan"
+  },
+  "userManagement.form.placeholders.mainPosition": {
+    "en": "Enter main position",
+    "id": "Masukkan posisi utama"
+  },
+  "userManagement.form.boundLabels.department": {
+    "en": "BU Department",
+    "id": "BU Departemen:"
+  },
+  "userManagement.form.boundLabels.designation": {
+    "en": "Designation:",
+    "id": "Jabatan:"
+  },
+  "userManagement.form.boundLabels.mainPosition": {
+    "en": "Main Position:",
+    "id": "Posisi Utama:"
+  },
+  "userManagement.form.buttons.saving": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "userManagement.form.buttons.creatingCandidate": {
+    "en": "Creating Candidate...",
+    "id": "Membuat Kandidat..."
+  },
+  "userManagement.form.buttons.registering": {
+    "en": "Registering...",
+    "id": "Mendaftarkan..."
+  },
+  "userManagement.form.buttons.saveChanges": {
+    "en": "Save Changes",
+    "id": "Simpan Perubahan"
+  },
+  "userManagement.form.buttons.createCandidate": {
+    "en": "Create Candidate",
+    "id": "Buat Kandidat"
+  },
+  "userManagement.form.buttons.registerUser": {
+    "en": "Register User",
+    "id": "Daftarkan Pengguna"
+  },
+  "userManagement.form.created.title": {
+    "en": "Account Created Successfully",
+    "id": "Akun Berhasil Dibuat"
+  },
+  "userManagement.form.created.email": {
+    "en": "Email:",
+    "id": "Email:"
+  },
+  "userManagement.form.created.username": {
+    "en": "Username:",
+    "id": "Nama Pengguna:"
+  },
+  "userManagement.form.created.login": {
+    "en": "Login:",
+    "id": "Masuk:"
+  },
+  "userManagement.form.created.password": {
+    "en": "Password:",
+    "id": "Password:"
+  },
+  "userManagement.form.created.passwordAutoGenerated": {
+    "en": "Generated automatically by the system",
+    "id": "Dibuat otomatis oleh sistem"
+  },
+  "userManagement.form.created.role": {
+    "en": "Role:",
+    "id": "Peran:"
+  },
+  "userManagement.form.created.emailOnly": {
+    "en": "Email only",
+    "id": "Hanya email"
+  },
+  "userManagement.form.toast.createSuccess": {
+    "en": "Account created successfully.",
+    "id": "Akun berhasil dibuat."
+  },
+  "userManagement.form.toast.updateSuccess": {
+    "en": "Account updated successfully.",
+    "id": "Akun berhasil diperbarui."
+  },
+  "userManagement.form.errors.loadData": {
+    "en": "Failed to load user form data.",
+    "id": "Gagal memuat data formulir pengguna."
+  },
+  "userManagement.form.errors.loadBindings": {
+    "en": "Failed to load ERF bindings.",
+    "id": "Gagal memuat tautan ERF."
+  },
+  "userManagement.form.errors.fullNameRequired": {
+    "en": "Full name is required.",
+    "id": "Nama lengkap wajib diisi."
+  },
+  "userManagement.form.errors.roleRequired": {
+    "en": "Role is required.",
+    "id": "Peran wajib diisi."
+  },
+  "userManagement.form.errors.usernameRequired": {
+    "en": "Username is required.",
+    "id": "Nama Pengguna wajib diisi."
+  },
+  "userManagement.form.errors.bindErfRequired": {
+    "en": "Please bind the candidate account to an ERF.",
+    "id": "Silakan tautkan akun kandidat ke ERF."
+  },
+  "userManagement.form.errors.newPasswordTooShort": {
+    "en": "The new password must be at least 6 characters.",
+    "id": "Password baru minimal 6 karakter."
+  },
+  "userManagement.form.errors.passwordRequired": {
+    "en": "Password is required.",
+    "id": "Password wajib diisi."
+  },
+  "userManagement.form.errors.passwordTooShort": {
+    "en": "Password must be at least 6 characters.",
+    "id": "Password minimal 6 karakter."
+  },
+  "userManagement.form.errors.updateFailed": {
+    "en": "Failed to update the user.",
+    "id": "Gagal memperbarui pengguna."
+  },
+  "userManagement.form.errors.createFailed": {
+    "en": "Failed to create the user.",
+    "id": "Gagal membuat pengguna."
+  },
+  "userManagement.history.eyebrow": {
+    "en": "System Admin",
+    "id": "Admin Sistem"
+  },
+  "userManagement.history.title": {
+    "en": "User History",
+    "id": "Riwayat Pengguna"
+  },
+  "userManagement.history.description": {
+    "en": "View inactive user accounts from internal users and candidate accounts.",
+    "id": "Lihat akun pengguna nonaktif dari pengguna internal dan akun kandidat."
+  },
+  "userManagement.history.listDescription": {
+    "en": "Track inactive accounts, activation windows, and follow-up actions in one table.",
+    "id": "Pantau akun nonaktif, jendela aktivasi, dan aksi tindak lanjut dalam satu tabel."
+  },
+  "userManagement.history.filters.reset": {
+    "en": "Reset Filters",
+    "id": "Reset Filter"
+  },
+  "userManagement.history.searchPlaceholder": {
+    "en": "Search name, email, username, role, or position...",
+    "id": "Cari nama, email, nama pengguna, peran, atau posisi..."
+  },
+  "userManagement.history.table.referenceDate": {
+    "en": "Reference Date",
+    "id": "Tanggal Referensi"
+  },
+  "userManagement.history.table.user": {
+    "en": "User",
+    "id": "Pengguna"
+  },
+  "userManagement.history.table.username": {
+    "en": "Username",
+    "id": "Nama Pengguna"
+  },
+  "userManagement.history.table.role": {
+    "en": "Role",
+    "id": "Peran"
+  },
+  "userManagement.history.table.mainPosition": {
+    "en": "Main Position",
+    "id": "Posisi Utama"
+  },
+  "userManagement.history.table.status": {
+    "en": "Status",
+    "id": "Status"
+  },
+  "userManagement.history.table.actions": {
+    "en": "Actions",
+    "id": "Aksi"
+  },
+  "userManagement.history.actions.switchToEmployee": {
+    "en": "Switch to Employee",
+    "id": "Ubah ke Karyawan"
+  },
+  "userManagement.history.actions.activate": {
+    "en": "Activate",
+    "id": "Aktifkan"
+  },
+  "userManagement.history.empty": {
+    "en": "No inactive users found.",
+    "id": "Tidak ada pengguna nonaktif."
+  },
+  "userManagement.history.confirm.activate": {
+    "en": "Activate account {target}?",
+    "id": "Aktifkan akun {target}?"
+  },
+  "userManagement.history.confirm.switchToEmployee": {
+    "en": "Switch {target} to employee mode?",
+    "id": "Ubah {target} ke mode karyawan?"
+  },
+  "userManagement.history.toast.activated": {
+    "en": "User activated successfully.",
+    "id": "Pengguna berhasil diaktifkan."
+  },
+  "userManagement.history.toast.switchSuccess": {
+    "en": "Employee mode updated successfully.",
+    "id": "Mode karyawan berhasil diperbarui."
+  },
+  "userManagement.history.errors.activate": {
+    "en": "Failed to activate user.",
+    "id": "Gagal mengaktifkan pengguna."
+  },
+  "userManagement.history.errors.switchToEmployee": {
+    "en": "Failed to switch user to employee.",
+    "id": "Gagal mengubah pengguna ke karyawan."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "vacancyPipeline.page.eyebrow": {
+    "en": "Recruitment",
+    "id": "Rekrutmen"
+  },
+  "vacancyPipeline.page.title": {
+    "en": "Vacancy Pipeline",
+    "id": "Alur Lowongan"
+  },
+  "vacancyPipeline.page.description": {
+    "en": "Monitor active vacancy demand, interview activity, and the current movement of candidates across open ERFs.",
+    "id": "Pantau kebutuhan lowongan aktif, aktivitas wawancara, dan pergerakan kandidat pada ERF yang masih terbuka."
+  },
+  "vacancyPipeline.page.searchPlaceholder": {
+    "en": "Search department, position, vacancy status, or candidate...",
+    "id": "Cari department, posisi, status lowongan, atau kandidat..."
+  },
+  "vacancyPipeline.page.empty": {
+    "en": "No vacancy pipeline data found.",
+    "id": "Tidak ada data alur lowongan."
+  },
+  "vacancyPipeline.page.columns.vacancy": {
+    "en": "Vacancy",
+    "id": "Lowongan"
+  },
+  "vacancyPipeline.page.columns.totalCandidate": {
+    "en": "Total Candidate",
+    "id": "Total Kandidat"
+  },
+  "vacancyPipeline.page.columns.interviewScheduled": {
+    "en": "Interview Scheduled",
+    "id": "Wawancara Terjadwal"
+  },
+  "vacancyPipeline.page.columns.acceptedCandidate": {
+    "en": "Accepted Candidate",
+    "id": "Kandidat Diterima"
+  },
+  "vacancyPipeline.detail.eyebrow": {
+    "en": "Approval Detail",
+    "id": "Rincian Persetujuan"
+  },
+  "vacancyPipeline.detail.erfDetail": {
+    "en": "ERF Detail",
+    "id": "Rincian ERF"
+  },
+  "vacancyPipeline.detail.candidatesTitle": {
+    "en": "All Candidates",
+    "id": "Semua Kandidat"
+  },
+  "vacancyPipeline.detail.loadingCandidates": {
+    "en": "Loading candidates...",
+    "id": "Memuat kandidat..."
+  },
+  "vacancyPipeline.detail.emptyCandidates": {
+    "en": "No candidates have entered this pipeline yet.",
+    "id": "Belum ada kandidat yang masuk ke alur ini."
+  },
+  "vacancyPipeline.detail.loadCandidatesFailed": {
+    "en": "Failed to load pipeline candidates.",
+    "id": "Gagal memuat kandidat pada alur ini."
+  },
+  "vacancyPipeline.detail.selectedCandidate": {
+    "en": "Selected Candidate",
+    "id": "Kandidat Terpilih"
+  },
+  "closedVacancy.page.eyebrow": {
+    "en": "Recruitment",
+    "id": "Rekrutmen"
+  },
+  "closedVacancy.page.title": {
+    "en": "Closed Vacancy",
+    "id": "Lowongan Ditutup"
+  },
+  "closedVacancy.page.description": {
+    "en": "Review vacancies that have been closed along with their selected candidates, approvals, and final pipeline context.",
+    "id": "Tinjau lowongan yang sudah ditutup beserta kandidat terpilih, persetujuan, dan konteks pipeline akhirnya."
+  },
+  "closedVacancy.page.searchPlaceholder": {
+    "en": "Search department, position, vacancy status, or candidate...",
+    "id": "Cari department, posisi, status lowongan, atau kandidat..."
+  },
+  "closedVacancy.page.empty": {
+    "en": "No closed vacancy data found.",
+    "id": "Tidak ada data lowongan ditutup."
+  }
+}

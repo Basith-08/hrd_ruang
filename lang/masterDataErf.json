@@ -1,0 +1,194 @@
+{
+  "masterDataErf.page.eyebrow": {
+    "en": "Administrator",
+    "id": "Administrator"
+  },
+  "masterDataErf.page.title": {
+    "en": "Master Data ERF",
+    "id": "Master Data ERF"
+  },
+  "masterDataErf.page.description": {
+    "en": "Manage reusable master data for PT, BU Category, BU Department, Job Level, and Designation in ERF.",
+    "id": "Kelola master data yang dapat digunakan ulang untuk PT, BU Kategori, BU Departemen, Level Jabatan, dan Jabatan pada ERF."
+  },
+  "masterDataErf.tabs.pt": {
+    "en": "PT",
+    "id": "PT"
+  },
+  "masterDataErf.tabs.bu": {
+    "en": "BU Category",
+    "id": "BU Kategori"
+  },
+  "masterDataErf.tabs.department": {
+    "en": "BU Department",
+    "id": "BU Departemen"
+  },
+  "masterDataErf.tabs.jobLevel": {
+    "en": "Job Level",
+    "id": "Level Jabatan"
+  },
+  "masterDataErf.tabs.designation": {
+    "en": "Designation",
+    "id": "Jabatan"
+  },
+  "masterDataErf.listTitle": {
+    "en": "{label} List",
+    "id": "Daftar {label}"
+  },
+  "masterDataErf.add": {
+    "en": "Add {label}",
+    "id": "Tambah {label}"
+  },
+  "masterDataErf.edit": {
+    "en": "Edit {label}",
+    "id": "Ubah {label}"
+  },
+  "masterDataErf.loading": {
+    "en": "Loading...",
+    "id": "Memuat..."
+  },
+  "masterDataErf.empty": {
+    "en": "No {label} entries found.",
+    "id": "Tidak ada entri {label}."
+  },
+  "masterDataErf.searchPlaceholder": {
+    "en": "Search {label} by name, address, or description...",
+    "id": "Cari {label} berdasarkan nama, alamat, atau deskripsi..."
+  },
+  "masterDataErf.table.number": {
+    "en": "No",
+    "id": "Nomor"
+  },
+  "masterDataErf.table.name": {
+    "en": "Name",
+    "id": "Nama"
+  },
+  "masterDataErf.table.description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "masterDataErf.table.actions": {
+    "en": "Actions",
+    "id": "Aksi"
+  },
+  "masterDataErf.table.minRequiredDate": {
+    "en": "Min. Required Date",
+    "id": "Min. Required Date"
+  },
+  "masterDataErf.address.column": {
+    "en": "Address",
+    "id": "Alamat"
+  },
+  "masterDataErf.modal.name": {
+    "en": "Name *",
+    "id": "Nama *"
+  },
+  "masterDataErf.modal.namePlaceholder": {
+    "en": "Enter {label} name",
+    "id": "Masukkan nama {label}"
+  },
+  "masterDataErf.modal.description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "masterDataErf.modal.descriptionPlaceholder": {
+    "en": "Brief description...",
+    "id": "Deskripsi singkat..."
+  },
+  "masterDataErf.address.label": {
+    "en": "Address",
+    "id": "Alamat"
+  },
+  "masterDataErf.address.placeholder": {
+    "en": "Enter PT address",
+    "id": "Masukkan alamat PT"
+  },
+  "masterDataErf.modal.cancel": {
+    "en": "Cancel",
+    "id": "Batal"
+  },
+  "masterDataErf.modal.save": {
+    "en": "Save",
+    "id": "Simpan"
+  },
+  "masterDataErf.modal.saving": {
+    "en": "Saving...",
+    "id": "Menyimpan..."
+  },
+  "masterDataErf.parent.bu": {
+    "en": "BU",
+    "id": "BU"
+  },
+  "masterDataErf.parent.generic": {
+    "en": "Parent",
+    "id": "Induk"
+  },
+  "masterDataErf.parent.selectBu": {
+    "en": "Select BU...",
+    "id": "Pilih BU..."
+  },
+  "masterDataErf.parent.selectParent": {
+    "en": "Select parent...",
+    "id": "Pilih induk..."
+  },
+  "masterDataErf.requiredDate.label": {
+    "en": "Minimum Required Date Lead Time (Months)",
+    "id": "Minimum Required Date Lead Time (Bulan)"
+  },
+  "masterDataErf.requiredDate.placeholder": {
+    "en": "e.g. 1",
+    "id": "mis. 1"
+  },
+  "masterDataErf.requiredDate.help": {
+    "en": "Example: 1 means Required Date must be at least 1 month from today.",
+    "id": "Contoh: 1 berarti Required Date minimal 1 bulan dari hari ini."
+  },
+  "masterDataErf.requiredDate.format.single": {
+    "en": "{value} month",
+    "id": "{value} bulan"
+  },
+  "masterDataErf.requiredDate.format.multiple": {
+    "en": "{value} months",
+    "id": "{value} bulan"
+  },
+  "masterDataErf.actions.edit": {
+    "en": "Edit",
+    "id": "Ubah"
+  },
+  "masterDataErf.actions.delete": {
+    "en": "Delete",
+    "id": "Hapus"
+  },
+  "masterDataErf.errors.loadType": {
+    "en": "Failed to load {label} data.",
+    "id": "Gagal memuat data {label}."
+  },
+  "masterDataErf.errors.loadAll": {
+    "en": "Failed to load master data.",
+    "id": "Gagal memuat master data."
+  },
+  "masterDataErf.errors.save": {
+    "en": "Failed to save {label}.",
+    "id": "Gagal menyimpan {label}."
+  },
+  "masterDataErf.errors.duplicateName": {
+    "en": "{label} with the same name already exists.",
+    "id": "{label} dengan nama yang sama sudah ada."
+  },
+  "masterDataErf.errors.duplicateDepartmentInBu": {
+    "en": "BU Department with the same name already exists in the selected BU.",
+    "id": "BU Departemen dengan nama yang sama sudah ada pada BU yang dipilih."
+  },
+  "masterDataErf.errors.delete": {
+    "en": "Failed to delete {label}.",
+    "id": "Gagal menghapus {label}."
+  },
+  "masterDataErf.errors.requiredDateInvalid": {
+    "en": "Minimum Required Date lead time must be a non-negative whole number.",
+    "id": "Minimum Required Date harus berupa bilangan bulat nol atau lebih."
+  },
+  "masterDataErf.confirmDelete": {
+    "en": "Delete this {label} entry?",
+    "id": "Hapus entri {label} ini?"
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "approvals.tracking.eyebrow": {
+    "en": "Monitoring",
+    "id": "Pemantauan"
+  },
+  "approvals.tracking.title": {
+    "en": "Approval Tracking",
+    "id": "Pelacakan Persetujuan"
+  },
+  "approvals.tracking.description": {
+    "en": "Track the ERF approval status along with the detailed history of each step.",
+    "id": "Pantau status persetujuan ERF beserta riwayat rincian di setiap tahap."
+  },
+  "approvals.tracking.loadFailed": {
+    "en": "Failed to load approval chains.",
+    "id": "Gagal memuat rantai persetujuan."
+  },
+  "approvals.tracking.submitFailed": {
+    "en": "Failed to submit for approval.",
+    "id": "Gagal mengajukan untuk persetujuan."
+  },
+  "approvals.tracking.approveFailed": {
+    "en": "Failed to approve the request.",
+    "id": "Gagal menyetujui permintaan."
+  },
+  "approvals.tracking.rejectFailed": {
+    "en": "Failed to reject the request.",
+    "id": "Gagal menolak permintaan."
+  },
+  "approvals.tracking.searchPlaceholder": {
+    "en": "Search position, site...",
+    "id": "Cari posisi, lokasi..."
+  },
+  "approvals.tracking.searchStatusPlaceholder": {
+    "en": "Search approval status...",
+    "id": "Cari status persetujuan..."
+  },
+  "approvals.tracking.allStatuses": {
+    "en": "All Statuses",
+    "id": "Semua Status"
+  },
+  "approvals.tracking.tip": {
+    "en": "Tip: click a row to show more approval steps.",
+    "id": "Tip: klik satu baris untuk melihat tahap persetujuan secara lebih lengkap."
+  },
+  "approvals.tracking.filters.title": {
+    "en": "Queue",
+    "id": "Antrian"
+  },
+  "approvals.tracking.filters.subtitle": {
+    "en": "Approval Request List",
+    "id": "Daftar Permintaan Persetujuan"
+  },
+  "approvals.tracking.filters.reset": {
+    "en": "Reset Filters",
+    "id": "Reset Filter"
+  },
+  "approvals.tracking.headers.position": {
+    "en": "Position",
+    "id": "Posisi"
+  },
+  "approvals.tracking.headers.site": {
+    "en": "Site",
+    "id": "Lokasi"
+  },
+  "approvals.tracking.headers.submitted": {
+    "en": "Submitted",
+    "id": "Diajukan"
+  },
+  "approvals.tracking.headers.approvalStatus": {
+    "en": "Approval Status",
+    "id": "Status Persetujuan"
+  },
+  "approvals.tracking.headers.approvalSteps": {
+    "en": "Approval Steps",
+    "id": "Tahap Persetujuan"
+  },
+  "approvals.tracking.noPosition": {
+    "en": "No Position",
+    "id": "Tanpa Posisi"
+  },
+  "approvals.tracking.detail.eyebrow": {
+    "en": "Approval Detail",
+    "id": "Rincian Persetujuan"
+  },
+  "approvals.tracking.detail.erfDetail": {
+    "en": "ERF Detail",
+    "id": "Rincian ERF"
+  },
+  "approvals.tracking.detail.approvalScope": {
+    "en": "Approval Scope",
+    "id": "Ruang Lingkup Persetujuan"
+  },
+  "approvals.tracking.detail.signedInAs": {
+    "en": "Signed in as {email}",
+    "id": "Masuk sebagai {email}"
+  },
+  "approvals.tracking.detail.adminNotice": {
+    "en": "Administrator accounts can review all approval tracking data, but cannot approve or reject any request.",
+    "id": "Akun administrator dapat meninjau semua data pelacakan persetujuan, tetapi tidak dapat menyetujui atau menolak permintaan."
+  },
+  "approvals.tracking.detail.readyForApproval": {
+    "en": "This request is ready for your Approval.",
+    "id": "Permintaan ini siap untuk Anda setujui."
+  },
+  "approvals.tracking.detail.waitingPreviousStage": {
+    "en": "This request is still waiting for the previous approval stage to be completed.",
+    "id": "Permintaan ini masih menunggu tahap persetujuan sebelumnya selesai."
+  },
+  "approvals.tracking.detail.approvedOn": {
+    "en": "This step was approved on {date}.",
+    "id": "Tahap ini telah disetujui pada {date}."
+  },
+  "approvals.tracking.detail.rejectedOn": {
+    "en": "This step was rejected on {date}.",
+    "id": "Tahap ini telah ditolak pada {date}."
+  },
+  "approvals.tracking.detail.onlyOwnApproverEmail": {
+    "en": "You can only process approvals assigned to your own approver email.",
+    "id": "Anda hanya dapat memproses persetujuan yang ditugaskan ke email penyetuju Anda sendiri."
+  },
+  "approvals.tracking.detail.notes": {
+    "en": "Approval Notes (optional)",
+    "id": "Catatan Persetujuan (opsional)"
+  },
+  "approvals.tracking.detail.notesPlaceholder": {
+    "en": "Add your approval notes...",
+    "id": "Tambahkan catatan persetujuan Anda..."
+  },
+  "approvals.tracking.detail.loadingFiles": {
+    "en": "Loading files...",
+    "id": "Memuat file..."
+  },
+  "approvals.tracking.detail.fileClickHint": {
+    "en": "To view a file, click the file name.",
+    "id": "Untuk melihat file, klik nama file."
+  },
+  "approvals.tracking.attachments.organizationalStructure": {
+    "en": "Organizational Structure",
+    "id": "Struktur Organisasi"
+  },
+  "approvals.tracking.attachments.jobDescription": {
+    "en": "Job Description",
+    "id": "Deskripsi Pekerjaan"
+  },
+  "approvals.tracking.fieldLabels.requestDate": {
+    "en": "Request Date",
+    "id": "Tanggal Permintaan"
+  },
+  "approvals.tracking.fieldLabels.mainPosition": {
+    "en": "Main Position",
+    "id": "Posisi Utama"
+  },
+  "approvals.tracking.fieldLabels.department": {
+    "en": "BU Department",
+    "id": "BU Departemen"
+  },
+  "approvals.tracking.fieldLabels.designation": {
+    "en": "Designation",
+    "id": "Jabatan"
+  },
+  "approvals.tracking.fieldLabels.workingLocation": {
+    "en": "Working Location",
+    "id": "Lokasi Kerja"
+  },
+  "approvals.tracking.fieldLabels.requiredDate": {
+    "en": "Required Date",
+    "id": "Tanggal Dibutuhkan"
+  },
+  "approvals.tracking.fieldLabels.employmentStatus": {
+    "en": "Employment Status",
+    "id": "Status Karyawan"
+  },
+  "approvals.tracking.fieldLabels.costCenterPt": {
+    "en": "Cost Center PT",
+    "id": "Cost Center PT"
+  },
+  "approvals.tracking.fieldLabels.probationPeriod": {
+    "en": "Probation/Contract Period",
+    "id": "Masa Percobaan/Kontrak"
+  },
+  "approvals.tracking.fieldLabels.directHead": {
+    "en": "Direct Head",
+    "id": "Atasan Langsung"
+  },
+  "approvals.tracking.fieldLabels.positionStatus": {
+    "en": "Position Status",
+    "id": "Status Posisi"
+  },
+  "approvals.tracking.fieldLabels.customGroup": {
+    "en": "Custom Group {number}",
+    "id": "Grup Kustom {number}"
+  },
+  "approvals.tracking.fieldLabels.buDirectorApproval": {
+    "en": "Director BU",
+    "id": "Direktur BU"
+  },
+  "approvals.tracking.fieldLabels.gmHrdApproval": {
+    "en": "GM HRD",
+    "id": "GM HRD"
+  },
+  "approvals.tracking.fieldLabels.hrDirectorApproval": {
+    "en": "Deputi CEO HRD",
+    "id": "Deputi CEO HRD"
+  },
+  "approvals.tracking.fieldLabels.approvalDate": {
+    "en": "Approval Date",
+    "id": "Tanggal Persetujuan"
+  },
+  "approvals.tracking.fieldLabels.probationMonths": {
+    "en": "{months} months",
+    "id": "{months} bulan"
+  },
+  "approvals.tracking.statusLabels.requested": {
+    "en": "A. Requested",
+    "id": "A. Diajukan"
+  },
+  "approvals.tracking.statusLabels.pendingApproval": {
+    "en": "Pending Approval",
+    "id": "Menunggu Persetujuan"
+  },
+  "approvals.tracking.statusLabels.requestApproved": {
+    "en": "E. Request Approved",
+    "id": "E. Permintaan Disetujui"
+  },
+  "approvals.tracking.statusLabels.requestRejected": {
+    "en": "Request Rejected",
+    "id": "Permintaan Ditolak"
+  },
+  "approvals.tracking.statusLabels.waitingApprovalFor": {
+    "en": "{prefix}. Waiting Approval for {role}",
+    "id": "{prefix}. Menunggu Persetujuan dari {peran}"
+  },
+  "approvals.tracking.statusLabels.rejectedAtStage": {
+    "en": "{prefix}. Request Rejected",
+    "id": "{prefix}. Permintaan Ditolak"
+  },
+  "approvals.tracking.stageLabels.approved": {
+    "en": "Approved",
+    "id": "Disetujui"
+  },
+  "approvals.tracking.stageLabels.rejected": {
+    "en": "Rejected",
+    "id": "Ditolak"
+  },
+  "approvals.tracking.stageLabels.waitingFor": {
+    "en": "Waiting for",
+    "id": "Menunggu"
+  },
+  "approvals.tracking.stageLabels.notReached": {
+    "en": "Not Reached",
+    "id": "Belum Tercapai"
+  },
+  "approvals.tracking.stageLabels.requested": {
+    "en": "Requested",
+    "id": "Diajukan"
+  },
+  "approvals.tracking.stageLabels.requestApproved": {
+    "en": "Request Approved",
+    "id": "Permintaan Disetujui"
+  },
+  "approvals.tracking.stageLabels.requestRejected": {
+    "en": "Request Rejected",
+    "id": "Permintaan Ditolak"
+  },
+  "approvals.tracking.stageStatus.done": {
+    "en": "Done",
+    "id": "Selesai"
+  },
+  "approvals.tracking.stageStatus.current": {
+    "en": "Current",
+    "id": "Saat Ini"
+  },
+  "approvals.tracking.stageStatus.pending": {
+    "en": "Pending",
+    "id": "Menunggu"
+  },
+  "approvals.tracking.stageStatus.notReached": {
+    "en": "Not Reached",
+    "id": "Belum Tercapai"
+  },
+  "approvals.tracking.stepRoles.buDirector": {
+    "en": "BU Director",
+    "id": "BU Director"
+  },
+  "approvals.tracking.stepRoles.gmHrd": {
+    "en": "GM HRD",
+    "id": "GM HRD"
+  },
+  "approvals.tracking.stepRoles.hrDirector": {
+    "en": "HR Director",
+    "id": "HR Director"
+  },
+  "approvals.tracking.stepRoles.step": {
+    "en": "Step {number}",
+    "id": "Tahap {number}"
+  },
+  "approvals.tracking.toasts.approved": {
+    "en": "Approval recorded successfully.",
+    "id": "Persetujuan berhasil dicatat."
+  },
+  "approvals.tracking.toasts.approvedFailed": {
+    "en": "Failed to record approval.",
+    "id": "Gagal mencatat persetujuan."
+  },
+  "approvals.tracking.toasts.rejected": {
+    "en": "Rejection recorded successfully.",
+    "id": "Penolakan berhasil dicatat."
+  },
+  "approvals.tracking.toasts.rejectedFailed": {
+    "en": "Failed to record rejection.",
+    "id": "Gagal mencatat penolakan."
+  },
+  "approvals.master.eyebrow": {
+    "en": "Master Data",
+    "id": "Master Data"
+  },
+  "approvals.master.title": {
+    "en": "Approver Master",
+    "id": "Penyetuju Master"
+  },
+  "approvals.master.editConfiguration": {
+    "en": "Edit Configuration",
+    "id": "Ubah Konfigurasi"
+  },
+  "approvals.master.loadFailed": {
+    "en": "Failed to load approver data.",
+    "id": "Gagal memuat data penyetuju."
+  },
+  "approvals.master.addFailed": {
+    "en": "Failed to add the approver.",
+    "id": "Gagal menambahkan penyetuju."
+  },
+  "approvals.master.updateFailed": {
+    "en": "Failed to update the approver.",
+    "id": "Gagal memperbarui penyetuju."
+  },
+  "approvals.master.deleteFailed": {
+    "en": "Failed to delete the approver.",
+    "id": "Gagal menghapus penyetuju."
+  },
+  "approvals.master.loading": {
+    "en": "Loading approver configuration...",
+    "id": "Memuat konfigurasi penyetuju..."
+  },
+  "approvals.master.directorHrd": {
+    "en": "Director HRD",
+    "id": "Director HRD"
+  },
+  "approvals.master.approvalStep": {
+    "en": "Approval Step {number}",
+    "id": "Tahap Persetujuan {number}"
+  },
+  "approvals.master.configured": {
+    "en": "Configured",
+    "id": "Terkonfigurasi"
+  },
+  "approvals.master.notSet": {
+    "en": "Not Set",
+    "id": "Belum Diatur"
+  },
+  "approvals.master.noActiveGm": {
+    "en": "No active GM HRD approver is configured.",
+    "id": "Belum ada penyetuju GM HRD aktif yang dikonfigurasi."
+  },
+  "approvals.master.noActiveDirector": {
+    "en": "No active Director HRD approver is configured.",
+    "id": "Belum ada penyetuju Director HRD aktif yang dikonfigurasi."
+  },
+  "approvals.master.configurationGuide": {
+    "en": "Configuration Guide",
+    "id": "Panduan Konfigurasi"
+  },
+  "approvals.master.configurationGuideDescription": {
+    "en": "These two roles are critical for the recruitment workflow. The GM HRD handles the first stage of HR approval, followed by the Director HRD. Both names will be automatically populated into new ERF submissions based on these configurations.",
+    "id": "Dua peran ini sangat penting dalam alur rekrutmen. GM HRD menangani tahap pertama persetujuan HR, lalu dilanjutkan oleh Director HRD. Kedua nama ini akan terisi otomatis pada pengajuan ERF baru berdasarkan konfigurasi tersebut."
+  }
+}
