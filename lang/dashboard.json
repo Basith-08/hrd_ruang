@@ -246,5 +246,249 @@
   "dashboard.jobStatus.upgrade": {
     "en": "Upgrade",
     "id": "Peningkatan"
+  },
+  "dashboard.compact.lastSync": {
+    "en": "Updated",
+    "id": "Diperbarui"
+  },
+  "dashboard.compact.unknownRole": {
+    "en": "Unknown role",
+    "id": "Peran tidak diketahui"
+  },
+  "dashboard.compact.noInterviews": {
+    "en": "No upcoming interviews.",
+    "id": "Belum ada jadwal interview."
+  },
+  "dashboard.compact.backlogShare": {
+    "en": "{percentage}% of backlog",
+    "id": "{percentage}% dari antrean"
+  },
+  "dashboard.compact.total": {
+    "en": "{count} total",
+    "id": "{count} total"
+  },
+  "dashboard.compact.noRecentErf": {
+    "en": "No recent ERF.",
+    "id": "Belum ada ERF baru."
+  },
+  "dashboard.compact.noRecentContract": {
+    "en": "No recent contract.",
+    "id": "Belum ada kontrak baru."
+  },
+  "dashboard.compact.LatestErf": {
+    "id": "ERF terbaru",
+    "en": "Latest ERF"
+  },
+  "dashboard.compact.NextInterview": {
+    "id": "Interview terdekat",
+    "en": "Next interview"
+  },
+  "dashboard.compact.LatestContract": {
+    "id": "Kontrak terbaru",
+    "en": "Latest contract"
+  },
+  "dashboard.compact.RejectedApprovals": {
+    "id": "Approval ditolak",
+    "en": "Rejected approvals"
+  },
+  "dashboard.compact.NeedsReview": {
+    "id": "Perlu ditinjau",
+    "en": "Needs review"
+  },
+  "dashboard.compact.NoRecentActivity": {
+    "id": "Belum ada aktivitas",
+    "en": "No recent activity"
+  },
+  "dashboard.compact.NoUpdatesYet": {
+    "id": "Belum ada pembaruan.",
+    "en": "No updates yet."
+  },
+  "dashboard.compact.needsAttention": {
+    "en": "Needs attention",
+    "id": "Perlu tindak lanjut"
+  },
+  "dashboard.compact.approvalStatus": {
+    "en": "Approval status",
+    "id": "Status approval"
+  },
+  "dashboard.compact.readiness": {
+    "en": "Readiness",
+    "id": "Kesiapan"
+  },
+  "dashboard.compact.todaySFocus": {
+    "en": "Today's focus",
+    "id": "Fokus hari ini"
+  },
+  "dashboard.compact.upcomingInterviews": {
+    "en": "Upcoming interviews",
+    "id": "Jadwal interview"
+  },
+  "dashboard.compact.recentActivity": {
+    "en": "Recent activity",
+    "id": "Aktivitas terbaru"
+  },
+  "dashboard.compact.recruitmentOverview": {
+    "en": "Recruitment overview",
+    "id": "Ringkasan rekrutmen"
+  },
+  "dashboard.compact.workflow": {
+    "en": "Workflow",
+    "id": "Alur kerja"
+  },
+  "dashboard.compact.priorities": {
+    "en": "Priorities",
+    "id": "Prioritas"
+  },
+  "dashboard.compact.topPriority": {
+    "en": "Top priority",
+    "id": "Prioritas utama"
+  },
+  "dashboard.compact.viewSchedule": {
+    "en": "View schedule",
+    "id": "Lihat jadwal"
+  },
+  "dashboard.compact.helloName": {
+    "en": "Hello, {name}",
+    "id": "Halo, {name}"
+  },
+  "dashboard.compact.activeErf": {
+    "en": "Active ERF",
+    "id": "ERF Aktif"
+  },
+  "dashboard.compact.pendingApproval": {
+    "en": "Pending Approval",
+    "id": "Approval Tertunda"
+  },
+  "dashboard.compact.pendingInterviewFeedback": {
+    "en": "Pending Interview Feedback",
+    "id": "Feedback Interview Tertunda"
+  },
+  "dashboard.compact.activeAlerts": {
+    "en": "Active Alerts",
+    "id": "Alert Aktif"
+  },
+  "dashboard.compact.pendingApprovals": {
+    "id": "Approval tertunda",
+    "en": "Pending approvals"
+  },
+  "dashboard.compact.pendingInterviews": {
+    "en": "Pending interviews",
+    "id": "Interview tertunda"
+  },
+  "dashboard.compact.profilesMissingCv": {
+    "en": "Profiles missing CV",
+    "id": "CV belum lengkap"
+  },
+  "dashboard.compact.contractFormsInProgress": {
+    "en": "Contract forms in progress",
+    "id": "Contract form berjalan"
+  },
+  "dashboard.compact.noActiveBottleneck": {
+    "en": "No active bottleneck",
+    "id": "Tidak ada bottleneck aktif"
+  },
+  "dashboard.compact.pending": {
+    "en": "Pending",
+    "id": "Tertunda"
+  },
+  "dashboard.compact.approved": {
+    "en": "Approved",
+    "id": "Disetujui"
+  },
+  "dashboard.compact.rejected": {
+    "en": "Rejected",
+    "id": "Ditolak"
+  },
+  "dashboard.compact.interviewCompletion": {
+    "en": "Interview completion",
+    "id": "Penyelesaian interview"
+  },
+  "dashboard.compact.documentCoverage": {
+    "en": "Document coverage",
+    "id": "Cakupan dokumen"
+  },
+  "dashboard.compact.contractReadiness": {
+    "en": "Contract readiness",
+    "id": "Kesiapan kontrak"
+  },
+  "dashboard.compact.pendingFeedback": {
+    "id": "Feedback tertunda",
+    "en": "Pending feedback"
+  },
+  "dashboard.compact.missingCandidateCv": {
+    "en": "Missing candidate CV",
+    "id": "CV kandidat belum lengkap"
+  },
+  "dashboard.compact.requestIntake": {
+    "en": "Request Intake",
+    "id": "Intake Permintaan"
+  },
+  "dashboard.compact.requests": {
+    "id": "Permintaan",
+    "en": "Requests"
+  },
+  "dashboard.compact.activeStaffingRequests": {
+    "en": "active staffing requests",
+    "id": "permintaan kerja aktif"
+  },
+  "dashboard.compact.waitingForDecisionDetail": {
+    "en": "waiting for decision",
+    "id": "menunggu keputusan"
+  },
+  "dashboard.compact.readyForRecruiterHandling": {
+    "en": "ready for recruiter handling",
+    "id": "siap ditangani recruiter"
+  },
+  "dashboard.compact.candidatePipeline": {
+    "en": "Candidate Pipeline",
+    "id": "Pipeline Kandidat"
+  },
+  "dashboard.compact.candidates": {
+    "id": "Kandidat",
+    "en": "Candidates"
+  },
+  "dashboard.compact.submittedProfiles": {
+    "en": "submitted profiles",
+    "id": "profil yang sudah submit"
+  },
+  "dashboard.compact.scheduledInterviews": {
+    "en": "scheduled interviews",
+    "id": "jadwal interview yang sudah tersusun"
+  },
+  "dashboard.compact.interviewerEvaluationsStillPending": {
+    "en": "interviewer evaluations still pending",
+    "id": "evaluasi interviewer belum selesai"
+  },
+  "dashboard.compact.finalization": {
+    "en": "Finalization",
+    "id": "Finalisasi"
+  },
+  "dashboard.compact.documentsContracts": {
+    "id": "Dokumen & kontrak",
+    "en": "Documents & contracts"
+  },
+  "dashboard.compact.monitoredCandidateDocuments": {
+    "en": "monitored candidate documents",
+    "id": "dokumen kandidat termonitor"
+  },
+  "dashboard.compact.latestIntake": {
+    "en": "Latest intake",
+    "id": "Intake terbaru"
+  },
+  "dashboard.compact.nextInterview": {
+    "id": "Interview terdekat",
+    "en": "Next interview"
+  },
+  "dashboard.compact.latestContract": {
+    "id": "Kontrak terbaru",
+    "en": "Latest contract"
+  },
+  "dashboard.compact.candidateEmployeeCount": {
+    "en": "{candidates} candidates · {employees} employees",
+    "id": "{candidates} kandidat · {employees} karyawan"
+  },
+  "dashboard.compact.inProgressCount": {
+    "en": "{count} in progress",
+    "id": "{count} dalam proses"
   }
 }

@@ -3,24 +3,15 @@
     <header class="flex flex-col gap-4 px-5 pt-4 md:px-6">
       <div class="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <p class="app-dashboard-eyebrow">Ruang Kerja / Workspace</p>
           <h1 class="app-page-title mt-2">Dashboard</h1>
-          <p class="app-page-description mt-2 max-w-3xl">
-            {{
-              text('dashboard.header.welcome', {
-                email: user?.email ?? '-',
-                role: userRole ?? '-',
-              })
-            }}
-          </p>
         </div>
 
         <div class="flex flex-wrap items-center gap-2">
           <span class="app-status-chip app-status-chip-neutral">
-            {{ userRole || 'Peran tidak diketahui / Unknown role' }}
+            {{ userRole || text('dashboard.compact.unknownRole') }}
           </span>
           <span class="app-status-chip app-status-chip-accent">
-            Sinkron terakhir / Last sync:
+            {{ text('dashboard.compact.lastSync') }}:
             {{
               lastSyncedAt
                 ? formatDashboardDate(lastSyncedAt)
@@ -45,17 +36,9 @@
         />
 
         <div class="relative z-10">
-          <p class="text-sm font-semibold tracking-[0.16em] text-white/55 uppercase">
-            Ruang Kerja / Workspace
-          </p>
           <h2 class="mt-3 text-[2rem] leading-tight font-semibold tracking-[-0.03em]">
-            Selamat datang kembali, {{ displayName }}
+            {{ text('dashboard.compact.helloName', { name: displayName }) }}
           </h2>
-          <p class="mt-3 max-w-2xl text-sm leading-6 text-white/72">
-            Pantau flow inti recruitment dari ERF, approval, PIC recruitment, kandidat, interview,
-            dokumen, sampai handoff kontrak dalam satu dashboard tanpa mengulang analitik rekrutmen
-            yang sudah ada di halaman lain.
-          </p>
 
           <div class="mt-7 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             <article
@@ -76,9 +59,6 @@
                 <p class="mt-1 text-[2rem] leading-none font-semibold tracking-[-0.04em]">
                   {{ item.value }}
                 </p>
-                <p class="mt-1 text-xs text-white/70">
-                  {{ item.copy }}
-                </p>
               </div>
             </article>
           </div>
@@ -89,12 +69,10 @@
         <div class="border-b border-[var(--app-color-border)] px-5 py-4">
           <div class="flex items-start justify-between gap-3">
             <div>
-              <p class="app-dashboard-eyebrow">Focus Hari Ini</p>
               <h2 class="app-dashboard-title mt-2 !text-[1.15rem]">
-                Fokus Hari Ini / Today's Focus
+                {{ text('dashboard.compact.todaySFocus') }}
               </h2>
             </div>
-            <span class="app-status-chip app-status-chip-accent">Prioritas / Priority</span>
           </div>
         </div>
 
@@ -113,9 +91,10 @@
             <div class="min-w-0 flex-1">
               <div class="flex items-start justify-between gap-3">
                 <p class="app-copy-strong text-sm">{{ item.title }}</p>
-                <span class="text-sm font-semibold text-[var(--app-color-text)]">{{ item.value }}</span>
+                <span class="text-sm font-semibold text-[var(--app-color-text)]">{{
+                  item.value
+                }}</span>
               </div>
-              <p class="app-card-copy mt-1">{{ item.copy }}</p>
             </div>
           </article>
         </div>
@@ -127,15 +106,10 @@
         <div class="border-b border-[var(--app-color-border)] px-5 py-4">
           <div class="flex items-start justify-between gap-3">
             <div>
-              <p class="app-dashboard-eyebrow">Grafik Operasional / Operations Chart</p>
               <h2 class="app-dashboard-title mt-2 !text-[1.2rem]">
-                Bottleneck Operasional per Modul / Operational Bottleneck by Module
+                {{ text('dashboard.compact.needsAttention') }}
               </h2>
-              <p class="app-dashboard-copy mt-2">
-                Fokus pada backlog lintas modul yang perlu action sekarang.
-              </p>
             </div>
-            <span class="app-status-chip app-status-chip-neutral">Semua Modul</span>
           </div>
         </div>
 
@@ -143,8 +117,10 @@
           <article
             class="rounded-[1rem] border border-[var(--app-color-border)] bg-[linear-gradient(180deg,var(--app-color-warning-soft)_0%,var(--app-color-surface)_100%)] px-5 py-5"
           >
-            <p class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--app-color-text-soft)]">
-              Bottleneck dominan / Dominant bottleneck
+            <p
+              class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--app-color-text-soft)]"
+            >
+              {{ text('dashboard.compact.topPriority') }}
             </p>
             <p class="mt-4 text-sm font-semibold text-[var(--app-color-text)]">
               {{ operationsLeader.label }}
@@ -153,9 +129,6 @@
               class="mt-3 text-[3rem] leading-none font-semibold tracking-[-0.05em] text-[var(--app-color-text)]"
             >
               {{ operationsLeader.value }}
-            </p>
-            <p class="mt-3 text-sm leading-6 text-[var(--app-color-text-muted)]">
-              {{ operationsLeader.copy }}
             </p>
             <div
               class="mt-5 h-2.5 overflow-hidden rounded-full bg-[var(--app-color-surface)] shadow-[inset_0_0_0_1px_rgb(197_216_212_/_0.55)]"
@@ -169,8 +142,9 @@
               />
             </div>
             <p class="mt-2 text-xs font-medium text-[var(--app-color-text-soft)]">
-              {{ operationsLeader.percentage }}% dari bottleneck yang sedang terpantau / of tracked
-              bottlenecks
+              {{
+                text('dashboard.compact.backlogShare', { percentage: operationsLeader.percentage })
+              }}
             </p>
           </article>
 
@@ -189,7 +163,6 @@
                     />
                     <p class="app-copy-strong text-sm">{{ item.label }}</p>
                   </div>
-                  <p class="app-card-copy mt-1">{{ item.helper }} · {{ item.copy }}</p>
                 </div>
                 <div class="text-right">
                   <p class="text-lg font-semibold tracking-[-0.03em] text-[var(--app-color-text)]">
@@ -199,7 +172,9 @@
                 </div>
               </div>
 
-              <div class="mt-4 h-2.5 overflow-hidden rounded-full bg-[var(--app-color-surface-subtle)]">
+              <div
+                class="mt-4 h-2.5 overflow-hidden rounded-full bg-[var(--app-color-surface-subtle)]"
+              >
                 <div
                   class="h-full rounded-full transition-[width] duration-300"
                   :style="{
@@ -216,13 +191,12 @@
       <section class="app-section-panel p-5">
         <div class="flex items-start justify-between gap-3">
           <div>
-            <p class="app-dashboard-eyebrow">Ringkasan Approval / Approval Snapshot</p>
             <h2 class="app-dashboard-title mt-2 !text-[1.15rem]">
-              Snapshot Status Approval / Approval Status Snapshot
+              {{ text('dashboard.compact.approvalStatus') }}
             </h2>
           </div>
           <span class="app-status-chip app-status-chip-neutral">
-            {{ summary.approvals.visible_count }} terlihat / visible
+            {{ text('dashboard.compact.total', { count: summary.approvals.visible_count }) }}
           </span>
         </div>
 
@@ -241,7 +215,6 @@
             >
               {{ item.value }}
             </p>
-            <p class="app-card-copy mt-2">{{ item.copy }}</p>
           </article>
         </div>
       </section>
@@ -251,12 +224,10 @@
       <section class="app-section-panel p-5">
         <div class="flex items-start justify-between gap-3">
           <div>
-            <p class="app-dashboard-eyebrow">Progress Kesiapan / Readiness Progress</p>
             <h2 class="app-dashboard-title mt-2 !text-[1.15rem]">
-              Progress Kesiapan / Readiness Progress
+              {{ text('dashboard.compact.readiness') }}
             </h2>
           </div>
-          <span class="app-status-chip app-status-chip-neutral">3 Titik Cek / Checkpoints</span>
         </div>
 
         <div class="mt-5 space-y-4">
@@ -268,7 +239,6 @@
             <div class="flex items-start justify-between gap-3">
               <div class="min-w-0">
                 <p class="app-copy-strong text-sm">{{ item.label }}</p>
-                <p class="app-card-copy mt-1">{{ item.copy }}</p>
               </div>
               <div class="text-right">
                 <p class="app-copy-strong text-sm">{{ item.percentage }}%</p>
@@ -276,7 +246,9 @@
               </div>
             </div>
 
-            <div class="mt-3 h-2.5 overflow-hidden rounded-full bg-[var(--app-color-border-strong)]">
+            <div
+              class="mt-3 h-2.5 overflow-hidden rounded-full bg-[var(--app-color-border-strong)]"
+            >
               <div
                 class="h-full rounded-full"
                 :class="item.barClass"
@@ -291,12 +263,10 @@
         <section class="app-section-panel p-5">
           <div class="flex items-start justify-between gap-3">
             <div>
-              <p class="app-dashboard-eyebrow">Jadwal Mendatang / Upcoming</p>
               <h2 class="app-dashboard-title mt-2 !text-[1.15rem]">
-                Interview Mendatang / Upcoming Interviews
+                {{ text('dashboard.compact.upcomingInterviews') }}
               </h2>
             </div>
-            <span class="app-status-chip app-status-chip-accent">Mendatang / Upcoming</span>
           </div>
 
           <div v-if="upcomingInterviewItems.length > 0" class="mt-5 space-y-3">
@@ -337,14 +307,13 @@
               <FileCheck class="h-5 w-5" />
             </span>
             <p class="mt-3 text-sm font-medium text-[var(--app-color-text-muted)]">
-              Belum ada jadwal interview mendatang yang terlihat pada cakupan user saat ini. / No
-              upcoming interviews are visible for the current user scope.
+              {{ text('dashboard.compact.noInterviews') }}
             </p>
             <NuxtLink
               to="/interview-evaluations/list"
               class="mt-4 inline-flex rounded-xl border border-[var(--app-color-accent-border)] px-4 py-2 text-sm font-medium text-[var(--app-color-accent-strong)] transition hover:bg-[var(--app-color-accent-soft-hover)]"
             >
-              Lihat Kalender / View Calendar
+              {{ text('dashboard.compact.viewSchedule') }}
             </NuxtLink>
           </div>
         </section>
@@ -352,12 +321,10 @@
         <section class="app-section-panel p-5">
           <div class="flex items-start justify-between gap-3">
             <div>
-              <p class="app-dashboard-eyebrow">Aktivitas Terbaru / Recent Activity</p>
               <h2 class="app-dashboard-title mt-2 !text-[1.15rem]">
-                Aktivitas Terbaru / Recent Activity
+                {{ text('dashboard.compact.recentActivity') }}
               </h2>
             </div>
-            <span class="app-link-accent text-sm">Lihat Semua / View All</span>
           </div>
 
           <div class="mt-5 space-y-4">
@@ -383,16 +350,10 @@
     <section class="px-5 pb-5 md:px-6">
       <div class="mb-4 flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
         <div>
-          <p class="app-dashboard-eyebrow">Sekilas / At a Glance</p>
           <h2 class="app-dashboard-title mt-2 !text-[1.25rem]">
-            Ringkasan Kesehatan Rekrutmen / Recruitment Health Overview
+            {{ text('dashboard.compact.recruitmentOverview') }}
           </h2>
-          <p class="app-dashboard-copy mt-2 max-w-3xl">
-            Satu area untuk membaca alur kerja dari intake, pergerakan kandidat, sampai closing
-            tanpa harus membuka menu satu per satu.
-          </p>
         </div>
-        <span class="app-status-chip app-status-chip-neutral">Pindai 5 detik / 5-second scan</span>
       </div>
 
       <div class="grid gap-4 xl:grid-cols-[minmax(0,1.45fr)_360px]">
@@ -400,12 +361,10 @@
           <div class="border-b border-[var(--app-color-border)] px-5 py-4">
             <div class="flex items-start justify-between gap-3">
               <div>
-                <p class="app-dashboard-eyebrow">Kesehatan Alur / Flow Health</p>
                 <h3 class="app-dashboard-title mt-2 !text-[1.12rem]">
-                  Keadaan Alur Kerja Saat Ini
+                  {{ text('dashboard.compact.workflow') }}
                 </h3>
               </div>
-              <span class="app-status-chip app-status-chip-accent">Operasional / Operational</span>
             </div>
           </div>
 
@@ -420,16 +379,11 @@
 
                 <div class="grid gap-5 pt-2 xl:grid-cols-[220px_minmax(0,1fr)] xl:gap-6">
                   <div>
-                    <p
-                      class="text-xs font-semibold tracking-[0.14em] uppercase"
-                      :class="group.eyebrowClass"
+                    <h4
+                      class="mt-2 text-[1.05rem] font-semibold tracking-[-0.02em] text-[var(--app-color-text)]"
                     >
-                      {{ group.eyebrow }}
-                    </p>
-                    <h4 class="mt-2 text-[1.05rem] font-semibold tracking-[-0.02em] text-[var(--app-color-text)]">
                       {{ group.label }}
                     </h4>
-                    <p class="app-card-copy mt-2">{{ group.copy }}</p>
 
                     <div class="mt-4 flex flex-wrap gap-2">
                       <NuxtLink
@@ -453,7 +407,9 @@
                       class="px-4 py-4 sm:min-h-[150px] sm:border-l sm:border-[var(--app-color-border)] first:sm:border-l-0"
                     >
                       <div class="flex items-center justify-between gap-3">
-                        <p class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--app-color-text-soft)]">
+                        <p
+                          class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--app-color-text-soft)]"
+                        >
                           {{ metric.label }}
                         </p>
                         <span class="h-2.5 w-2.5 rounded-full" :class="group.dotClass" />
@@ -478,8 +434,9 @@
           <section class="app-section-panel p-5">
             <div class="flex items-start justify-between gap-3">
               <div>
-                <p class="app-dashboard-eyebrow">Perlu Perhatian / Need Attention</p>
-                <h3 class="app-dashboard-title mt-2 !text-[1.12rem]">Perlu Tindakan Sekarang</h3>
+                <h3 class="app-dashboard-title mt-2 !text-[1.12rem]">
+                  {{ text('dashboard.compact.priorities') }}
+                </h3>
               </div>
               <span class="app-status-chip app-status-chip-neutral">{{ activeOpsAlerts }}</span>
             </div>
@@ -509,7 +466,6 @@
                     <div class="flex items-start justify-between gap-3">
                       <div class="min-w-0">
                         <p class="app-copy-strong text-sm">{{ item.title }}</p>
-                        <p class="app-card-copy mt-1">{{ item.copy }}</p>
                       </div>
                       <p
                         class="text-[1.35rem] leading-none font-semibold tracking-[-0.04em]"
@@ -527,10 +483,8 @@
           <section class="app-section-panel p-5">
             <div class="flex items-start justify-between gap-3">
               <div>
-                <p class="app-dashboard-eyebrow">Sinyal / Signals</p>
                 <h3 class="app-dashboard-title mt-2 !text-[1.12rem]">Sinyal Terbaru</h3>
               </div>
-              <span class="app-status-chip app-status-chip-accent">Langsung / Live</span>
             </div>
 
             <div class="mt-5 space-y-4">
@@ -539,7 +493,9 @@
                 :key="signal.label"
                 class="rounded-[1rem] bg-[var(--app-color-surface-subtle)] px-4 py-4"
               >
-                <p class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--app-color-text-soft)]">
+                <p
+                  class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--app-color-text-soft)]"
+                >
                   {{ signal.label }}
                 </p>
                 <p class="mt-2 text-sm leading-6 text-[var(--app-color-text-muted)]">
@@ -710,30 +666,26 @@ const activeOpsAlerts = computed(
 
 const heroStats = computed(() => [
   {
-    label: 'ERF Aktif / Active ERF',
+    label: text('dashboard.compact.activeErf'),
     value: `${summary.value.employee_request_forms.total_count}`,
-    copy: 'Permintaan aktif pada cakupan saat ini / Active requests in current scope',
     icon: FileText,
     iconWrapClass: 'bg-[rgb(116_215_197_/_0.18)] text-white',
   },
   {
-    label: 'Approval Tertunda / Pending Approval',
+    label: text('dashboard.compact.pendingApproval'),
     value: `${summary.value.approvals.pending_count}`,
-    copy: 'Menunggu keputusan / Waiting for decision',
     icon: CheckSquare,
     iconWrapClass: 'bg-[rgb(232_200_121_/_0.2)] text-white',
   },
   {
-    label: 'Feedback Interview Tertunda / Pending Interview Feedback',
+    label: text('dashboard.compact.pendingInterviewFeedback'),
     value: `${interviewMonitor.value.pending_count}`,
-    copy: 'Feedback tertunda / Feedback waiting',
     icon: FileCheck,
     iconWrapClass: 'bg-[rgb(139_213_189_/_0.2)] text-white',
   },
   {
-    label: 'Alert Aktif / Active Alerts',
+    label: text('dashboard.compact.activeAlerts'),
     value: `${activeOpsAlerts.value}`,
-    copy: 'Butuh tindak lanjut / Needs follow-up',
     icon: ShieldCheck,
     iconWrapClass: 'bg-[rgb(232_170_165_/_0.2)] text-white',
   },
@@ -742,35 +694,27 @@ const heroStats = computed(() => [
 const operationsBacklogItems = computed(() =>
   [
     {
-      label: 'Approval tertunda / Pending approvals',
+      label: text('dashboard.compact.pendingApprovals'),
       shortLabel: 'Approval',
       value: summary.value.approvals.pending_count,
-      helper: 'Tinjau / Review',
-      copy: 'Permintaan yang masih menunggu keputusan approver. / Requests still waiting for approver decision.',
       color: 'var(--app-color-warning-strong)',
     },
     {
-      label: 'Interview tertunda / Pending interviews',
+      label: text('dashboard.compact.pendingInterviews'),
       shortLabel: 'Interview',
       value: interviewMonitor.value.pending_count,
-      helper: 'Feedback',
-      copy: 'Evaluasi yang belum selesai dari interviewer. / Evaluations not yet completed by interviewer.',
       color: 'var(--app-color-accent-strong)',
     },
     {
-      label: 'CV belum lengkap / Profiles missing CV',
+      label: text('dashboard.compact.profilesMissingCv'),
       shortLabel: 'Docs',
       value: documentContractReadiness.value.profiles_missing_cv,
-      helper: 'CV kurang / Missing CV',
-      copy: 'Profil yang terlihat masih belum memiliki CV. / Visible profiles still do not have CV uploaded.',
       color: 'var(--app-color-danger)',
     },
     {
-      label: 'Contract form berjalan / Contract forms in progress',
+      label: text('dashboard.compact.contractFormsInProgress'),
       shortLabel: 'Kontrak',
       value: documentContractReadiness.value.contract_form_in_progress,
-      helper: 'Penutupan / Closing',
-      copy: 'Handoff kontrak yang masih setengah jalan. / Contract handoff still in progress.',
       color: 'var(--app-color-success)',
     },
   ].map((item) => ({
@@ -789,10 +733,8 @@ const operationsLeader = computed(() => {
 
   return (
     topItem ?? {
-      label: 'Tidak ada bottleneck aktif / No active bottleneck',
+      label: text('dashboard.compact.noActiveBottleneck'),
       value: 0,
-      helper: 'Tenang / Idle',
-      copy: 'Belum ada bottleneck lintas modul pada cakupan saat ini. / No cross-module bottleneck in current scope.',
       color: 'var(--app-color-text-soft)',
       percentage: 0,
     }
@@ -804,35 +746,32 @@ const approvalStatusItems = computed(() => {
 
   return [
     {
-      label: 'Tertunda / Pending',
+      label: text('dashboard.compact.pending'),
       value: summary.value.approvals.pending_count,
       percentage: Math.round((summary.value.approvals.pending_count / total) * 100),
       barClass: 'bg-[var(--app-color-warning-strong)]',
       dotClass: 'bg-[var(--app-color-warning-strong)]',
-      copy: 'Masih menunggu action approver.',
     },
     {
-      label: 'Disetujui / Approved',
+      label: text('dashboard.compact.approved'),
       value: summary.value.approvals.approved_count,
       percentage: Math.round((summary.value.approvals.approved_count / total) * 100),
       barClass: 'bg-[var(--app-color-success)]',
       dotClass: 'bg-[var(--app-color-success)]',
-      copy: 'Sudah lolos dari sisi approval.',
     },
     {
-      label: 'Ditolak / Rejected',
+      label: text('dashboard.compact.rejected'),
       value: summary.value.approvals.rejected_count,
       percentage: Math.round((summary.value.approvals.rejected_count / total) * 100),
       barClass: 'bg-[var(--app-color-danger)]',
       dotClass: 'bg-[var(--app-color-danger)]',
-      copy: 'Butuh follow-up bisnis atau revisi demand.',
     },
   ]
 })
 
 const readinessProgressItems = computed(() => [
   {
-    label: 'Penyelesaian interview / Interview completion',
+    label: text('dashboard.compact.interviewCompletion'),
     value: `${interviewMonitor.value.completed_count}/${Math.max(interviewMonitor.value.visible_count, 0)}`,
     percentage:
       interviewMonitor.value.visible_count > 0
@@ -840,11 +779,11 @@ const readinessProgressItems = computed(() => [
             (interviewMonitor.value.completed_count / interviewMonitor.value.visible_count) * 100,
           )
         : 0,
-    copy: 'Semakin tinggi, semakin kecil peluang kandidat tertahan di stage evaluasi.',
-    barClass: 'bg-[linear-gradient(90deg,var(--app-color-accent-strong)_0%,var(--app-color-accent)_100%)]',
+    barClass:
+      'bg-[linear-gradient(90deg,var(--app-color-accent-strong)_0%,var(--app-color-accent)_100%)]',
   },
   {
-    label: 'Cakupan dokumen / Document coverage',
+    label: text('dashboard.compact.documentCoverage'),
     value: `${Math.max(documentContractReadiness.value.visible_document_candidates - documentContractReadiness.value.profiles_without_documents, 0)}/${documentContractReadiness.value.visible_document_candidates}`,
     percentage:
       documentContractReadiness.value.visible_document_candidates > 0
@@ -855,11 +794,11 @@ const readinessProgressItems = computed(() => [
               100,
           )
         : 0,
-    copy: 'Mengukur berapa banyak profil yang terlihat sudah punya dokumen dasar.',
-    barClass: 'bg-[linear-gradient(90deg,var(--app-color-accent)_0%,var(--app-color-accent-border)_100%)]',
+    barClass:
+      'bg-[linear-gradient(90deg,var(--app-color-accent)_0%,var(--app-color-accent-border)_100%)]',
   },
   {
-    label: 'Kesiapan kontrak / Contract readiness',
+    label: text('dashboard.compact.contractReadiness'),
     value: `${documentContractReadiness.value.contract_form_ready}/${documentContractReadiness.value.contract_form_total}`,
     percentage:
       documentContractReadiness.value.contract_form_total > 0
@@ -869,43 +808,33 @@ const readinessProgressItems = computed(() => [
               100,
           )
         : 0,
-    copy: 'Semakin tinggi, semakin rapi proses handoff rekrutmen ke administrasi.',
-    barClass: 'bg-[linear-gradient(90deg,var(--app-color-success-strong)_0%,var(--app-color-success)_100%)]',
+    barClass:
+      'bg-[linear-gradient(90deg,var(--app-color-success-strong)_0%,var(--app-color-success)_100%)]',
   },
 ])
 
 const focusTodayItems = computed(() => [
   {
-    title: 'Approval menunggu review / Approval items waiting for review',
+    title: text('dashboard.compact.pendingApprovals'),
     value: `${summary.value.approvals.pending_count}`,
-    copy:
-      summary.value.approvals.pending_count > 0
-        ? 'Mulai dari sini karena approval adalah bottleneck paling awal.'
-        : 'Tidak ada item approval tertunda pada cakupan saat ini.',
     icon: CheckSquare,
     iconWrapClass: 'bg-[var(--app-color-accent-soft)] text-[var(--app-color-accent-strong)]',
   },
   {
-    title: 'Feedback interview tertunda / Pending interview feedback',
+    title: text('dashboard.compact.pendingFeedback'),
     value: `${interviewMonitor.value.pending_count}`,
-    copy:
-      interviewMonitor.value.pending_count > 0
-        ? 'Dorong feedback interviewer selesai supaya kandidat tidak tertahan.'
-        : 'Tidak ada feedback interview yang masih tertunda saat ini.',
     icon: FileCheck,
     iconWrapClass: 'bg-[var(--app-color-accent-soft-hover)] text-[var(--app-color-accent-strong)]',
   },
   {
-    title: 'CV kandidat belum lengkap / Missing candidate CV',
+    title: text('dashboard.compact.missingCandidateCv'),
     value: `${documentContractReadiness.value.profiles_missing_cv}`,
-    copy: 'Lengkapi CV lebih dulu karena ini blocker paling dasar untuk review kandidat.',
     icon: ClipboardList,
     iconWrapClass: 'bg-[var(--app-color-success-soft)] text-[var(--app-color-success-strong)]',
   },
   {
-    title: 'Contract form berjalan / Contract forms in progress',
+    title: text('dashboard.compact.contractFormsInProgress'),
     value: `${documentContractReadiness.value.contract_form_in_progress}`,
-    copy: 'Pastikan closing document dan data contract tidak menggantung di akhir proses.',
     icon: FileText,
     iconWrapClass: 'bg-[var(--app-color-warning-soft)] text-[var(--app-color-warning-strong)]',
   },
@@ -931,7 +860,7 @@ const recentActivityItems = computed(() => {
   if (summary.value.employee_request_forms.recent_jobs[0]) {
     const latestJob = summary.value.employee_request_forms.recent_jobs[0]
     items.push({
-      title: 'ERF baru masuk ke dashboard',
+      title: text('dashboard.compact.LatestErf'),
       copy: `${latestJob.main_position?.trim() || 'Posisi tidak diketahui'} · ${latestJob.site?.trim() || 'Site tidak diketahui'}`,
       meta: latestJob.position_status?.trim() || 'ERF',
       dotClass: 'bg-[var(--app-color-warning-strong)]',
@@ -940,7 +869,7 @@ const recentActivityItems = computed(() => {
 
   if (interviewMonitor.value.nearest_interview) {
     items.push({
-      title: 'Jadwal interview perlu perhatian',
+      title: text('dashboard.compact.NextInterview'),
       copy: `${interviewMonitor.value.nearest_interview.candidate_name ?? 'Kandidat'} bersama ${interviewMonitor.value.nearest_interview.interviewer_name ?? 'Interviewer'}`,
       meta: formatDashboardDate(interviewMonitor.value.nearest_interview.interview_date),
       dotClass: 'bg-[var(--app-color-success)]',
@@ -949,7 +878,7 @@ const recentActivityItems = computed(() => {
 
   if (documentContractReadiness.value.latest_contract_candidate) {
     items.push({
-      title: 'Handoff kontrak sedang bergerak',
+      title: text('dashboard.compact.LatestContract'),
       copy: documentContractReadiness.value.latest_contract_candidate,
       meta: `${documentContractReadiness.value.contract_form_ready} ready`,
       dotClass: 'bg-[var(--app-color-accent)]',
@@ -958,8 +887,8 @@ const recentActivityItems = computed(() => {
 
   if (summary.value.approvals.rejected_count > 0) {
     items.push({
-      title: 'Approval yang ditolak masih butuh tindak lanjut bisnis',
-      copy: 'Tinjau demand yang tertahan sebelum terlalu lama berhenti di sisi intake.',
+      title: text('dashboard.compact.RejectedApprovals'),
+      copy: text('dashboard.compact.NeedsReview'),
       meta: `${summary.value.approvals.rejected_count} rejected`,
       dotClass: 'bg-[var(--app-color-danger)]',
     })
@@ -967,8 +896,8 @@ const recentActivityItems = computed(() => {
 
   if (items.length === 0) {
     items.push({
-      title: 'Belum ada sinyal aktivitas besar',
-      copy: 'Dashboard belum melihat pergerakan baru pada cakupan user saat ini.',
+      title: text('dashboard.compact.NoRecentActivity'),
+      copy: text('dashboard.compact.NoUpdatesYet'),
       meta: 'Tenang',
       dotClass: 'bg-[var(--app-color-text-soft)]',
     })
@@ -980,40 +909,32 @@ const recentActivityItems = computed(() => {
 const latestIntakeSignal = computed(() => {
   const latestErf = summary.value.employee_request_forms.recent_jobs[0]
   if (!latestErf) {
-    return 'Belum ada ERF baru yang menjadi sinyal intake pada cakupan user saat ini.'
+    return text('dashboard.compact.noRecentErf')
   }
 
   const position = latestErf.main_position?.trim() || 'Posisi tidak diketahui'
   const site = latestErf.site?.trim() || 'Site tidak diketahui'
   const status = latestErf.position_status?.trim() || 'Terbuka'
 
-  return `${position} di ${site} saat ini menjadi intake terbaru dengan status ${status}.`
+  return `${position} · ${site} · ${status}`
 })
 
 const nearestCandidateSignal = computed(() => {
   const nearestInterview = interviewMonitor.value.nearest_interview
   if (!nearestInterview) {
-    return 'Belum ada jadwal interview terdekat yang muncul pada scope user saat ini.'
+    return text('dashboard.compact.noInterviews')
   }
 
-  return `${nearestInterview.candidate_name ?? 'Kandidat'} dijadwalkan interview ${formatDashboardDate(
+  return `${nearestInterview.candidate_name ?? 'Kandidat'} · ${formatDashboardDate(
     nearestInterview.interview_date,
-  )} bersama ${nearestInterview.interviewer_name ?? 'interviewer'}.`
+  )} · ${nearestInterview.interviewer_name ?? 'Interviewer'}`
 })
 
-const closingStoryNarrative = computed(() => {
-  if (documentContractReadiness.value.latest_contract_candidate) {
-    const exportCopy = canGenerateDocuments.value
-      ? 'Setelah data final siap, lanjutkan ke Document Export untuk membuat dokumen output.'
-      : 'Final output document dilanjutkan oleh role yang memiliki akses export.'
-
-    return `${documentContractReadiness.value.latest_contract_candidate} saat ini menjadi sinyal closing terbaru. ${exportCopy}`
-  }
-
-  return canGenerateDocuments.value
-    ? 'Belum ada kandidat closing terbaru, tetapi jalur contract dan Document Export sudah siap dipakai saat data final tersedia.'
-    : 'Belum ada kandidat closing terbaru pada cakupan saat ini.'
-})
+const closingStoryNarrative = computed(
+  () =>
+    documentContractReadiness.value.latest_contract_candidate ||
+    text('dashboard.compact.noRecentContract'),
+)
 
 const overviewFlowGroups = computed(() => {
   const closingLinks = [
@@ -1027,9 +948,7 @@ const overviewFlowGroups = computed(() => {
 
   return [
     {
-      eyebrow: 'Intake Permintaan / Request Intake',
-      label: 'Permintaan dan penugasan awal / Request and initial assignment',
-      copy: 'Employee Request Forms bergerak dari pembuatan demand, approval, lalu masuk ke PIC Recruitment untuk penugasan recruiter. / Employee Request Forms move from demand creation, approval, then into PIC Recruitment for recruiter assignment.',
+      label: text('dashboard.compact.requests'),
       lineClass: 'bg-[var(--app-color-accent)]',
       eyebrowClass: 'text-[var(--app-color-accent-strong)]',
       dotClass: 'bg-[var(--app-color-accent)]',
@@ -1038,17 +957,17 @@ const overviewFlowGroups = computed(() => {
         {
           label: 'Employee Request Forms',
           value: `${summary.value.employee_request_forms.total_count}`,
-          copy: 'permintaan kerja aktif / active staffing requests',
+          copy: text('dashboard.compact.activeStaffingRequests'),
         },
         {
           label: 'Approval Tracking',
           value: `${summary.value.approvals.pending_count}`,
-          copy: 'menunggu keputusan / waiting for decision',
+          copy: text('dashboard.compact.waitingForDecisionDetail'),
         },
         {
           label: 'PIC Recruitment',
           value: `${summary.value.recruitment.total_count}`,
-          copy: 'siap ditangani recruiter / ready for recruiter handling',
+          copy: text('dashboard.compact.readyForRecruiterHandling'),
         },
       ],
       links: [
@@ -1058,10 +977,7 @@ const overviewFlowGroups = computed(() => {
       ],
     },
     {
-      eyebrow: 'Pipeline Kandidat / Candidate Pipeline',
-      label:
-        'Registrasi kandidat sampai evaluasi interview / Candidate registration to interview evaluation',
-      copy: 'Candidate & Employee dipakai untuk registrasi akun kandidat, Candidate & Employee Forms untuk pengisian data, lalu Assessment List dan Interviewer Form membawa kandidat ke evaluasi. / Candidate & Employee is used to register candidate accounts, Candidate & Employee Forms for data submission, then Assessment List and Interviewer Form bring candidates into evaluation.',
+      label: text('dashboard.compact.candidates'),
       lineClass: 'bg-[var(--app-color-success)]',
       eyebrowClass: 'text-[var(--app-color-success-strong)]',
       dotClass: 'bg-[var(--app-color-success)]',
@@ -1070,22 +986,25 @@ const overviewFlowGroups = computed(() => {
         {
           label: 'Candidate & Employee',
           value: `${summary.value.candidate_employees.total_count}`,
-          copy: `${summary.value.candidate_employees.candidate_count} kandidat / candidate · ${summary.value.candidate_employees.employee_count} employee`,
+          copy: text('dashboard.compact.candidateEmployeeCount', {
+            candidates: summary.value.candidate_employees.candidate_count,
+            employees: summary.value.candidate_employees.employee_count,
+          }),
         },
         {
           label: 'Candidate & Employee Forms',
           value: `${summary.value.candidate_forms.total_count}`,
-          copy: 'profil yang sudah submit / submitted profiles',
+          copy: text('dashboard.compact.submittedProfiles'),
         },
         {
           label: 'Assessment List',
           value: `${interviewMonitor.value.upcoming_count}`,
-          copy: 'jadwal interview yang sudah tersusun / scheduled interviews',
+          copy: text('dashboard.compact.scheduledInterviews'),
         },
         {
           label: 'Interviewer Form',
           value: `${interviewMonitor.value.pending_count}`,
-          copy: 'evaluasi interviewer belum selesai / interviewer evaluations still pending',
+          copy: text('dashboard.compact.interviewerEvaluationsStillPending'),
         },
       ],
       links: [
@@ -1096,9 +1015,7 @@ const overviewFlowGroups = computed(() => {
       ],
     },
     {
-      eyebrow: 'Finalisasi / Finalization',
-      label: 'Dokumen, kontrak, dan output akhir / Documents, contract, and final output',
-      copy: 'Sesudah interview selesai, alur bergerak ke Document Explorer, New Employee Contract Form, lalu Document Export sebagai output akhir jika role memiliki akses. / After interviews are completed, the flow moves to Document Explorer, New Employee Contract Form, then Document Export as the final output when the role has access.',
+      label: text('dashboard.compact.documentsContracts'),
       lineClass: 'bg-[var(--app-color-warning-strong)]',
       eyebrowClass: 'text-[var(--app-color-warning-strong)]',
       dotClass: 'bg-[var(--app-color-warning-strong)]',
@@ -1107,12 +1024,14 @@ const overviewFlowGroups = computed(() => {
         {
           label: 'Document Explorer',
           value: `${documentContractReadiness.value.visible_document_candidates}`,
-          copy: 'dokumen kandidat termonitor / monitored candidate documents',
+          copy: text('dashboard.compact.monitoredCandidateDocuments'),
         },
         {
           label: 'Employee Contract Form',
           value: `${documentContractReadiness.value.contract_form_ready}/${documentContractReadiness.value.contract_form_total}`,
-          copy: `${documentContractReadiness.value.contract_form_in_progress} masih dalam proses / still in progress`,
+          copy: text('dashboard.compact.inProgressCount', {
+            count: documentContractReadiness.value.contract_form_in_progress,
+          }),
         },
       ],
       links: closingLinks,
@@ -1122,46 +1041,42 @@ const overviewFlowGroups = computed(() => {
 
 const actionPriorityGroups = computed(() => [
   {
-    label: 'Intake Permintaan / Request Intake',
+    label: text('dashboard.compact.requestIntake'),
     labelClass: 'text-[var(--app-color-accent-strong)]',
     dotClass: 'bg-[var(--app-color-accent)]',
     items: [
       {
         title: 'Approval Tracking',
         value: `${summary.value.approvals.pending_count}`,
-        copy: 'Demand belum bisa bergerak ke recruiter sebelum area ini beres. / Demand cannot move to recruiter before this is resolved.',
         valueClass: 'text-[var(--app-color-warning-strong)]',
       },
     ],
   },
   {
-    label: 'Pipeline Kandidat / Candidate Pipeline',
+    label: text('dashboard.compact.candidatePipeline'),
     labelClass: 'text-[var(--app-color-success-strong)]',
     dotClass: 'bg-[var(--app-color-success)]',
     items: [
       {
         title: 'Candidate & Employee Forms',
         value: `${documentContractReadiness.value.profiles_missing_cv}`,
-        copy: 'Kandidat belum menuntaskan upload CV saat mengisi Candidate Form. / Candidate has not completed CV upload in Candidate Form.',
         valueClass: 'text-[var(--app-color-danger-strong)]',
       },
       {
         title: 'Interviewer Form',
         value: `${interviewMonitor.value.pending_count}`,
-        copy: 'Kandidat bisa tertahan bila evaluator belum menutup penilaian. / Candidate may be blocked if evaluator has not closed the assessment.',
         valueClass: 'text-[var(--app-color-accent-strong)]',
       },
     ],
   },
   {
-    label: 'Finalisasi / Finalization',
+    label: text('dashboard.compact.finalization'),
     labelClass: 'text-[var(--app-color-warning-strong)]',
     dotClass: 'bg-[var(--app-color-warning-strong)]',
     items: [
       {
         title: 'Employee Contract Form',
         value: `${documentContractReadiness.value.contract_form_in_progress}`,
-        copy: 'Menunjukkan closing yang belum benar-benar selesai di ujung proses. / Shows closing that is not fully completed at the end of the process.',
         valueClass: 'text-[var(--app-color-success-strong)]',
       },
     ],
@@ -1170,15 +1085,15 @@ const actionPriorityGroups = computed(() => [
 
 const dashboardSignals = computed(() => [
   {
-    label: 'Intake terbaru / Latest intake',
+    label: text('dashboard.compact.latestIntake'),
     value: latestIntakeSignal.value,
   },
   {
-    label: 'Gerakan kandidat terdekat / Nearest candidate movement',
+    label: text('dashboard.compact.nextInterview'),
     value: nearestCandidateSignal.value,
   },
   {
-    label: 'Sinyal closing / Closing signal',
+    label: text('dashboard.compact.latestContract'),
     value: closingStoryNarrative.value,
   },
 ])
