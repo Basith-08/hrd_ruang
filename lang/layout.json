@@ -119,10 +119,6 @@
     "en": "Approver Master",
     "id": "Master Penyetuju"
   },
-  "layout.nav.items.customGroups": {
-    "en": "Custom Groups",
-    "id": "Grup Kustom"
-  },
   "layout.nav.items.masterDataErf": {
     "en": "PT, Dept, Level",
     "id": "PT, Departemen, Level"

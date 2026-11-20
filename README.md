@@ -63,7 +63,8 @@ server/
   routes/              endpoint Nitro non-/api
   services/            service server, email, export DOCX, candidate service
   utils/               helper handler/request
-sql/migration/         migration, schema context, policy RLS
+supabase/migrations/   migration berurutan untuk schema efektif
+sql/migration/         arsip migration dan schema context
 docs/                  dokumentasi teknis project
 lang/                  resource i18n statis
 types/                 shared type lintas layer/non-frontend
@@ -221,3 +222,5 @@ Dokumen lama yang masih dipertahankan:
 - Route `/candidate-forms` bersifat role-aware: kandidat bisa di-redirect ke portal eksternal lewat `NUXT_PUBLIC_HRD_PINTU_URL`, sedangkan staff yang punya akses `candidate_employee:read` / `user:read` akan diarahkan ke `/candidate-employees`.
 - Route `/candidate-forms/create` dan `/candidate-forms/:id/edit` saat ini hanya route transisi/redirect, bukan halaman form writable lokal.
 - Flow import CSV tidak ditemukan di repository saat ini. Yang ditemukan hanya export Excel (`xlsx`) dan pengolahan template DOCX.
+
+Catatan perubahan schema: [penghapusan Custom Group Management](docs/remove-custom-group-management.md).

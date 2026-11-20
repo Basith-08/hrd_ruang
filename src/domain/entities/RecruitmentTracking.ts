@@ -31,12 +31,6 @@ export interface RecruitmentTracking {
     closed_category?: 'employee hired' | 'canceled' | null
     reason?: string | null
     notes?: string | null
-    custom_grup_1: string | null
-    custom_grup_2: string | null
-    custom_grup_3: string | null
-    custom_grup_4: string | null
-    custom_grup_5: string | null
-    custom_grup_6: string | null
     approval_director_bu: string | null
     approval_director_bu_date: string | null
     approval_gm_hrd: string | null

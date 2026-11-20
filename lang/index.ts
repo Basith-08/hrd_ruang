@@ -3,7 +3,6 @@ import auth from "./auth.json"
 import approvals from "./approvals.json"
 import candidateForms from "./candidateForms.json"
 import common from "./common.json"
-import customGroups from "./customGroups.json"
 import dashboard from "./dashboard.json"
 import employeeRequestForms from "./employeeRequestForms.json"
 import exportConfiguration from "./exportConfiguration.json"
@@ -28,7 +27,6 @@ const translations = {
   ...approvals,
   ...candidateForms,
   ...common,
-  ...customGroups,
   ...dashboard,
   ...employeeRequestForms,
   ...exportConfiguration,

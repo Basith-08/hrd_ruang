@@ -207,7 +207,7 @@ describe('EmployeeRequestFormRepositoryImpl.getById', () => {
     const { EmployeeRequestFormRepositoryImpl } = await import('./EmployeeRequestFormRepositoryImpl')
     const repository = new EmployeeRequestFormRepositoryImpl()
 
-    vi.spyOn(repository as any, 'flattenCustomGroups').mockReturnValue({
+    vi.spyOn(repository as any, 'normalizeEmployeeRequestForm').mockReturnValue({
       id: 'erf-1',
       created_by: 'user-1',
     })

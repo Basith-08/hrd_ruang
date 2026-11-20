@@ -22,7 +22,6 @@
 | `UserManagementRepositoryImpl` | `src/infrastructure/supabase/repositories/UserManagementRepositoryImpl.ts` | `getAllUsers`, `createUser`, `updateUser`, `switchToEmployee` | User management |
 | `CandidateDocumentExplorerRepositoryImpl` | `src/infrastructure/supabase/repositories/CandidateDocumentExplorerRepositoryImpl.ts` | `getAll` | Candidate document explorer |
 | `MasterDataRepositoryImpl` | `src/infrastructure/supabase/repositories/MasterDataRepositoryImpl.ts` | CRUD master PT/BU/department/job level/designation | Master data management |
-| `CustomGroupRepositoryImpl` | `src/infrastructure/supabase/repositories/CustomGroupRepositoryImpl.ts` | CRUD `master_custom_grup_1..6` | Custom group management |
 | `RecruitmentTrackingRepositoryImpl` | `src/infrastructure/supabase/repositories/RecruitmentTrackingRepositoryImpl.ts` | Query `recruitment_queue_view` | Recruitment dashboard, vacancy pipeline, PIC recruitment |
 
 ## Server Service Utama

@@ -26,9 +26,6 @@ const authStoreMock = {
   hasAnyPermission: vi.fn(),
 }
 
-const customGroupRepoMock = {
-  getAll: vi.fn(),
-}
 
 const masterDataRepoMock = {
   getAll: vi.fn(),
@@ -68,9 +65,6 @@ vi.mock('@/composables/useAppRepositories', () => ({
   }),
 }))
 
-vi.mock('@/infrastructure/supabase/repositories/CustomGroupRepositoryImpl', () => ({
-  customGroupRepo: customGroupRepoMock,
-}))
 
 vi.mock('@/infrastructure/supabase/repositories/MasterDataRepositoryImpl', () => ({
   masterDataRepo: masterDataRepoMock,
@@ -150,7 +144,6 @@ describe('admin and data viewmodels', () => {
     authStoreMock.hasPermission.mockReturnValue(true)
     authStoreMock.hasAnyPermission.mockReturnValue(true)
 
-    customGroupRepoMock.getAll.mockImplementation(async (index: number) => [{ id: `cg-${index}` }])
 
     masterDataRepoMock.getAll.mockImplementation(async (type: string) => [{ id: `${type}-1`, name: `${type}-a`, address: type === 'pt' ? 'Jakarta' : null }])
     masterDataRepoMock.create.mockResolvedValue({ id: 'created', name: 'Created', address: null })
@@ -190,17 +183,6 @@ describe('admin and data viewmodels', () => {
     expect(vm.hasAnyPermission(['user:read'])).toBe(true)
     expect(authStoreMock.login).toHaveBeenCalled()
     expect(authStoreMock.logout).toHaveBeenCalled()
-  })
-
-  it('useCustomGroupViewModel refreshes one group and loads all groups', async () => {
-    const { useCustomGroupViewModel } = await import('../useCustomGroupViewModel')
-    const vm = useCustomGroupViewModel()
-
-    await vm.refreshOptions(2)
-    await vm.loadAllOptions()
-
-    expect(vm.groupedOptions.value[2]).toEqual([{ id: 'cg-2' }])
-    expect(vm.groupedOptions.value[6]).toEqual([{ id: 'cg-6' }])
   })
 
   it('useMasterDataViewModel refreshes, creates, updates, and removes options', async () => {

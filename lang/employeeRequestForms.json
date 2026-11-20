@@ -479,10 +479,6 @@
     "en": "This ERF will be marked as approved immediately without going through the approval chain.",
     "id": "ERF ini akan langsung ditandai sebagai disetujui tanpa melalui alur approval."
   },
-  "employeeRequestForms.form.sections.customGroups": {
-    "en": "Additional Grouping",
-    "id": "Pengelompokan Tambahan"
-  },
   "employeeRequestForms.form.fields.mainPositionRequired": {
     "en": "Main Position *",
     "id": "Posisi Utama *"
@@ -522,10 +518,6 @@
   "employeeRequestForms.form.fields.erfDocument": {
     "en": "ERF Document",
     "id": "Dokumen ERF"
-  },
-  "employeeRequestForms.form.fields.customGroup": {
-    "en": "Custom Group {index}",
-    "id": "Grup Kustom {index}"
   },
   "employeeRequestForms.form.placeholders.searchPt": {
     "en": "Search PT...",
@@ -598,10 +590,6 @@
   "employeeRequestForms.form.placeholders.workingLocation": {
     "en": "Working location",
     "id": "Lokasi kerja"
-  },
-  "employeeRequestForms.form.placeholders.searchCustomGroup": {
-    "en": "Search custom group {index}...",
-    "id": "Cari grup kustom {index}..."
   },
   "employeeRequestForms.form.attachments.pendingUpload": {
     "en": "Pending upload",

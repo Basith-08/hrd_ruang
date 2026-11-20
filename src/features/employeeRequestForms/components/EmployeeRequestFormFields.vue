@@ -80,34 +80,7 @@
     </div>
   </div>
 
-  <slot name="before-custom-groups" />
-
-  <template v-if="customGroupFields.length > 0">
-    <div class="app-form-section-header md:col-span-2">
-      <span class="app-form-section-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-          <path d="M12 5v14M5 12h14" />
-        </svg>
-      </span>
-      <div class="app-form-section-line">
-        <span class="app-form-section-title">{{ text('employeeRequestForms.form.sections.customGroups') }}</span>
-      </div>
-    </div>
-
-    <label v-for="item in customGroupFields" :key="item.index" class="space-y-2">
-      <span class="app-field-label">{{ text('employeeRequestForms.form.fields.customGroup', { index: item.index }) }}</span>
-      <SearchableSelect
-        :model-value="item.modelValue"
-        :options="item.options"
-        :placeholder="text('employeeRequestForms.form.placeholders.searchCustomGroup', { index: item.index })"
-        :disabled="isFormDisabled"
-        show-empty-option
-        :empty-label="text('common.select.default')"
-        :empty-value="null"
-        @update:model-value="item.update($event)"
-      />
-    </label>
-  </template>
+  <slot name="documents" />
 </template>
 
 <script setup lang="ts">
@@ -146,13 +119,6 @@ export interface EmployeeRequestFormFieldConfig {
   update?: (value: EmployeeRequestFormFieldValue) => void
 }
 
-export interface EmployeeRequestFormCustomGroupField {
-  index: number
-  modelValue: string | null
-  options: EmployeeRequestFormSelectOption[]
-  update: (value: EmployeeRequestFormFieldValue) => void
-}
-
 const props = defineProps({
   form: {
     type: Object as PropType<EmployeeRequestFormRequest>,
@@ -160,10 +126,6 @@ const props = defineProps({
   },
   fields: {
     type: Array as PropType<EmployeeRequestFormFieldConfig[]>,
-    default: () => [],
-  },
-  customGroupFields: {
-    type: Array as PropType<EmployeeRequestFormCustomGroupField[]>,
     default: () => [],
   },
   isFormDisabled: {

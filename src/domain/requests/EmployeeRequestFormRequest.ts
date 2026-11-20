@@ -19,12 +19,6 @@ export interface EmployeeRequestFormRequest {
   site: string
   working_location: string
   requested_date: string
-  custom_grup_1_id: string | null
-  custom_grup_2_id: string | null
-  custom_grup_3_id: string | null
-  custom_grup_4_id: string | null
-  custom_grup_5_id: string | null
-  custom_grup_6_id: string | null
   required_date: string
   position_status: PositionStatus | ''
   periode_probation: number | null

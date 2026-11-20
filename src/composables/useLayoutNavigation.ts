@@ -97,7 +97,6 @@ export function useLayoutNavigation() {
       icon: Settings,
       items: [
         { to: "/approver-master", labelKey: "layout.nav.items.approverMaster", icon: UserCheck, permissions: ["approval:read"], adminOnly: true },
-        { to: "/custom-group-management", labelKey: "layout.nav.items.customGroups", icon: Settings, permissions: ["user:read"], adminOnly: true },
         { to: "/master-data-management", labelKey: "layout.nav.items.masterDataErf", icon: Building2, permissions: ["user:read"], adminOnly: true },
       ],
     },
@@ -223,7 +222,6 @@ export function useLayoutNavigation() {
       { prefix: "/user-management", titleKey: "page.userManagement" },
       { prefix: "/user-history", titleKey: "page.userHistory" },
       { prefix: "/role-management", titleKey: "page.roleManagement" },
-      { prefix: "/custom-group-management", titleKey: "page.customGroupManagement" },
       { prefix: "/master-data-management", titleKey: "page.masterDataErf" },
       { prefix: "/configuration-export/templates", titleKey: "page.exportConfigurationTemplates" },
       { prefix: "/configuration-export/generate", titleKey: "page.exportConfigurationGenerate" },

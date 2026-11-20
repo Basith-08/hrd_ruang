@@ -169,12 +169,6 @@ function createChain(overrides: Partial<ApprovalChain> = {}): ApprovalChain {
       required_date: '2026-04-01',
       position_status: 'open',
       periode_probation: 3,
-      custom_grup_1: null,
-      custom_grup_2: null,
-      custom_grup_3: null,
-      custom_grup_4: null,
-      custom_grup_5: null,
-      custom_grup_6: null,
       approval_director_bu: null,
       approval_director_bu_date: null,
       approval_gm_hrd: null,
@@ -278,8 +272,6 @@ describe('ApprovalTrackingPage', () => {
       createChain({
         employee_request_form: {
           ...createChain().employee_request_form!,
-          custom_grup_1: 'Custom Group Alpha',
-          custom_grup_2: 'Custom Group Beta',
         },
       }),
     ]

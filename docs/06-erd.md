@@ -26,12 +26,6 @@ erDiagram
   MASTER_DESIGNATION ||--o{ EMPLOYEE_REQUEST_FORM : referenced_by
   MASTER_DESIGNATION ||--o{ APPROVER_MASTER : scoped_by
   PROFILES ||--o{ EMPLOYEE_REQUEST_FORM : approval_director_bu
-  MASTER_CUSTOM_GRUP_1 ||--o{ EMPLOYEE_REQUEST_FORM : referenced_by
-  MASTER_CUSTOM_GRUP_2 ||--o{ EMPLOYEE_REQUEST_FORM : referenced_by
-  MASTER_CUSTOM_GRUP_3 ||--o{ EMPLOYEE_REQUEST_FORM : referenced_by
-  MASTER_CUSTOM_GRUP_4 ||--o{ EMPLOYEE_REQUEST_FORM : referenced_by
-  MASTER_CUSTOM_GRUP_5 ||--o{ EMPLOYEE_REQUEST_FORM : referenced_by
-  MASTER_CUSTOM_GRUP_6 ||--o{ EMPLOYEE_REQUEST_FORM : referenced_by
   PROFILES ||--o{ EMPLOYEE_REQUEST_FORM : created_updated_recruiter
 
   EMPLOYEE_REQUEST_FORM ||--o{ APPROVAL_CHAINS : has
@@ -228,7 +222,6 @@ flowchart LR
   DEPT[master_department]
   LVL[master_job_level]
   REC[profiles as recruiter]
-  CG[master_custom_grup_1..6]
   VIEW[recruitment_queue_view]
 
   ERF --> VIEW
@@ -238,7 +231,6 @@ flowchart LR
   DEPT --> VIEW
   LVL --> VIEW
   REC --> VIEW
-  CG --> VIEW
 ```
 
 ## Kardinalitas dan Action FK

@@ -15,11 +15,3 @@ export interface EmployeeRequestFormSelectOption {
   value: string | number | null
   label: string
 }
-
-export type CustomGroupKey =
-  | 'custom_grup_1_id'
-  | 'custom_grup_2_id'
-  | 'custom_grup_3_id'
-  | 'custom_grup_4_id'
-  | 'custom_grup_5_id'
-  | 'custom_grup_6_id'

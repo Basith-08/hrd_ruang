@@ -25,7 +25,7 @@ Policy RLS ditemukan terutama pada:
 | `approval_chains` | Aktif | scoped via function akses approval chain |
 | `approval_steps` | Aktif | scoped via chain dan approver email |
 | `approver_master` | Aktif | internal only + write dengan `approval:read` |
-| `master_bu`, `master_department`, `master_designation`, `master_job_level`, `master_pt`, `master_custom_grup_*` | Aktif | select authenticated, write butuh `user:read` atau `role:manage` |
+| `master_bu`, `master_department`, `master_designation`, `master_job_level`, `master_pt` | Aktif | select authenticated, write butuh `user:read` atau `role:manage` |
 | `candidate_account_projection` | Aktif jika tabel ada | select untuk recruitment/document explorer/candidate form read |
 | `candidate_application_projection` | Aktif jika tabel ada | select untuk recruitment/document explorer/candidate form read |
 | `interview_evaluation_forms` | Aktif | read/create/update/delete via permission interview evaluation |

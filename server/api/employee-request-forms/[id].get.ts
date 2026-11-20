@@ -43,13 +43,7 @@ export default defineJsonHandler(async (event) => {
       ),
       pt:master_pt(id, name),
       department_ref:master_department(id, name),
-      master_designation_ref:master_designation(id, name),
-      custom_grup_1:master_custom_grup_1(name),
-      custom_grup_2:master_custom_grup_2(name),
-      custom_grup_3:master_custom_grup_3(name),
-      custom_grup_4:master_custom_grup_4(name),
-      custom_grup_5:master_custom_grup_5(name),
-      custom_grup_6:master_custom_grup_6(name)
+      master_designation_ref:master_designation(id, name)
     `)
     .eq("id", employeeRequestFormId)
 

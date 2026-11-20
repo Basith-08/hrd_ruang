@@ -4,15 +4,20 @@
 
 Dokumen ini diprioritaskan dari sumber berikut:
 
-- `supabase/public-schema.sql`
-- migration repository di `sql/migration/`
+- `sql/migration/public-schema.sql`
+- migration berurutan di `supabase/migrations/` dan arsip di `sql/migration/`
 - query dan pemakaian object database di source code
 
 Catatan penting:
 
-- `supabase/public-schema.sql` adalah acuan paling akurat untuk state schema `public` yang sudah berhasil didump, namun dump tersebut dibuat sebelum migration `20260529_069` sampai `20260619_080`. Bagian di bawah ini sudah disinkronkan manual dengan migration terbaru di `sql/migration/`.
+- `sql/migration/public-schema.sql` adalah snapshot historis, bukan schema efektif terbaru. Gunakan migration berurutan di `supabase/migrations/` sebagai acuan perubahan berikutnya.
 - Dump ini tidak memuat definisi penuh object di schema non-`public` seperti `auth.users`, tetapi tetap memuat FK yang mereferensikannya.
 - Jika object masih dipakai di code tetapi tidak muncul di dump live ini, object tersebut ditandai `Belum ditemukan di schema public saat ini`.
+
+Schema efektif mengikuti migration berurutan di `supabase/migrations/`, termasuk
+`20261120000000_remove_custom_group_management.sql`. Dump dan migration lama
+merupakan riwayat; enam tabel master grup kustom beserta FK/kolom ERF dan
+kolom view terkait sudah dihapus. Lihat [panduan penghapusan](remove-custom-group-management.md).
 
 ## Ringkasan Object Database
 
@@ -20,7 +25,7 @@ Catatan penting:
 | --- | --- | --- |
 | Enum | 7 | seluruhnya berada di schema `public` |
 | Function | 14 | termasuk helper RLS dan trigger function |
-| Table | 27 | seluruh tabel aktif yang muncul di dump `public` |
+| Table | mengikuti migration | jumlah pada dump lama bukan jumlah schema efektif |
 | View | 1 | `recruitment_queue_view` |
 | Trigger | 5 | seluruhnya memakai `set_updated_at()` |
 
@@ -98,7 +103,6 @@ Sumber data:
 - `master_designation`
 - `master_job_level`
 - `profiles` sebagai recruiter
-- `master_custom_grup_1` s.d. `master_custom_grup_6`
 
 Karakteristik:
 
@@ -133,7 +137,6 @@ View ini telah di-refresh (`drop view` + `create or replace view`) beberapa kali
 - `employee_request_form_recruitment_flow_stage`
 - `employee_request_form_status`
 - `employee_request_form_closed_date`
-- `employee_request_form_custom_grup_1` s.d. `employee_request_form_custom_grup_6`
 - kolom ringkasan approval director BU/GM HRD/director HRD beserta tanggalnya
 
 Sumber data view juga sudah mengikutsertakan `master_designation` (left join via `erf.master_designation_id`) selain `master_job_level` legacy.
@@ -170,7 +173,6 @@ Sumber data view juga sudah mengikutsertakan `master_designation` (left join via
 | `master_department` | referensi departemen |
 | `master_designation` | referensi designation |
 | `master_job_level` | referensi job level |
-| `master_custom_grup_1` s.d. `master_custom_grup_6` | referensi grup kustom |
 
 ### Object eksternal / tidak muncul di dump public
 
@@ -346,22 +348,6 @@ Constraint:
 - Unique: `master_job_level_name_key`
 - Check: `master_job_level_required_date_min_months_check`
 
-### 11. `master_custom_grup_1` s.d. `master_custom_grup_6`
-
-Enam tabel ini memiliki struktur yang sama.
-
-| Kolom | Tipe | Null | Keterangan |
-| --- | --- | --- | --- |
-| `id` | `uuid` | tidak | PK |
-| `name` | `text` | tidak | nama grup |
-| `description` | `text` | ya | deskripsi |
-| `created_at` | `timestamptz` | ya | default `now()` |
-| `updated_at` | `timestamptz` | ya | default `now()` |
-
-Constraint:
-
-- PK masing-masing: `master_custom_grup_1_pkey` sampai `master_custom_grup_6_pkey`
-
 ### 12. `employee_request_form`
 
 | Kolom | Tipe | Null | Keterangan |
@@ -378,12 +364,6 @@ Constraint:
 | `created_by` | `uuid` | ya | FK ke `profiles.id` |
 | `created_at` | `timestamp` | ya | default `now()` |
 | `updated_at` | `timestamp` | ya | default `now()` |
-| `custom_grup_1_id` | `uuid` | ya | FK ke `master_custom_grup_1.id`, `ON DELETE SET NULL` |
-| `custom_grup_2_id` | `uuid` | ya | FK ke `master_custom_grup_2.id`, `ON DELETE SET NULL` |
-| `custom_grup_3_id` | `uuid` | ya | FK ke `master_custom_grup_3.id`, `ON DELETE SET NULL` |
-| `custom_grup_4_id` | `uuid` | ya | FK ke `master_custom_grup_4.id`, `ON DELETE SET NULL` |
-| `custom_grup_5_id` | `uuid` | ya | FK ke `master_custom_grup_5.id`, `ON DELETE SET NULL` |
-| `custom_grup_6_id` | `uuid` | ya | FK ke `master_custom_grup_6.id`, `ON DELETE SET NULL` |
 | `status` | `text` | ya | default `open` |
 | `closed_date` | `timestamptz` | ya | tanggal tutup |
 | `closed_category` | `text` | ya | kategori penutupan |
@@ -416,12 +396,6 @@ Constraint:
   - `employee_request_form_approval_director_bu_id_fkey`
   - `employee_request_form_master_designation_id_fkey`
   - `new_employee_application_form_created_by_fkey`
-  - `new_employee_application_form_custom_grup_1_id_fkey`
-  - `new_employee_application_form_custom_grup_2_id_fkey`
-  - `new_employee_application_form_custom_grup_3_id_fkey`
-  - `new_employee_application_form_custom_grup_4_id_fkey`
-  - `new_employee_application_form_custom_grup_5_id_fkey`
-  - `new_employee_application_form_custom_grup_6_id_fkey`
 - Check:
   - `check_job_request_status`
   - `check_job_request_closed_category`
@@ -708,7 +682,7 @@ Index di bawah benar-benar muncul pada dump live:
 | `approval_steps` | `approval_steps_chain_id_idx`, `approval_steps_chain_id_step_order_uidx`, `approval_steps_token_idx`, `idx_approval_steps_approver_email`, `idx_approval_steps_chain_order`, `idx_approval_steps_email`, `idx_approval_steps_status`, `idx_approval_steps_token` |
 | `approver_master` | `idx_approver_master_created_by`, `idx_approver_master_employee_id`, `idx_approver_master_flow_role_unique`, `idx_approver_master_flow_step_unique` |
 | `employee_contract_form` | `idx_employee_contract_form_approval_user_id`, `idx_employee_contract_form_candidate_id`, `idx_employee_contract_form_employee_request_form_id` |
-| `employee_request_form` | `employee_request_form_pt_id_idx`, `idx_employee_request_form_bu_id`, `idx_employee_request_form_designation_id`, `idx_employee_request_form_recruiter_user_id`, `idx_erf_created_at`, `idx_erf_created_by`, `idx_erf_pt_id`, `idx_erf_required_date`, `idx_erf_status`, `idx_erf_status_created_at`, `idx_new_employee_application_form_closed_date`, `idx_new_employee_application_form_created_at`, `idx_new_employee_application_form_created_by`, `idx_new_employee_application_form_custom_grup_1_id`, `idx_new_employee_application_form_custom_grup_2_id`, `idx_new_employee_application_form_custom_grup_3_id`, `idx_new_employee_application_form_custom_grup_4_id`, `idx_new_employee_application_form_custom_grup_5_id`, `idx_new_employee_application_form_custom_grup_6_id`, `idx_new_employee_application_form_main_position`, `idx_new_employee_application_form_required_date`, `idx_new_employee_application_form_status`, `idx_new_employee_application_form_updated_at` |
+| `employee_request_form` | `employee_request_form_pt_id_idx`, `idx_employee_request_form_bu_id`, `idx_employee_request_form_designation_id`, `idx_employee_request_form_recruiter_user_id`, `idx_erf_created_at`, `idx_erf_created_by`, `idx_erf_pt_id`, `idx_erf_required_date`, `idx_erf_status`, `idx_erf_status_created_at`, `idx_new_employee_application_form_closed_date`, `idx_new_employee_application_form_created_at`, `idx_new_employee_application_form_created_by`, `idx_new_employee_application_form_main_position`, `idx_new_employee_application_form_required_date`, `idx_new_employee_application_form_status`, `idx_new_employee_application_form_updated_at` |
 | `export_template_fields` | `idx_export_template_fields_template_id`, `uq_export_template_fields_template_id_field_key` |
 | `generated_exports` | `idx_generated_exports_candidate_id`, `idx_generated_exports_template_id` |
 | `interview_evaluation_forms` | `idx_interview_evaluation_forms_candidate_service_candidate_id`, `idx_interview_evaluation_forms_employee_request_form_id`, `idx_interview_evaluation_forms_interview_date_created_at_desc` |
@@ -734,7 +708,6 @@ Index di bawah benar-benar muncul pada dump live:
 | `master_department` | `created_at`, `updated_at` |
 | `master_designation` | `created_at`, `updated_at` |
 | `master_job_level` | `created_at`, `updated_at` |
-| `master_custom_grup_1..6` | `created_at`, `updated_at` |
 | `employee_request_form` | `created_at`, `updated_at`, `closed_date` |
 | `approval_chains` | `created_at`, `updated_at` |
 | `approval_steps` | `approved_at`, `created_at` |
@@ -850,7 +823,7 @@ order by updated_at desc;
 
 ## Catatan Migrasi dan Keterbatasan
 
-- `candidate_form` dan child tables mirror kandidat tidak muncul pada dump `supabase/public-schema.sql`. Bila code masih membaca domain kandidat, besar kemungkinan sumber datanya sudah eksternal atau berada di database lain.
+- `candidate_form` dan child tables mirror kandidat tidak muncul pada dump `sql/migration/public-schema.sql`. Bila code masih membaca domain kandidat, besar kemungkinan sumber datanya sudah eksternal atau berada di database lain.
 - Dump ini memperlihatkan `recruitment_queue_view` aktif di live schema `public`.
 - Migration `20260529_069` s.d. `20260619_080` (12 file) belum tercermin di dump `public-schema.sql`, tetapi sudah disinkronkan manual ke dokumen ini: `master_designation.required_date_min_months`/`job_level_id`, `employee_request_form.requested_date`/`approval_director_bu_id`/`master_designation_id`/`notes`, `approver_master.master_designation_id`, `profiles.cost_center_pt`, `interview_evaluation_forms.notes` dan perubahan tipe `interview_date`, serta refresh `recruitment_queue_view`.
 - Migration `20260714_084_add_dokument_erf_to_employee_request_form.sql` menambahkan `employee_request_form.document_erf` (`text[]`, default `{}`). Kolom ini belum tercermin di dump `public-schema.sql`.

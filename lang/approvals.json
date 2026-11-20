@@ -187,10 +187,6 @@
     "en": "Position Status",
     "id": "Status Posisi"
   },
-  "approvals.tracking.fieldLabels.customGroup": {
-    "en": "Custom Group {number}",
-    "id": "Grup Kustom {number}"
-  },
   "approvals.tracking.fieldLabels.buDirectorApproval": {
     "en": "Director BU",
     "id": "Direktur BU"

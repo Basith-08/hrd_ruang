@@ -46,12 +46,6 @@ export interface ApprovalChain {
     required_date: string | null
     position_status: string | null
     periode_probation: number | null
-    custom_grup_1: string | null
-    custom_grup_2: string | null
-    custom_grup_3: string | null
-    custom_grup_4: string | null
-    custom_grup_5: string | null
-    custom_grup_6: string | null
     organizational_structure?: string[] | null
     job_description?: string[] | null
     approval_director_bu: string | null

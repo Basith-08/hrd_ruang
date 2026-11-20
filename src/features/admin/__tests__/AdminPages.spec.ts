@@ -44,15 +44,6 @@ const authState = {
   userRole: ref('super_admin'),
 }
 
-const customGroupItemsByIndex = new Map<
-  number,
-  Array<{ id: string; name: string; description: string | null; index: number }>
->()
-const customGroupGetAllMock = vi.fn()
-const customGroupCreateMock = vi.fn()
-const customGroupUpdateMock = vi.fn()
-const customGroupDeleteMock = vi.fn()
-
 const masterDataState = {
   optionsByType: ref({
     pt: [
@@ -298,14 +289,6 @@ vi.mock('@/presentation/components/feedback/useAppConfirm', () => ({
   }),
 }))
 
-vi.mock('@/infrastructure/supabase/repositories/CustomGroupRepositoryImpl', () => ({
-  customGroupRepo: {
-    getAll: customGroupGetAllMock,
-    create: customGroupCreateMock,
-    update: customGroupUpdateMock,
-    delete: customGroupDeleteMock,
-  },
-}))
 
 vi.mock('@/viewmodels/useAuthViewModel', () => ({
   useAuthViewModel: () => ({
@@ -355,15 +338,6 @@ vi.mock('@/viewmodels/useEmployeeRequestFormViewModel', () => ({
   }),
 }))
 
-function resetCustomGroupItems() {
-  customGroupItemsByIndex.clear()
-  customGroupItemsByIndex.set(1, [
-    { id: 'cg-1', name: 'Group One Item', description: 'Group one description', index: 1 },
-  ])
-  customGroupItemsByIndex.set(2, [
-    { id: 'cg-2', name: 'Group Two Item', description: 'Group two description', index: 2 },
-  ])
-}
 
 describe('admin pages unit', () => {
   beforeEach(async () => {
@@ -390,13 +364,6 @@ describe('admin pages unit', () => {
       full_name: 'Admin User',
     }
 
-    resetCustomGroupItems()
-    customGroupGetAllMock.mockImplementation(async (groupIndex: number) => {
-      return customGroupItemsByIndex.get(groupIndex) ?? []
-    })
-    customGroupCreateMock.mockResolvedValue(undefined)
-    customGroupUpdateMock.mockResolvedValue(undefined)
-    customGroupDeleteMock.mockResolvedValue(undefined)
 
     masterDataState.optionsByType.value = {
       pt: [
@@ -622,68 +589,6 @@ describe('admin pages unit', () => {
     vi.useRealTimers()
     vi.unstubAllGlobals()
     resetNuxtNavigationMocks()
-  })
-
-  it('switches custom group tabs and loads data for the active tab', async () => {
-    const { default: Page } = await import('../CustomGroupManagementPage.vue')
-    const wrapper = mount(Page)
-
-    await flushPromises()
-    expect(customGroupGetAllMock).toHaveBeenCalledWith(1)
-    expect(wrapper.text()).toContain('Group One Item')
-
-    await wrapper
-      .findAll('button')
-      .find((button) => button.text() === 'Group 2')!
-      .trigger('click')
-    await flushPromises()
-
-    expect(customGroupGetAllMock).toHaveBeenCalledWith(2)
-    expect(wrapper.text()).toContain('Group Two Item')
-  })
-
-  it('creates, updates, and deletes custom group items', async () => {
-    const { default: Page } = await import('../CustomGroupManagementPage.vue')
-    const wrapper = mount(Page)
-
-    await flushPromises()
-    await wrapper
-      .findAll('button')
-      .find((button) => button.text() === 'Add Item')!
-      .trigger('click')
-    await wrapper.get('input[placeholder="Entry name"]').setValue('New Group Item')
-    await wrapper.get('textarea').setValue('New description')
-    await wrapper.get('form').trigger('submit.prevent')
-    await flushPromises()
-
-    expect(customGroupCreateMock).toHaveBeenCalledWith(1, {
-      name: 'New Group Item',
-      description: 'New description',
-    })
-    expect(toastCreatedMock).toHaveBeenCalledWith('Custom Group 1 entry')
-
-    await wrapper
-      .findAll('button')
-      .find((button) => button.text() === 'Edit')!
-      .trigger('click')
-    await wrapper.get('input[placeholder="Entry name"]').setValue('Updated Group Item')
-    await wrapper.get('form').trigger('submit.prevent')
-    await flushPromises()
-
-    expect(customGroupUpdateMock).toHaveBeenCalledWith(1, 'cg-1', {
-      name: 'Updated Group Item',
-      description: 'Group one description',
-    })
-    expect(toastUpdatedMock).toHaveBeenCalledWith('Custom Group 1 entry')
-
-    await wrapper
-      .findAll('button')
-      .find((button) => button.text() === 'Delete')!
-      .trigger('click')
-    await flushPromises()
-
-    expect(customGroupDeleteMock).toHaveBeenCalledWith(1, 'cg-1')
-    expect(toastDeletedMock).toHaveBeenCalledWith('Item')
   })
 
   it('refreshes master data by tab and performs create/delete actions', async () => {

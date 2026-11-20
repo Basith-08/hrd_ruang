@@ -152,7 +152,7 @@
                 :text="text"
                 :sanitize-number-field="sanitizeNumberField"
               >
-                <template #before-custom-groups>
+                <template #documents>
                   <EmployeeRequestFormAttachmentField
                     v-for="attachment in attachmentSections"
                     :key="attachment.key"
@@ -1685,12 +1685,6 @@ function loadData() {
           job.requested_date ||
           formatDateKeyInJakarta(job.created_at ?? '') ||
           getJakartaTodayDateKey(),
-        custom_grup_1_id: job.custom_grup_1_id ?? null,
-        custom_grup_2_id: job.custom_grup_2_id ?? null,
-        custom_grup_3_id: job.custom_grup_3_id ?? null,
-        custom_grup_4_id: job.custom_grup_4_id ?? null,
-        custom_grup_5_id: job.custom_grup_5_id ?? null,
-        custom_grup_6_id: job.custom_grup_6_id ?? null,
         required_date: job.required_date ?? '',
         periode_probation: job.periode_probation ?? 0,
         organizational_structure: normalizeAttachmentPaths(job.organizational_structure),

@@ -35,7 +35,6 @@ const createJobMock = vi.fn()
 const updateJobMock = vi.fn()
 const refreshJobsMock = vi.fn()
 const getJobByIdMock = vi.fn()
-const loadCustomGroupOptionsMock = vi.fn()
 const loadMasterDataOptionsMock = vi.fn()
 const hasPermissionMock = vi.fn()
 
@@ -75,14 +74,6 @@ const loadingRef = ref(false)
 const savingRef = ref(false)
 const errorRef = ref('')
 
-const groupedOptionsRef = ref({
-  1: [] as Array<{ id: string; name: string }>,
-  2: [] as Array<{ id: string; name: string }>,
-  3: [] as Array<{ id: string; name: string }>,
-  4: [] as Array<{ id: string; name: string }>,
-  5: [] as Array<{ id: string; name: string }>,
-  6: [] as Array<{ id: string; name: string }>,
-})
 
 const optionsByTypeRef = ref({
   pt: [
@@ -158,12 +149,6 @@ vi.mock('@/viewmodels/useEmployeeRequestFormViewModel', () => ({
   }),
 }))
 
-vi.mock('@/viewmodels/useCustomGroupViewModel', () => ({
-  useCustomGroupViewModel: () => ({
-    groupedOptions: groupedOptionsRef,
-    loadAllOptions: loadCustomGroupOptionsMock,
-  }),
-}))
 
 vi.mock('@/viewmodels/useMasterDataViewModel', () => ({
   useMasterDataViewModel: () => ({
@@ -225,12 +210,6 @@ function createJob(overrides: Partial<EmployeeRequestForm> = {}): EmployeeReques
     site: 'Jakarta',
     working_location: 'Jakarta',
     requested_date: '2026-03-09',
-    custom_grup_1_id: null,
-    custom_grup_2_id: null,
-    custom_grup_3_id: null,
-    custom_grup_4_id: null,
-    custom_grup_5_id: null,
-    custom_grup_6_id: null,
     required_date: '2026-04-01',
     position_status: 'Replacement',
     periode_probation: 3,
@@ -266,14 +245,6 @@ describe('EmployeeRequestFormPage', () => {
     savingRef.value = false
     errorRef.value = ''
 
-    groupedOptionsRef.value = {
-      1: [],
-      2: [],
-      3: [],
-      4: [],
-      5: [],
-      6: [],
-    }
 
     optionsByTypeRef.value = {
       pt: [{ id: 'pt-1', name: 'PT One', description: null, created_at: null, updated_at: null }],
@@ -308,7 +279,6 @@ describe('EmployeeRequestFormPage', () => {
     createJobMock.mockResolvedValue(undefined)
     updateJobMock.mockResolvedValue(undefined)
     refreshJobsMock.mockResolvedValue(undefined)
-    loadCustomGroupOptionsMock.mockResolvedValue(undefined)
     loadMasterDataOptionsMock.mockResolvedValue(undefined)
 
     storageCreateSignedUrlMock.mockResolvedValue({

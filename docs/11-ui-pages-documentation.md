@@ -49,7 +49,6 @@
 | `/role-management/create` | `RoleManagementFormPage` | `role:manage` | create role | permission catalog | save | validation/loading/error |
 | `/role-management/:id/edit` | `RoleManagementFormPage` | `role:manage` | edit role | role detail + permission | update | validation/loading/error |
 | `/master-data-management` | `MasterDataManagementPage` | `user:read` + admin only | manage master data ERF | master PT/BU/department/job level | create/edit/delete | empty/loading/error |
-| `/custom-group-management` | `CustomGroupManagementPage` | `user:read` + admin only | manage custom group | custom group list | create/edit/delete | empty/loading/error |
 | `/configuration-export` | `ExportConfigurationPage` | `export_configuration:*` | entry page export configuration | permission state | navigate templates/generate | empty state bila tanpa akses |
 | `/configuration-export/templates` | `ExportConfigurationTemplatesPage` | `export_configuration:manage` | upload template, mapping field | template list, field mapping, candidate preview | upload, save mapping, preview mapping, delete | empty/loading/error |
 | `/configuration-export/generate` | `ExportConfigurationGeneratePage` | `export_configuration:generate` | prepare, preview, dan generate DOCX | template list, candidate list, prepared fields | prepare, preview, download | empty/loading/error |

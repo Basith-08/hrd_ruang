@@ -160,3 +160,15 @@ Catatan: commit `ad9013b` ini topologically berada sebelum `1.1.3` (parent langs
 ### Security
 - 
 ```
+
+## 2026-11-20 — Penghapusan Custom Group Management
+
+- Menghapus menu, route, halaman CRUD, komponen, viewmodel, repository, entity,
+  serta terjemahan Custom Group Management.
+- Membersihkan relasi dan payload grup kustom dari ERF, approval, recruitment,
+  ekspor Excel, dan response user/candidate.
+- Migration `20261120000000_remove_custom_group_management.sql` menghapus enam
+  tabel master dan enam kolom FK ERF, lalu membangun ulang recruitment view
+  dengan security invoker dan grants sebelumnya.
+- Migration historis tidak diubah. Detail deployment dan verifikasi tersedia di
+  [panduan penghapusan](remove-custom-group-management.md).

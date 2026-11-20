@@ -34,13 +34,7 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
       ),
       pt:master_pt(id, name),
       department_ref:master_department(id, name),
-      master_designation_ref:master_designation(id, name),
-      custom_grup_1:master_custom_grup_1(name),
-      custom_grup_2:master_custom_grup_2(name),
-      custom_grup_3:master_custom_grup_3(name),
-      custom_grup_4:master_custom_grup_4(name),
-      custom_grup_5:master_custom_grup_5(name),
-      custom_grup_6:master_custom_grup_6(name)
+      master_designation_ref:master_designation(id, name)
     `)
 
     if (accessScope.isManager && accessScope.userId) {
@@ -53,7 +47,7 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
       throw new Error(error.message)
     }
 
-    return (data ?? []).map(this.flattenCustomGroups)
+    return (data ?? []).map(this.normalizeEmployeeRequestForm)
   }
 
   private async fetchClosedMetadata(employeeRequestFormIds: string[]) {
@@ -287,18 +281,6 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
         site: (item.employee_request_form_site as string | null) ?? null,
         working_location: (item.employee_request_form_working_location as string | null) ?? null,
         requested_date: (item.employee_request_form_requested_date as string | null) ?? null,
-        custom_grup_1_id: null,
-        custom_grup_2_id: null,
-        custom_grup_3_id: null,
-        custom_grup_4_id: null,
-        custom_grup_5_id: null,
-        custom_grup_6_id: null,
-        custom_grup_1: (item.employee_request_form_custom_grup_1 as string | null) ?? null,
-        custom_grup_2: (item.employee_request_form_custom_grup_2 as string | null) ?? null,
-        custom_grup_3: (item.employee_request_form_custom_grup_3 as string | null) ?? null,
-        custom_grup_4: (item.employee_request_form_custom_grup_4 as string | null) ?? null,
-        custom_grup_5: (item.employee_request_form_custom_grup_5 as string | null) ?? null,
-        custom_grup_6: (item.employee_request_form_custom_grup_6 as string | null) ?? null,
         required_date: (item.employee_request_form_required_date as string | null) ?? null,
         position_status:
           (item.employee_request_form_position_status as EmployeeRequestForm['position_status']) ??
@@ -366,13 +348,7 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
       ),
       pt:master_pt(id, name),
       department_ref:master_department(id, name),
-      master_designation_ref:master_designation(id, name),
-      custom_grup_1:master_custom_grup_1(name),
-      custom_grup_2:master_custom_grup_2(name),
-      custom_grup_3:master_custom_grup_3(name),
-      custom_grup_4:master_custom_grup_4(name),
-      custom_grup_5:master_custom_grup_5(name),
-      custom_grup_6:master_custom_grup_6(name)
+      master_designation_ref:master_designation(id, name)
     `,
       )
       .eq('id', id)
@@ -391,7 +367,7 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
 
     if (!detailPayload) return null
 
-    const [baseItem] = await this.attachBusinessUnits([this.flattenCustomGroups(detailPayload)])
+    const [baseItem] = await this.attachBusinessUnits([this.normalizeEmployeeRequestForm(detailPayload)])
     if (!baseItem) return null
 
     const [itemWithCreatorName] = await this.attachCreatorNames([baseItem])
@@ -429,7 +405,7 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
     }
   }
 
-  private flattenCustomGroups(item: any): EmployeeRequestForm {
+  private normalizeEmployeeRequestForm(item: any): EmployeeRequestForm {
     const recruiterName = String(
       item.recruiter_profile?.full_name ??
         item.recruiter_profile?.username ??
@@ -453,12 +429,6 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
       approval_director_bu_id: item.approval_director_bu_id ?? null,
       approval_director_bu_label: buildProfileDisplayLabel(item.approval_director_bu_profile),
       approval_director_bu: item.approval_director_bu ?? null,
-      custom_grup_1: item.custom_grup_1?.name ?? null,
-      custom_grup_2: item.custom_grup_2?.name ?? null,
-      custom_grup_3: item.custom_grup_3?.name ?? null,
-      custom_grup_4: item.custom_grup_4?.name ?? null,
-      custom_grup_5: item.custom_grup_5?.name ?? null,
-      custom_grup_6: item.custom_grup_6?.name ?? null,
       organizational_structure: Array.isArray(item.organizational_structure)
         ? item.organizational_structure.filter(
             (value: unknown) => typeof value === 'string' && value.trim(),
@@ -1115,12 +1085,6 @@ export class EmployeeRequestFormRepositoryImpl implements EmployeeRequestFormRep
       site: data.site || null,
       working_location: data.working_location || null,
       requested_date: data.requested_date || null,
-      custom_grup_1_id: data.custom_grup_1_id || null,
-      custom_grup_2_id: data.custom_grup_2_id || null,
-      custom_grup_3_id: data.custom_grup_3_id || null,
-      custom_grup_4_id: data.custom_grup_4_id || null,
-      custom_grup_5_id: data.custom_grup_5_id || null,
-      custom_grup_6_id: data.custom_grup_6_id || null,
       status: data.status ?? 'open',
       closed_date: data.closed_date || null,
       closed_category: data.closed_category || null,

@@ -140,7 +140,6 @@ Semua halaman selain:
 | Halaman | Pembatasan |
 | --- | --- |
 | `/approver-master*` | `allowedRoles` hanya admin/administrator/super admin/super_admin |
-| `/custom-group-management` | admin only |
 | `/master-data-management` | admin only |
 | route candidate form | user candidate diprioritaskan ke candidate form/candidate portal |
 | `/login` | jika sudah login akan diarahkan ke route default role |

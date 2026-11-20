@@ -121,12 +121,6 @@ export class RecruitmentTrackingRepositoryImpl implements RecruitmentTrackingRep
               ((data.employee_request_form_closed_category as 'employee hired' | 'canceled' | null) ?? null),
             reason: (data.employee_request_form_reason as string | null) ?? null,
             notes: (data.employee_request_form_notes as string | null) ?? null,
-            custom_grup_1: (data.employee_request_form_custom_grup_1 as string | null) ?? null,
-            custom_grup_2: (data.employee_request_form_custom_grup_2 as string | null) ?? null,
-            custom_grup_3: (data.employee_request_form_custom_grup_3 as string | null) ?? null,
-            custom_grup_4: (data.employee_request_form_custom_grup_4 as string | null) ?? null,
-            custom_grup_5: (data.employee_request_form_custom_grup_5 as string | null) ?? null,
-            custom_grup_6: (data.employee_request_form_custom_grup_6 as string | null) ?? null,
             approval_director_bu:
               (data.employee_request_form_approval_director_bu as string | null) ?? null,
             approval_director_bu_date:

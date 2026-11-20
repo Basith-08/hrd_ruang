@@ -34,12 +34,6 @@ const chainWithEmployeeRequestFormSelect = `
     required_date,
     direct_manager, working_location, required_date,
     position_status, periode_probation,
-    custom_grup_1:master_custom_grup_1(name),
-    custom_grup_2:master_custom_grup_2(name),
-    custom_grup_3:master_custom_grup_3(name),
-    custom_grup_4:master_custom_grup_4(name),
-    custom_grup_5:master_custom_grup_5(name),
-    custom_grup_6:master_custom_grup_6(name),
     organizational_structure,
     job_description
   )
@@ -438,12 +432,6 @@ export class ApprovalRepositoryImpl implements ApprovalRepository {
         pt_pembebanan: employeeRequestForm.pt?.name ?? null,
         department: employeeRequestForm.department_ref?.name ?? null,
         designation: employeeRequestForm.master_designation_ref?.name ?? null,
-        custom_grup_1: employeeRequestForm.custom_grup_1?.name ?? null,
-        custom_grup_2: employeeRequestForm.custom_grup_2?.name ?? null,
-        custom_grup_3: employeeRequestForm.custom_grup_3?.name ?? null,
-        custom_grup_4: employeeRequestForm.custom_grup_4?.name ?? null,
-        custom_grup_5: employeeRequestForm.custom_grup_5?.name ?? null,
-        custom_grup_6: employeeRequestForm.custom_grup_6?.name ?? null,
       }
     }
 

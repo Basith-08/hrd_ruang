@@ -31,7 +31,6 @@ Master/reference aktif:
 - `master_designation`
 - `master_job_level`
 - `master_pt`
-- `master_custom_grup_1` sampai `master_custom_grup_6`
 
 Tambahan penting:
 
@@ -94,7 +93,7 @@ Kalau dijalankan manual di production, urutan paling aman:
    - recruitment dashboard
    - role management
    - user management
-   - master/custom group management
+   - master data management
 4. tes khusus user role `manager` untuk memastikan owner-scope masih benar
 5. tes user approver yang approve/reject step
 6. baru rollout ke production

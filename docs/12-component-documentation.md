@@ -66,7 +66,7 @@ Dokumen ini fokus pada komponen penting yang menjadi kontrak UI lintas fitur. Ko
   - slot dinamis `cell-*`
   - `pagination`
 - Mapping:
-  - dipakai di user management, role management, master data, custom group.
+  - dipakai di user management, role management, master data.
 
 ### `RowActionsMenu`
 

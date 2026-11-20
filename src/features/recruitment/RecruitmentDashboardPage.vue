@@ -617,12 +617,6 @@ function extractLevelCandidates(employeeRequestForm: RecruitmentTracking['employ
     designationSummaryLabel,
     stripLeadingNumberCode(employeeRequestForm.designation),
     stripLeadingNumberCode(employeeRequestForm.job_level),
-    employeeRequestForm.custom_grup_1,
-    employeeRequestForm.custom_grup_2,
-    employeeRequestForm.custom_grup_3,
-    employeeRequestForm.custom_grup_4,
-    employeeRequestForm.custom_grup_5,
-    employeeRequestForm.custom_grup_6,
     employeeRequestForm.main_position,
   ]
     .map(compactText)
